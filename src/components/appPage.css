@@ -5,3 +5,21 @@
     background-position: center center;
     min-height: 100vh;
 }
+
+#opentext{
+    position: relative;
+    top: 8vh;
+    left: 10%;
+    width: auto;
+    height: auto;
+    text-align: left;
+
+    /* font-family: 'Open Sans'; */
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 4.2rem;
+    line-height: auto;
+    text-shadow: -0.2rem 0.2rem #00000092;
+
+    color: #FFFFFF;
+}
