@@ -5,11 +5,14 @@ import './navbar.css';
 function Navbar(props) {
     return (
         <nav className='nav'>
+            {/* eslint-disable */}
             <a href="#" className='brand'>
                 <img src= {Logo} alt="better-home" />
             </a>
+            
             <ul className="nav__menu">
                 <li className="nav__item">
+                    {/* eslint-disable */}
                     <a href="#" className="nav__link">Home</a>
                 </li>
                 <li className="nav__item">
