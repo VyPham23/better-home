@@ -33,7 +33,6 @@ a{
 
 .brand{
     justify-content: flex-start;
-    flex: 0 0 auto;
 }
 
 .nav__menu{
