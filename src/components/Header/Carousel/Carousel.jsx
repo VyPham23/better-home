@@ -4,16 +4,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import photo1 from './photo-1560448204-e02f11c3d0e2.jpg';
 import photo2 from './photo-1565402170291-8491f14678db.jpg';
 import photo3 from './photo-1582407947304-fd86f028f716.jpg';
+import './Carousel.css';
 
 function CarouselFadeExample(props) {
     return (
-        <Carousel fade>
+        <Carousel fade id='slider'>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
                     src={photo1}
                     alt="First slide"
-                    style={{ height: '600px'}}
+                    style={{ height: '600px', width: '100%', objectFit: 'cover'}}
                 />
                 <Carousel.Caption>
                     <h3>First slide label</h3>
@@ -25,7 +26,7 @@ function CarouselFadeExample(props) {
                     className="d-block w-100"
                     src={photo2}
                     alt="Second slide"
-                    style={{ height: '600px'}}
+                    style={{ height: '600px', width: '100%', objectFit: 'cover'}}
                 />
 
                 <Carousel.Caption>
@@ -38,7 +39,7 @@ function CarouselFadeExample(props) {
                     className="d-block w-100"
                     src={photo3}
                     alt="Third slide"
-                    style={{ height: '600px'}}
+                    style={{ height: '600px', width: '100%', objectFit: 'cover'}}
                 />
 
                 <Carousel.Caption>

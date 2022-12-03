@@ -7,8 +7,6 @@ function UpperNav (props) {
             <nav className='left-nav'>
                 <a href='/property'>Home</a>
                 <a href='/property'>About Us</a>
-            </nav>
-            <nav className='right-nav'>
                 <a href='/property'>News</a>
                 <a href='/property'>Contact</a>
             </nav>
