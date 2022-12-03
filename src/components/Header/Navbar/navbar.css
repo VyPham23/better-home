@@ -1,0 +1,76 @@
+.header-wrapper {
+    background: white;
+    border-bottom: 1px solid #D1D1D5;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .4);
+    margin-bottom: .5px;
+
+}
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+    height: 80px;
+    max-width: 1280px;
+    padding: 10px 15px;
+    margin: 0 auto;
+    font-weight: bold;
+    border-bottom: solid #00908E;
+}
+
+#header-hamburger-icon {
+    display: none;
+    outline: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+  
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+  
+.left-nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 5px 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.left-nav :hover {
+    color: #FF718E;
+}
+  
+
+.right-nav a {
+    color: #000000 ;
+    text-decoration: none;
+    padding: 5px 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+.right-nav :hover {
+    color: #FF718E;
+}
+  
+/* .right-nav .register-btn {
+    background: pink;
+    padding: 7px 25px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+} */

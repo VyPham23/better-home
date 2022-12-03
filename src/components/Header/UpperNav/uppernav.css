@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+    height: 80px;
+    max-width: 1280px;
+    padding: 10px 15px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.left-nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 5px 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.left-nav :hover {
+    color: #FF718E;
+}
+
+.right-nav a {
+    color: #000000 ;
+    text-decoration: none;
+    padding: 5px 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+.right-nav :hover {
+    color: #FF718E;
+}
