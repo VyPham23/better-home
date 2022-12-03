@@ -3,13 +3,15 @@ header {
     justify-content: space-between;
     align-items: center;
     overflow: auto;
-    height: 80px;
-    max-width: 1280px;
-    padding: 10px 15px;
+    height: 60px;
+    width: auto;
+    padding: 10px 20px;
     margin: 0 auto;
-    font-weight: bold;
+    font-weight: 500;
 }
-
+.left-nav {
+    margin-left: 5vw;
+}
 .left-nav a {
     color: #000000;
     text-decoration: none;
@@ -22,6 +24,10 @@ header {
 
 .left-nav :hover {
     color: #FF718E;
+}
+
+.right-nav {
+    margin-right: 5vw;
 }
 
 .right-nav a {

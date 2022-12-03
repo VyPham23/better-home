@@ -12,7 +12,7 @@ header {
     align-items: center;
     overflow: auto;
     height: 80px;
-    max-width: 1280px;
+    width: auto;
     padding: 10px 15px;
     margin: 0 auto;
     font-weight: bold;

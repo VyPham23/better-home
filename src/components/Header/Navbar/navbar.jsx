@@ -11,7 +11,7 @@ function Navbar(props) {
             <a href='/property'>Real Estate For Business</a>
           </nav>
           <div className='logo'>
-            <a href='/'><img src={Logo} style={{ height: '70px' }} alt='' /></a>
+            <a href='/'><img src={Logo} style={{ height: '56px' }} alt='' /></a>
           </div>
           <nav className='right-nav'>
             <a href='/property'>Buy A House</a>
