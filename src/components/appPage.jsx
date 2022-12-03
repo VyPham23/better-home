@@ -1,16 +1,16 @@
 import React from 'react';
-import Navbar from './navbar';
+
 import './appPage.css';
+import CarouselFadeExample from './Header/Carousel/Carousel';
+import Navbar from './Header/Navbar/navbar';
+import UpperNav from './Header/UpperNav/uppernav';
 
 function AppPage(props) {
     return (
         <div id='apppage'>
+            <UpperNav/>
             <Navbar/>
-            <div id='opentext'>
-                <span>Real Estate<br/>
-                &nbsp;&nbsp; Without<br/> 
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Hassle</span>
-            </div>
+            <CarouselFadeExample/>
         </div>
     );
 }
