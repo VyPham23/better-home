@@ -1,7 +1,8 @@
 import React from "react";
-import CarouselFadeExample from "../../components/Header/Carousel/Carousel";
+import CarouselFadeExample from "../../components/Carousel/Carousel";
 import Navbar from "../../components/Header/Navbar/navbar";
 import UpperNav from "../../components/Header/UpperNav/uppernav";
+import Intro from "../../components/Intro/intro";
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <UpperNav/>
             <Navbar/>
             <CarouselFadeExample/>
+            <Intro/>
         </div>
         
     );
