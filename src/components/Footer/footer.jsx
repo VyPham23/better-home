@@ -59,7 +59,7 @@ const Footer = () => {
                     </div>
 
                     <div className="col-lg-2 col-md-6">
-                        <p className="footer-title d-flex">Social</p>
+                        <p className="footer-title d-flex">Social Media</p>
                         <div className="footer-social">
                             <div className="footer-social-item"><i className="fab fa-facebook"></i></div>
                             <div className="footer-social-item"><i className="fab fa-twitter"></i></div>
