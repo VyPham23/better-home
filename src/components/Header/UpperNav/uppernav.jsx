@@ -1,16 +1,18 @@
 import React from 'react';
 import './uppernav.css';
 
-function UpperNav (props) {
+
+function UpperNav (props) {    
     return (
         <header>
             <nav className='left-nav'>
-                <a href='/property'>Home</a>
-                <a href='/property'>About Us</a>
-                <a href='/property'>News</a>
-                <a href='/property'>Contact</a>
+                <a href='/'>Home</a>
+                <a href='/about'>About Us</a>
+                <a href='/news'>News</a>
+                <a href='/contact'>Contact</a>
             </nav>
         </header>
+        
     );
 }
 

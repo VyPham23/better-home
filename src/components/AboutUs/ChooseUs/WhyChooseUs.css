@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,600;1,700;1,800&display=swap');
+
+.ChooseUs{
+    background: rgba(217, 217, 217, 0.12);
+    font-family: 'Open Sans';
+    margin-top: 70px;
+    padding: 20px;
+}
+.number_ChooseUs{
+    margin-bottom: 50px;
+}
+.number_ChooseUs h4{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.number_ChooseUs h2{
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 41px;
+    /* identical to box height */
+    text-transform: capitalize;
+    color: #00908E;
+}
+
+.ChooseUs .title_chooseUs{
+    font-family: 'Open Sans';
+    margin-bottom: 80px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #000000;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.14);
+}
+.ChooseUs .list_chooseUs{
+    margin-top: 50px;
+    text-align: start;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    font-family: 'Open Sans';
+}
+.ChooseUs .WhyChoose_img1{
+    object-fit: cover;
+    width: 100%;
+}

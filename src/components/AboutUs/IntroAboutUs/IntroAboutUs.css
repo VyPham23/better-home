@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,600;1,700;1,800&display=swap');
+.IntroAbout{
+    font-family: 'Open Sans';
+    margin-top: 60px;
+}
+.aboutText{
+    padding: 90px;
+}
+.aboutText .title_aboutus{
+    width: 200px;
+    rotate: 270deg; 
+    margin-left: -90px;
+    /* display: flex; */
+    margin-top: 70px;
+    color: #00908E;
+    font-weight: 700px;
+}
+.aboutText .title_aboutUs_2{
+    rotate: -270deg;
+    width: 200px;
+    margin-right: -90px;
+    margin-top: 70px;
+    color: #00908E;
+    font-weight: 700px;
+}
+.aboutText p{
+    text-align: start;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: black;
+    font-style: normal;
+
+}
+.aboutImage img{
+    height: 434px;
+    object-fit: cover;
+    width: 100%;
+}
+

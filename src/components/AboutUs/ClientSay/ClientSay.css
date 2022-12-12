@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,600;1,700;1,800&display=swap');
+
+
+.clientSay{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 547px; 
+    text-align: center;
+    font-family: 'Open Sans';
+
+}
+.clientSay .title_clientSay{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #000000;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.14);
+}
+.clientSay .info_clientSay .img_clientSay{
+    width: 90px;
+    border-radius: 60px;
+}
+.clientSay .info_clientSay .name_clientSay p{
+    margin-top: -10px;
+}
+
+.clientSay .info_clientSay .prevNext_clientSay .left_clientSay{
+    border-radius: 5px;
+    padding: 10px;
+    background-color:#00908E;
+    color: white;
+    width: 60px;
+    height: 35px;
+    margin-right: 200px;
+    cursor: pointer;
+}
+.clientSay .info_clientSay .prevNext_clientSay .right_clientSay{
+    border-radius: 5px;
+    padding: 10px;
+    background-color:#00908E;
+    color: white;
+    width: 60px;
+    height: 35px;
+    cursor: pointer;
+}

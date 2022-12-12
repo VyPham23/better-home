@@ -12,7 +12,7 @@ header {
 .left-nav {
     margin-left: 8vw;
 }
-.left-nav a {
+.left-nav Link {
     color: #000000;
     text-decoration: none;
     padding: 5px 20px;
