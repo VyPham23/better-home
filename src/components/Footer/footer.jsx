@@ -10,6 +10,7 @@ const Footer = () => {
 
             <div className="container">
                 <div className="row">
+
                     <div className="col-lg-4 col-md-6">
                         <div className="footer-title d-flex">
                             <i className="fas fa-home"></i> <p> &nbsp; Better Home</p>
