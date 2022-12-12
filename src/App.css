@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width:500px) {
+  .App{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  
+  
+}
+@media (max-width:990px) {
+  .App{
+    display: block;
+    margin-bottom: 10px;
+  }
+
+}
