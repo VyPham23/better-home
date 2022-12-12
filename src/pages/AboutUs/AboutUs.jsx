@@ -4,6 +4,7 @@ import IntroAboutUs from '../../components/AboutUs/IntroAboutUs/IntroAboutUs';
 import WhyChooseUs from '../../components/AboutUs/ChooseUs/WhyChooseUs';
 import UpperNav from '../../components/Header/UpperNav/uppernav';
 import Navbar from '../../components/Header/Navbar/navbar';
+import Footer from '../../components/Footer/footer';
 
 function AboutUs() {
   return (
@@ -13,6 +14,7 @@ function AboutUs() {
       <IntroAboutUs/>
       <WhyChooseUs/>
       <ClientSay/>
+      <Footer/>
     </div>
   )
 }
