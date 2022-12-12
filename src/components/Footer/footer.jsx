@@ -18,25 +18,25 @@ const Footer = () => {
                         
                         <ul className="footer-ul">
                             <li className="d-flex">
-                                <div className="footer-info-item"><i className="fas fa-map-marker-alt"></i></div> <span>Lorem Ipsum </span>
+                                <div className="footer-info-item"><i className="fas fa-map-marker-alt"></i></div> <span>
+                                Room 302, Saigon Pearl Office Building,<br/>
+                                92C Nguyen Huu Canh St, Binh Thanh District, <br/>
+                                Ho Chi Minh City, VietNam
+                                </span>
                             </li>
 
                             <li className="d-flex">
-                                <div className="footer-info-item" ><i className="fas fa-envelope"></i></div> <span>info@house.com</span>
+                                <div className="footer-info-item" ><i className="fas fa-envelope"></i></div> <span>betterhomesinvest@gmail.com</span>
                             </li>
                             
                             <li className="d-flex">
-                                <div className="footer-info-item"><i className="fas fa-phone-alt"></i></div> <span>0500 000 00 00</span>
+                                <div className="footer-info-item"><i className="fas fa-phone-alt"></i></div> <span>(+84) 090. 453.234</span>
                             </li>
                         </ul>
-                        <div className="footer-social">
-                            <div className="footer-social-item"><i className="fab fa-facebook"></i></div>
-                            <div className="footer-social-item"><i className="fab fa-twitter"></i></div>
-                            <div className="footer-social-item"> <i className="fab fa-instagram"></i></div>
-                        </div>
+                        
                     </div>
-                    <div className="col-lg-4 col-md-6">
-                        <p className="footer-title d-flex">Home</p>
+                    <div className="col-lg-3 col-md-6">
+                        <p className="footer-title d-flex">Menu</p>
                         <ul className="footer-ul">
                             <li className="d-flex">Buy</li>
                             <li className="d-flex">Rent</li>
@@ -45,7 +45,7 @@ const Footer = () => {
                             <li className="d-flex">Real Estate fo Business</li>
                         </ul>
                     </div>
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-3 col-md-6">
                         <div>
                             <p className="footer-title d-flex">Our Company</p>
                             <ul className="footer-ul">
@@ -53,6 +53,17 @@ const Footer = () => {
                                 <li className="d-flex">About Us</li>
                                 <li className="d-flex">News</li>
                             </ul>
+
+                            
+                        </div>
+                    </div>
+
+                    <div className="col-lg-2 col-md-6">
+                        <p className="footer-title d-flex">Social</p>
+                        <div className="footer-social">
+                            <div className="footer-social-item"><i className="fab fa-facebook"></i></div>
+                            <div className="footer-social-item"><i className="fab fa-twitter"></i></div>
+                            <div className="footer-social-item"> <i className="fab fa-instagram"></i></div>
                         </div>
                     </div>
 

@@ -10,6 +10,7 @@
 .footer-title{
     font-size: 21px;
     font-weight: bold;
+    color: #104C48;
 }
 .footer-ul{
     margin:0;
@@ -29,7 +30,8 @@
 .fa-home{
     font-size: 30px
 }
-.footer .fa-facebook,.footer .fa-twitter,.footer .fa-instagram-square{
+.footer .fa-facebook,.footer .fa-twitter,.footer .fa-instagram{
+    color: #FFFFFF !important;
     font-size: 20px;
 }
 
@@ -39,11 +41,12 @@
 }
 .footer-social{
     display: flex;
+    margin: 0 0 16px;
 }
 .footer-social-item{
     width: 45px;
     height: 45px;
-    background: #FFFFFF;
+    background: #00908e;
     margin: 5px;
     display: flex;
     justify-content: center;
@@ -53,4 +56,8 @@
 }
 .footer-info-item{
     width: 25px;
+}
+
+.footer span{
+    text-align: left;
 }
