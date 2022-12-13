@@ -1,5 +1,6 @@
 import React from "react";
 import CarouselFadeExample from "../../components/Carousel/Carousel";
+import FlatList from "../../components/FlatList/flatlist";
 import Footer from "../../components/Footer/footer";
 import Navbar from "../../components/Header/Navbar/navbar";
 import UpperNav from "../../components/Header/UpperNav/uppernav";
@@ -15,7 +16,9 @@ const Home = () => {
             <CarouselFadeExample/>
             <Intro/>
             <SectionCover/>
+            <FlatList/>
             <Footer/>
+            
         </div>
         
     );
