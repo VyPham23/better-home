@@ -5,19 +5,19 @@ import './navbar.css';
 function Navbar(props) {
     return (
         
-        <header>
-          <nav className='left-nav'>
+        <header className='main-nav'>
+          <div className='left-nav'>
             <a href='/property'>Service For House Owner</a>
             <a href='/property'>Real Estate For Business</a>
-          </nav>
-          <div className='logo'>
-            <a href='/'><img src={Logo} style={{ height: '56px' }} alt='' /></a>
           </div>
-          <nav className='right-nav'>
+          <div className='logo'>
+            <a href='/'><img src={Logo} alt='' /></a>
+          </div>
+          <div className='right-nav'>
             <a href='/property'>Buy A House</a>
             <a href='/property'>Rent A House</a>
             <a href='/property' className='nav-item-removed'>Service Apartment</a>
-          </nav>
+          </div>
         </header>
 
     );
