@@ -3,7 +3,7 @@ import CarouselFadeExample from "../../components/Carousel/Carousel";
 import FlatList from "../../components/FlatList/flatlist";
 import Footer from "../../components/Footer/footer";
 import Navbar from "../../components/Header/Navbar/navbar";
-import UpperNav from "../../components/Header/UpperNav/uppernav";
+import UpperNav from "../../components/Header/Navbar/uppernav";
 import Intro from "../../components/Intro/intro";
 import SectionCover from "../../components/Section Cover/sectioncover";
 // import Product from "../../components/Product/product";

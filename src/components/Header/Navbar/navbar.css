@@ -8,69 +8,64 @@
   
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     overflow: auto;
     height: 80px;
     width: auto;
-    padding: 10px 15px;
+    padding: 0 30px;
     margin: 0 auto;
-    font-weight: bold;
     border-bottom: solid #00908E;
-}
-
-#header-hamburger-icon {
-    display: none;
-    outline: none;
-    padding-top: 0;
-    padding-bottom: 0;
 }
   
 .logo {
-    display: flex;
+    display: cover;
     justify-content: center;
     align-items: center;
 }
 
-.logo a {
+.logo img {
+    position: relative;
+    height: 78px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
 }
-  
-.left-nav a {
+
+.left-nav a, .right-nav a {
     color: #000000;
     text-decoration: none;
-    padding: 5px 20px;
-    letter-spacing: 2px;
     text-transform: capitalize;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
     text-transform: uppercase;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
 }
 
-.left-nav :hover {
-    color: #FF718E;
+.left-nav a, .right-nav a {
+    margin: 0 2vw;
 }
-  
 
-.right-nav a {
-    color: #000000 ;
-    text-decoration: none;
-    padding: 5px 20px;
-    letter-spacing: 2px;
-    text-transform: capitalize;
-    font-size: 0.8rem;
-    text-transform: uppercase;
+.upper-nav a{
+    margin: 0 7vw;
+    font-weight: 400;
 }
-.right-nav :hover {
+
+.upper-nav{
+    display: flex;
+}
+
+.left-nav, .right-nav{
+    margin: 0 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav :hover, .right-nav :hover {
     color: #FF718E;
 }
-  
-/* .right-nav .register-btn {
-    background: pink;
-    padding: 7px 25px;
-    text-align: center;
-    color: white;
-    border-radius: 5px;
-} */
+
+.nav-item{
+    overflow-wrap: break-word;
+}
+    

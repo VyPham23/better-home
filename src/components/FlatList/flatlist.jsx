@@ -13,12 +13,9 @@ const FlatList = () => {
             <div className="container">
                 {/* <Title title={title.text} description={title.description} /> */}
                 <div className="row">
-                    <div className="col-lg-12">
-                        <FlatItem />
-                        <FlatItem />
-                        <FlatItem />
-                            
-                    </div>
+                    <FlatItem />
+                    <FlatItem />
+                    <FlatItem />
                 </div>
             </div>
         </section>
