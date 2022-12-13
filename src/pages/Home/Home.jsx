@@ -17,6 +17,8 @@ const Home = () => {
             <Intro/>
             <SectionCover/>
             <FlatList/>
+            <SectionCover/>
+            <FlatList/>
             <Footer/>
             
         </div>
