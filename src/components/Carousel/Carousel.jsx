@@ -15,7 +15,6 @@ function CarouselFadeExample(props) {
                         className="d-block w-100"
                         src={photo1}
                         alt="First slide"
-                        style={{ height: '600px', width: '100%', objectFit: 'cover'}}
                     />
                     <Carousel.Caption>
                         <h3>First slide label</h3>
@@ -27,7 +26,6 @@ function CarouselFadeExample(props) {
                         className="d-block w-100"
                         src={photo2}
                         alt="Second slide"
-                        style={{ height: '600px', width: '100%', objectFit: 'cover'}}
                     />
 
                     <Carousel.Caption>
@@ -40,7 +38,7 @@ function CarouselFadeExample(props) {
                         className="d-block w-100"
                         src={photo3}
                         alt="Third slide"
-                        style={{ height: '600px', width: '100%', objectFit: 'cover'}}
+
                     />
 
                     <Carousel.Caption>

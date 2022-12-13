@@ -56,7 +56,7 @@ header {
 }
 
 .left-nav, .right-nav{
-    margin: 0 30px;
+    margin: 0 2vw;
     display: flex;
     justify-content: space-between;
 }

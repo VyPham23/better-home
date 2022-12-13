@@ -5,7 +5,7 @@ import product from "./product1.jpeg";
 
 const FlatItem = () => {
     return (
-        <div className="text-center col-lg-4 col-12 col-md-6 ">
+        <div className="text-center col-lg-4 col-12 col-md-6">
             <div className="item">
                 <div className="item-image">
                     <img className="img-fluid" src={product} alt="flat" />
