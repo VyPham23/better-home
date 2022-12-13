@@ -10,7 +10,7 @@ import SectionCover from "../../components/Section Cover/sectioncover";
 
 const Home = () => {
     return (
-        <div className="homepage">
+        <div>
             <UpperNav/>
             <Navbar/>
             <CarouselFadeExample/>
