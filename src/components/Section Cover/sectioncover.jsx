@@ -17,7 +17,16 @@ const SectionCover = ({ text }) => {
                 </div>
 
                 <div className="rectangle">
-                    
+                    <div className="card-body">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-3 col-xl-3">
+                            </div>
+                            <div class="col-md-0 col-lg-6 col-xl-6">
+                            </div>
+                            <div class="col-md-12 col-lg-3 col-xl-3">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
