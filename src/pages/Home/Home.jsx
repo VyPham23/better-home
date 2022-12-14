@@ -15,10 +15,13 @@ const Home = () => {
             <Navbar/>
             <CarouselFadeExample/>
             <Intro/>
-            <SectionCover/>
+            <SectionCover text="Rent A House"/>
             <FlatList/>
-            <SectionCover/>
+            <SectionCover text="Buy A House"/>
             <FlatList/>
+            <SectionCover text="Service Apartment"/>
+            <FlatList/>
+            <SectionCover text="Service for House Owner"/>
             <Footer/>
             
         </div>
