@@ -1,6 +1,5 @@
 import React from 'react';
 import './flatitem.css';
-import {Link} from "react-router-dom";
 import product from "./product1.jpeg";
 
 const FlatItem = () => {
