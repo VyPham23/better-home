@@ -33,4 +33,27 @@
     background-color: #ffffff;
     height: 30%;
     width: 85%;
+    color: #161616;
+}
+
+.prop-stat{
+    border-right: solid #161616 2px;
+}
+
+#all-btn{
+    background-color: #00908E;
+    color:white;
+    border-radius: 4px;
+    width: 70%;
+    height: 50px;
+}
+
+.card-body{
+    margin: auto;
+}
+
+@media (max-width: 991.98px){
+    .prop-des{
+        display: none;
+    }
 }
