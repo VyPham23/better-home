@@ -5,6 +5,7 @@ import Footer from "../../components/Footer/footer";
 import Navbar from "../../components/Header/Navbar/navbar";
 import UpperNav from "../../components/Header/Navbar/uppernav";
 import Intro from "../../components/Intro/intro";
+import NewsList from "../../components/News/newslist";
 import SectionCover from "../../components/Section Cover/sectioncover";
 import ServiceList from "../../components/ServiceList/servicelist";
 // import Product from "../../components/Product/product";
@@ -22,8 +23,9 @@ const Home = () => {
             <FlatList/>
             <SectionCover text="Service Apartment"/>
             <FlatList/>
-            <SectionCover text="Service for House Owner"/>
+            <SectionCover text="Services for House Owner"/>
             <ServiceList/>
+            <NewsList/>
             <Footer/>
             
         </div>

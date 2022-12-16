@@ -19,4 +19,4 @@ const ServiceList = () => {
     );
 };
 
-export default ServiceList
+export default ServiceList;
