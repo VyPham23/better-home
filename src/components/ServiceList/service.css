@@ -5,7 +5,7 @@
 
 .sv{
     width: 80%;
-    margin: auto;
+    margin: auto auto 30px;
     position: relative;
     border-radius: 4px;
     outline: 1px solid red;
