@@ -61,5 +61,20 @@
     background-color: #00908E;
     color:white;
     border-radius: 4px;
-    width: 50%;
+    width: 70%;
+}
+
+.item-detail{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px auto;
+}
+
+.detail{
+    text-transform: capitalize;
+    font-weight: 600;
+    background-color: #D9D9D9;
+    height: auto;
+    width: 60px;
+    border-radius: 4px;
 }

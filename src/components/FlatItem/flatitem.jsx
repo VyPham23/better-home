@@ -17,6 +17,12 @@ const FlatItem = () => {
                         {/* className="item-title" */}
                         {/* className="item-price" */}
                     </div>
+                    <div className="align-items-center item-detail">
+                        <div className="detail bed">1<br/>bed</div>
+                        <div className="detail bath">2<br/>baths</div>
+                        <div className="detail sqrt">1000<br/>SQM</div>
+                        <div className="detail dom">2<br/>doms</div>
+                    </div>
                     <div className="align-items-center">
                         {/* d-flex alig-items-center justify-content-between */}
                         <a href="/" className="item-title">
