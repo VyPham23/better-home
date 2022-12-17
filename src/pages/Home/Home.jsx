@@ -5,7 +5,9 @@ import Footer from "../../components/Footer/footer";
 import Navbar from "../../components/Header/Navbar/navbar";
 import UpperNav from "../../components/Header/Navbar/uppernav";
 import Intro from "../../components/Intro/intro";
+import NewsList from "../../components/News/newslist";
 import SectionCover from "../../components/Section Cover/sectioncover";
+import ServiceList from "../../components/ServiceList/servicelist";
 // import Product from "../../components/Product/product";
 
 const Home = () => {
@@ -15,10 +17,15 @@ const Home = () => {
             <Navbar/>
             <CarouselFadeExample/>
             <Intro/>
-            <SectionCover/>
+            <SectionCover text="Rent A House"/>
             <FlatList/>
-            <SectionCover/>
+            <SectionCover text="Buy A House"/>
             <FlatList/>
+            <SectionCover text="Service Apartment"/>
+            <FlatList/>
+            <SectionCover text="Services for House Owner"/>
+            <ServiceList/>
+            <NewsList/>
             <Footer/>
             
         </div>

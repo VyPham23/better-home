@@ -14,7 +14,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     color: #ffffff;
 }
@@ -22,4 +22,38 @@
 .banner-title{
     text-transform: uppercase;
     font-size: 2.5rem;
+}
+
+.container{
+    margin: auto;
+    justify-content: center;
+}
+
+.rectangle{
+    background-color: #ffffff;
+    height: 30%;
+    width: 85%;
+    color: #161616;
+}
+
+.prop-stat{
+    border-right: solid #161616 2px;
+}
+
+#all-btn{
+    background-color: #00908E;
+    color:white;
+    border-radius: 4px;
+    width: 70%;
+    height: 50px;
+}
+
+.card-body{
+    margin: auto;
+}
+
+@media (max-width: 991.98px){
+    .prop-des{
+        display: none;
+    }
 }

@@ -1,24 +1,3 @@
 #apppage{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    min-height: 100vh;
-}
-
-#opentext{
-    position: relative;
-    top: 8vh;
-    left: 10%;
-    width: 90%;
-    height: auto;
-    text-align: left;
-
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 4.3rem;
-    line-height: auto;
-    text-shadow: -0.2rem 0.2rem #00000092;
-
-    color: #FFFFFF;
+        min-height: 100vh;
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import './flatitem.css';
-import {Link} from "react-router-dom";
 import product from "./product1.jpeg";
 
 const FlatItem = () => {
@@ -11,20 +10,23 @@ const FlatItem = () => {
                     <img className="img-fluid" src={product} alt="flat" />
                 </div>
                 <div className="item-description">
-                    <div className="d-flex justify-content-between mb-3">
-                        <span className="item-title">Lorem ipsum dolor sit amet consectetur adipiscing elit</span>
-                        <span className="item-price">$1000</span>
+                    <div className="mb-3">
+                        <h4><a href="/">404 20th street, Manhattan Beach, CA</a></h4>
+                        <span >Residential, Condominium</span><br/>
+                        {/* className="item-title" */}
+                        {/* className="item-price" */}
                     </div>
-                    <div className="item-icon d-flex alig-items-center justify-content-between">
-                        <div>
-                            <i className="fas fa-check-circle"></i> <span>Lorem ipsum dolor</span>
-                        </div>
-                        <div>
-                            <i className="fas fa-check-circle"></i> <span> Lorem </span>
-                        </div>
-                        <Link className="item-title">
-                            <button className="btn btn-detail">View</button>
-                        </Link>
+                    <div className="align-items-center item-detail">
+                        <div className="detail bed">1<br/>bed</div>
+                        <div className="detail bath">2<br/>baths</div>
+                        <div className="detail sqrt">1000<br/>SQM</div>
+                        <div className="detail dom">2<br/>doms</div>
+                    </div>
+                    <div className="align-items-center">
+                        {/* d-flex alig-items-center justify-content-between */}
+                        <a href="/" className="item-title">
+                            <button className="btn" id="btn-detail">VIEW</button>
+                        </a>
                     </div>
                 </div>
             </div>
