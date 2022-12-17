@@ -61,3 +61,12 @@
 .footer span{
     text-align: left;
 }
+
+.contact-btn{
+    margin: 15px auto;
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 4px;
+    border: solid #FFFFFF 2px;
+    color: #FFFFFF;
+}
