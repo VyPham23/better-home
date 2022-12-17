@@ -49,7 +49,7 @@
 }
 
 .card-body{
-    margin: auto;
+    margin: 30px auto;
 }
 
 @media (max-width: 991.98px){
