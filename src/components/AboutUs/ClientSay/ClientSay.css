@@ -21,7 +21,8 @@
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.14);
 }
 .clientSay .info_clientSay .img_clientSay{
-    width: 90px;
+    width: 100px;
+    height: 100px;
     border-radius: 60px;
 }
 .clientSay .info_clientSay .name_clientSay p{

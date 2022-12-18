@@ -46,6 +46,9 @@
     font-family: 'Open Sans';
 }
 .ChooseUs .WhyChoose_img1{
-    object-fit: cover;
-    width: 100%;
+    margin-top: 50px;
+    object-fit: contain;
+    object-position: top;
+
+    
 }
