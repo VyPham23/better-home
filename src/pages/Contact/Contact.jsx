@@ -14,7 +14,7 @@ function Contact() {
         <UpperNav/>
         <Navbar/>
         <BodyContact/>
-        {/* <ButtonsContact/> */}
+        <ButtonsContact/>
         <Footer/>
     </div>
   )
