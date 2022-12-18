@@ -43,7 +43,7 @@
     top: 70px;
     position: relative;
 }
-.lastest {
+.text {
     font-size: 3rem;
     right: 180px;
     position: relative;
@@ -56,6 +56,12 @@
     right: 80px;
     position: relative;
 }
+.img1 , .img2 , .bi{
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+
 @media only screen and (min-width: 200px) and (max-width: 700px) {
     .intro_button_2{
         width: 80%;
@@ -64,6 +70,15 @@
     .intro_button {
         top: 30px;
         width: 80%;
+    }
+    .text {
+        font-size: 2rem;
+        right: 0px;
+        position: relative;
+    }
+    .news{
+        right: 0px;
+        position: relative;
     }
 }
 @media only screen and (min-width: 700px) and (max-width: 950px){
