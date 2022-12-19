@@ -1,18 +1,18 @@
 import React from 'react'
 import Navbar from '../../components/Header/Navbar/navbar';
 import UpperNav from '../../components/Header/Navbar/uppernav';
-import Rent from '../../components/RentAHouse/Rent';
 import Footer from '../../components/Footer/footer';
+import Buy from '../../components/BuyAHouse/Buy';
 
-function RentAHouse() {
+function BuyAHouse() {
   return (
     <div>
       <UpperNav/>
       <Navbar/>
-      <Rent/>
+      <Buy/>
       <Footer/>
     </div>
   )
 }
 
-export default RentAHouse
+export default BuyAHouse

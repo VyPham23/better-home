@@ -1,18 +1,18 @@
 import React from 'react'
 import Navbar from '../../components/Header/Navbar/navbar';
 import UpperNav from '../../components/Header/Navbar/uppernav';
-import Rent from '../../components/RentAHouse/Rent';
 import Footer from '../../components/Footer/footer';
+import ServiceApar from '../../components/ServiceAparterment/ServiceApar';
 
-function RentAHouse() {
+function ServiceAparterment() {
   return (
     <div>
       <UpperNav/>
       <Navbar/>
-      <Rent/>
+      <ServiceApar/>
       <Footer/>
     </div>
   )
 }
 
-export default RentAHouse
+export default ServiceAparterment
