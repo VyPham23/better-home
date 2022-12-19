@@ -1,0 +1,28 @@
+.bg-rent-button {
+    background-color: #00908E !important;
+}
+.buttonsRent{
+    height: 7vh;
+    width: 20vw;
+    margin: 0 15px;
+    border-radius: 5px;
+    background-color: #00908E;
+    color: aliceblue;
+    border: none;
+    box-shadow: 2px 2px 4px black;
+    left: 50px;
+    position: relative;
+}
+.func {
+    position: relative;
+    top: 140px;
+
+}
+@media only screen and (min-width: 700px) and (max-width: 1150px){
+    
+}
+/* .imgrent{
+    position: relative;
+    height: 300px;
+    width: 400px;
+} */

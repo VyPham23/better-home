@@ -21,7 +21,7 @@
     top: 40px;
     color: black;
 }
-.intro_button {
+.intro_button_1 {
     position: relative;
     display: flex;
     justify-content: center;
@@ -39,10 +39,6 @@
     border: none;
     box-shadow: 2px 2px 4px black;  
 }
-.card-title{
-    top: 70px;
-    position: relative;
-}
 .text {
     font-size: 3rem;
     right: 180px;
@@ -59,7 +55,6 @@
 .img1 , .img2 , .bi{
     height: 40px;
     width: 40px;
-    float: left;
 }
 
 @media only screen and (min-width: 200px) and (max-width: 700px) {
