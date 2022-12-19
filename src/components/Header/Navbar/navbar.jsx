@@ -7,7 +7,7 @@ function Navbar(props) {
         
         <header className='main-nav'>
           <div className='left-nav'>
-            <a href='/property'>Service For House Owner</a>
+            <a href='/serviceForHouseOwner'>Service For House Owner</a>
             <a href='/property'>Real Estate For Business</a>
           </div>
           <div className='logo'>

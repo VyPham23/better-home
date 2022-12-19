@@ -4,6 +4,11 @@ import AppPage from './components/appPage';
 import AboutUs from './pages/AboutUs/AboutUs';
 import Contact from './pages/Contact/Contact';
 import News from './pages/News/News';
+import HouseOwner from './pages/ServiceforHouseOwner/HouseOwner';
+
+
+
+
 function App() {
   return (
     <div className="App">
@@ -13,6 +18,7 @@ function App() {
             <Route path='/about' element={<AboutUs/>}/>
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/news' element={<News/>}/>
+            <Route path='/serviceForHouseOwner' element={<HouseOwner/>}/>
         </Routes>
       </Router>
       
