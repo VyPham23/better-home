@@ -5,9 +5,7 @@ import AboutUs from './pages/AboutUs/AboutUs';
 import Contact from './pages/Contact/Contact';
 import News from './pages/News/News';
 import HouseOwner from './pages/ServiceforHouseOwner/HouseOwner';
-import RentAHouse from './pages/RentAHouse/RentAHouse';
-import BuyAHouse from './pages/BuyAHouse/BuyAHouse';
-import ServiceAparterment from './pages/ServiceAparterment/ServiceAparterment';
+
 
 
 
@@ -22,9 +20,7 @@ function App() {
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/news' element={<News/>}/>
             <Route path='/serviceForHouseOwner' element={<HouseOwner/>}/>
-            <Route path='/property' element={<RentAHouse/>}/>
-            <Route path='/property' element={<BuyAHouse/>}/>
-            <Route path='/property' element={<ServiceAparterment/>}/>
+        
         </Routes>
       </Router>
       
