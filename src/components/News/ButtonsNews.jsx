@@ -4,18 +4,26 @@ import { Container } from 'react-bootstrap'
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Pagination from 'react-bootstrap/Pagination'; 
+import {LeftOutlined, RightOutlined } from "@ant-design/icons";
 
 export default function ButtonsNews() {
   return (
     <div>
       <> 
     <section className='buttons'>
-      <Container>
+      <Container fluid>
+      <Row>
+          <Card className="bg-dark text-white">
+          <Card.Img src="./images/anh4.jpg" alt="Card image"/>
+          <Card.ImgOverlay>
+            <Card.Title><h5 className='lastest'>Lastest News</h5></Card.Title>
+          </Card.ImgOverlay>
+        </Card>
+      </Row> {/* end row */}
       <Row className='mt-5'></Row>
         <Row>
           <Col>
-          <Card className='shadow  bg-white rounded' style={{ width: '20rem' }}>
+          <Card className='shadow  bg-white rounded' style={{ width: '100%' }}>
             <Card.Img variant="top" src="./images/anh1.jpg" />
             <Card.Body>
               <Card.Title className='text-right'>Some quick example text to build on the card title and make up the
@@ -31,7 +39,7 @@ export default function ButtonsNews() {
           </Col>  {/* end col */}
 
           <Col>
-          <Card className='shadow  bg-white rounded' style={{ width: '20rem' }}>
+          <Card className='shadow  bg-white rounded' style={{ width: '100%' }}>
             <Card.Img variant="top" src="./images/anh1.jpg" />
             <Card.Body>
               <Card.Title className='text-right'>Some quick example text to build on the card title and make up the
@@ -47,7 +55,7 @@ export default function ButtonsNews() {
           </Col>{/* end col */}
 
           <Col>
-          <Card className='shadow  bg-white rounded' style={{ width: '20rem' }}>
+          <Card className='shadow  bg-white rounded' style={{ width: '100%' }}>
             <Card.Img variant="top" src="./images/anh1.jpg" />
             <Card.Body>
               <Card.Title className='text-right'>Some quick example text to build on the card title and make up the
@@ -67,7 +75,7 @@ export default function ButtonsNews() {
 
         <Row>
           <Col>
-          <Card className='shadow  bg-white rounded' style={{ width: '20rem' }}>
+          <Card className='shadow  bg-white rounded' style={{ width: '100%' }}>
             <Card.Img variant="top" src="./images/anh1.jpg" />
             <Card.Body>
               <Card.Title className='text-right'>Some quick example text to build on the card title and make up the
@@ -83,7 +91,7 @@ export default function ButtonsNews() {
           </Col>  {/* end col */}
 
           <Col>
-          <Card className='shadow  bg-white rounded' style={{ width: '20rem' }}>
+          <Card className='shadow  bg-white rounded' style={{ width: '100%' }}>
             <Card.Img variant="top" src="./images/anh1.jpg" />
             <Card.Body>
               <Card.Title className='text-right'>Some quick example text to build on the card title and make up the
@@ -99,7 +107,7 @@ export default function ButtonsNews() {
           </Col>{/* end col */}
 
           <Col>
-          <Card className='shadow  bg-white rounded' style={{ width: '20rem' }}>
+          <Card className='shadow  bg-white rounded' style={{ width: '100%' }}>
             <Card.Img variant="top" src="./images/anh1.jpg" />
             <Card.Body>
               <Card.Title className='text-right'>Some quick example text to build on the card title and make up the
@@ -116,20 +124,15 @@ export default function ButtonsNews() {
         </Row>{/* end row */}
 
         <Row className='mt-5'></Row>
-
         <Row>
-          <Pagination className='justify-content-center '>
-            
-            <Pagination.Prev style={{width: '4rem'}}  />
-            <Col xs="6"></Col>
-            <Pagination.Next style={{width: '4rem'}} />
-           
-          </Pagination>
-        </Row>{/* end row */}
+          <div className="prevNext_news">
+            <LeftOutlined className="left_news"/>
+            <RightOutlined  className="right_news"/>
+          </div>
+        </Row>
       </Container>
     </section>
     </>
-    
     </div>
   )
 }

@@ -7,7 +7,7 @@ import UpperNav from '../../components/Header/Navbar/uppernav';
 function News() {
   return (
     <div>
-        <UpperNav/>
+      <UpperNav/>
       <Navbar/>
       <ButtonsNews/>
       <Footer/>

@@ -4,3 +4,35 @@
 .bg-gray {
     background-color: #F0F0F0 !important;
 }
+.left_news {
+    border-radius: 5px;
+    padding: 10px;
+    background-color:#00908E;
+    color: white;
+    width: 60px;
+    height: 35px;
+    margin-right: 200px;
+    cursor: pointer;
+}
+.right_news {
+    border-radius: 5px;
+    padding: 10px;
+    background-color:#00908E;
+    color: white;
+    width: 60px;
+    height: 35px;
+    cursor: pointer;
+}
+.text{
+    top: 70px;
+    position: relative;
+}
+.lastest {
+    font-size: 3rem;
+}
+@media only screen and (min-width: 250px) and (max-width: 384px){
+    .right_news{
+        bottom: 34px;
+        position: relative;
+    }
+}
