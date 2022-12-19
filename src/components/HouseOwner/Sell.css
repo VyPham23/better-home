@@ -1,0 +1,59 @@
+.sellfHouseOwner{
+    padding: 0;
+    margin-top: 90px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;  
+}
+.greenLine{
+    width: 15px;
+    height: 349px;
+    background: #00908E;
+
+}
+.sellhouse_info{
+    text-align: start;
+    margin-left: 13px;
+}
+.sellhouse_info h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 54px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.14);
+    margin-bottom: 20px;
+}
+.sellhouse_info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+.imgSell img{
+    height: 434px;
+    object-fit: cover;
+}
+.button-moredetail button{
+    height: 50px;
+    background-color: white;
+    border: #00908E 2px solid;
+    color:#00908E;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.button-moredetail .icon_moredetail{
+    display: inline-flex;
+    font-size: medium;
+}
+.rentoutHouse{
+    margin-top: 50px;
+}
+.title_manage{
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 54px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.14);
+}
+.image_manage img{
+    height: 700px;
+}
