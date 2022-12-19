@@ -1,12 +1,12 @@
 import React from 'react'
-import './Rent.css'
+import './ServiceApar.css'
 import Image from 'react-bootstrap/Image'
 import { Container } from 'react-bootstrap'
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-export default function Rent() {
+export default function ServiceApar() {
   return (
     <div>
       <Container>
