@@ -66,7 +66,7 @@ export default function ServiceApar() {
             </Col>{/* end col */}
         </Row>{/* end row */}
         <Row>
-            <Col><h5 className='readmore'>READ MORE <i class="bi bi-arrow-right"></i></h5></Col>
+            <Col><h5 className='readmore2'>READ MORE <i class="bi bi-arrow-right"></i></h5></Col>
         </Row>
         <Row>
         <Col xs={1}><button className='buttonsRent' >Large button</button></Col>
@@ -133,7 +133,7 @@ export default function ServiceApar() {
             </Col>{/* end col */}
         </Row>{/* end row */}
         <Row>
-            <Col><h5 className='readmore'>READ MORE <i class="bi bi-arrow-right"></i></h5></Col>
+            <Col><h5 className='readmore2'>READ MORE <i class="bi bi-arrow-right"></i></h5></Col>
         </Row>
       </Container>
     </div>

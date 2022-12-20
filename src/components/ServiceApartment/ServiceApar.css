@@ -17,7 +17,7 @@
     position: relative;
     top: 120px;
 }
-.readmore{
+.readmore2{
     position: relative;
     text-align: right;
     bottom: 50px;
@@ -32,14 +32,14 @@
 
 @media only screen and (min-width: 600px) and (max-width: 1000px){
     
-    .readmore{
+    .readmore2{
         position: relative;
         left: 400px;
     }
 }
 @media only screen and (min-width: 1000px) and (max-width: 2000px){
     
-    .readmore{
+    .readmore2{
         position: relative;
         left: 800px;
     }
