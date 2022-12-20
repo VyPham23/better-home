@@ -29,6 +29,8 @@
 }
 .lastest {
     font-size: 3rem;
+    top: 100px;
+    position: relative;
 }
 @media only screen and (min-width: 250px) and (max-width: 384px){
     .right_news{

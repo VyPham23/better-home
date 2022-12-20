@@ -14,9 +14,9 @@ function Navbar(props) {
             <a href='/'><img src={Logo} alt='' /></a>
           </div>
           <div className='right-nav'>
-            <a href='/property'>Buy A House</a>
-            <a href='/property'>Rent A House</a>
-            <a href='/property' className='nav-item-removed'>Service Apartment</a>
+            <a href='/buy_a_house'>Buy A House</a>
+            <a href='/rent_a_house'>Rent A House</a>
+            <a href='/service_apartment' className='nav-item-removed'>Service Apartment</a>
           </div>
         </header>
 

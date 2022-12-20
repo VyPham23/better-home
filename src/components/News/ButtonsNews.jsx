@@ -22,8 +22,8 @@ export default function ButtonsNews() {
       </Row> {/* end row */}
       <Row className='mt-5'></Row>
         <Row>
-          <Col>
-          <Card className='shadow  bg-white rounded' style={{ width: '100%' }}>
+          <Col xs={12} md={4}>
+          <Card className='shadow  bg-white rounded' style={{width: '90%', height: '70%'}}>
             <Card.Img variant="top" src="./images/anh1.jpg" />
             <Card.Body>
               <Card.Title className='text-right'>Some quick example text to build on the card title and make up the
@@ -38,8 +38,8 @@ export default function ButtonsNews() {
           </Card>
           </Col>  {/* end col */}
 
-          <Col>
-          <Card className='shadow  bg-white rounded' style={{ width: '100%' }}>
+          <Col xs={12} md={4}>
+          <Card className='shadow  bg-white rounded' style={{ width: '90%', height: '70%' }}>
             <Card.Img variant="top" src="./images/anh1.jpg" />
             <Card.Body>
               <Card.Title className='text-right'>Some quick example text to build on the card title and make up the
@@ -54,8 +54,8 @@ export default function ButtonsNews() {
           </Card>
           </Col>{/* end col */}
 
-          <Col>
-          <Card className='shadow  bg-white rounded' style={{ width: '100%' }}>
+          <Col xs={12} md={4}>
+          <Card className='shadow  bg-white rounded' style={{ width: '90%', height: '70%' }}>
             <Card.Img variant="top" src="./images/anh1.jpg" />
             <Card.Body>
               <Card.Title className='text-right'>Some quick example text to build on the card title and make up the
@@ -70,12 +70,10 @@ export default function ButtonsNews() {
           </Card>
           </Col>{/* end col */}
         </Row>{/* end row */}
-
-        <Row className='mt-5'></Row>
 
         <Row>
-          <Col>
-          <Card className='shadow  bg-white rounded' style={{ width: '100%' }}>
+          <Col xs={12} md={4}>
+          <Card className='shadow  bg-white rounded' style={{ width: '90%', height: '70%' }}>
             <Card.Img variant="top" src="./images/anh1.jpg" />
             <Card.Body>
               <Card.Title className='text-right'>Some quick example text to build on the card title and make up the
@@ -90,8 +88,8 @@ export default function ButtonsNews() {
           </Card>
           </Col>  {/* end col */}
 
-          <Col>
-          <Card className='shadow  bg-white rounded' style={{ width: '100%' }}>
+          <Col xs={12} md={4}>
+          <Card className='shadow  bg-white rounded' style={{ width: '90%', height: '70%' }}>
             <Card.Img variant="top" src="./images/anh1.jpg" />
             <Card.Body>
               <Card.Title className='text-right'>Some quick example text to build on the card title and make up the
@@ -106,8 +104,8 @@ export default function ButtonsNews() {
           </Card>
           </Col>{/* end col */}
 
-          <Col>
-          <Card className='shadow  bg-white rounded' style={{ width: '100%' }}>
+          <Col xs={12} md={4}>
+          <Card className='shadow  bg-white rounded' style={{ width: '90%', height: '70%' }}>
             <Card.Img variant="top" src="./images/anh1.jpg" />
             <Card.Body>
               <Card.Title className='text-right'>Some quick example text to build on the card title and make up the
@@ -123,7 +121,6 @@ export default function ButtonsNews() {
           </Col>{/* end col */}
         </Row>{/* end row */}
 
-        <Row className='mt-5'></Row>
         <Row>
           <div className="prevNext_news">
             <LeftOutlined className="left_news"/>
