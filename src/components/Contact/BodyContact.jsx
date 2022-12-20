@@ -23,46 +23,53 @@ export default function BodyContact() {
         </Row>
       <Row className='mt-5'></Row>
         <Row>
-          <Col xs='1'></Col>
-          <Col xs='5' >
+          <Col xs={12} md={2}></Col>
+          <Col xs={12} md={4} >
             <Card className='shadow  bg-gray rounded' style={{ width: '100%'}}>
               <Card.Img variant="top" style={{ height: '25rem' }} src="./images/anh3.png" />
               <Button className='bg-green' style={{width: '60%'}}>Name</Button>
               <Card.Body>
                 <Row className='mt-3'></Row>
-                  <p><i className='bi bi-whatsapp' style={{ fontSize: 30 }}/>     https://www.whatsapp.com/</p>
-                  <p> <Image className='img1' src="./images/zalo.png" class="rounded float-left" alt="..."/>https://play.google.com/store/apps</p>
-                  <p> <Image className='img2' src="./images/talk.png" class="rounded float-left" alt="..."/>https://www.kakaocorp.com/page/servicn</p>  
+                <Row>
+                  <Col><Image className='img1' src="./images/whatsapp.png" class="rounded float-left" alt="..."/></Col>
+                  <Col><p className='text_contact1'>https://play.google.com/store/apps</p></Col>
+                </Row>{/* end row */}
+                <Row>
+                  <Col><Image className='img2' src="./images/zalo.png" class="rounded float-left" alt="..."/></Col>
+                  <Col><p className='text_contact2'> https://play.google.com/store/apps</p></Col>
+                  </Row>{/* end row */}
+                <Row>
+                  <Col><Image className='img3' src="./images/talk.png" class="rounded float-left" alt="..."/></Col>
+                  <Col><p className='text_contact3'> https://play.google.com/store/apps</p></Col>
+                  </Row>{/* end row */}
               </Card.Body>
             </Card>
             </Col>  {/* end col */}
 
-            <Col xs='5'>
-            <Card className='shadow  bg-gray rounded' style={{ width: '100%' }}>
+            <Col xs={12} md={4} >
+            <Card className='shadow  bg-gray rounded' style={{ width: '100%'}}>
               <Card.Img variant="top" style={{ height: '25rem' }} src="./images/anh2.jpg" />
               <Button className='bg-green' style={{width: '60%'}}>Name</Button>
               <Card.Body>
                 <Row className='mt-3'></Row>
-                <p><i className='bi bi-whatsapp' style={{ fontSize: 30 }}/>     https://www.whatsapp.com/</p>
-                  <p> <Image className='img1' src="./images/zalo.png" class="rounded float-left" alt="..."/>https://play.google.com/store/apps</p>
-                  <p> <Image className='img2' src="./images/talk.png" class="rounded float-left" alt="..."/>https://www.kakaocorp.com/page/servicn</p>   
+                <Row>
+                  <Col><Image className='img1' src="./images/whatsapp.png" class="rounded float-left" alt="..."/></Col>
+                  <Col><p className='text_contact1'>https://play.google.com/store/apps</p></Col>
+                </Row>{/* end row */}
+                <Row>
+                  <Col><Image className='img2' src="./images/zalo.png" class="rounded float-left" alt="..."/></Col>
+                  <Col><p className='text_contact2'> https://play.google.com/store/apps</p></Col>
+                  </Row>{/* end row */}
+                <Row>
+                  <Col><Image className='img3' src="./images/talk.png" class="rounded float-left" alt="..."/></Col>
+                  <Col><p className='text_contact3'> https://play.google.com/store/apps</p></Col>
+                  </Row>{/* end row */}
               </Card.Body>
             </Card>
             </Col>  {/* end col */}
-            <Col xs='1'></Col>
+            <Col xs={12} md={2}></Col>
         </Row>{/* end row */}
         <Row className='mt-5'></Row>
-
-       
-        {/* <Row>
-            <div className="intro_button">
-                <button className="navbutton"><i class="bi bi-geo-alt" style={{fontSize: 20}}></i> <br/>Room 302, Saigon Pearl Office Building, 
-                <br/> 92C Nguyen Huu Canh St, 
-                <br/> Binh Thanh District, Ho Chi Minh City, VietNam</button>
-                <button className="navbutton" ><i class="bi bi-telephone" style={{fontSize: 20}}></i><br/>(+84) 090. 453.234</button>
-                <button className="navbutton"><i class="bi bi-envelope-paper" style={{fontSize: 20}}></i><br/>betterhomesinvest@gmail.com</button>
-            </div>
-        </Row> */}
       </Container>
     </div>
   )
