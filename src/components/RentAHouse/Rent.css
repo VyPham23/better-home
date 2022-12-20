@@ -17,7 +17,7 @@
     position: relative;
     top: 140px;
 }
-.readmore11{
+.readmore1{
     position: relative;
     text-align: right;
     bottom: 50px;
@@ -29,20 +29,7 @@
         width: 42vw;
     }
 }
-@media only screen and (min-width: 600px) and (max-width: 1000px){
-    
-    .readmore1{
-        position: relative;
-        left: 400px;
-    }
-}
-@media only screen and (min-width: 1000px) and (max-width: 2000px){
-    
-    .readmore1{
-        position: relative;
-        left: 800px;
-    }
-}
+
 
 /* .imgrent{
     position: relative;
