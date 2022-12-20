@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 export default function ButtonsContact() {
   return (
     <div className='buttons_contact'>
-      <h2 id='title1'  >Get in tough</h2>
+      <h2 id='title1'  >Get in touch</h2>
       <p id='title2' className='text-center'>Anytime, anywhere, with superior quality products, we are with you at every moment</p>
       <Container>
         <Row className="intro_button_1">
