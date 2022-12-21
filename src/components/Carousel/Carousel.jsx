@@ -12,7 +12,7 @@ function CarouselFadeExample(props) {
             <Carousel fade>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 cr-img"
                         src={photo1}
                         alt="First slide"
                     />
@@ -23,7 +23,7 @@ function CarouselFadeExample(props) {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 cr-img"
                         src={photo2}
                         alt="Second slide"
                     />
@@ -35,7 +35,7 @@ function CarouselFadeExample(props) {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 cr-img"
                         src={photo3}
                         alt="Third slide"
 
