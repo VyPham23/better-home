@@ -1,6 +1,6 @@
 .intro_container {
     background: rgba(0, 0, 0, 0.3);
-    mix-blend-mode: darken;
+    /* mix-blend-mode: darken; */
     background-image: url(./sell\ 1.png);
     background-color: black opacity 0.5;
     height: 500px;
