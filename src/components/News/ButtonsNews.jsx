@@ -20,7 +20,7 @@ export default function ButtonsNews() {
           </Card.ImgOverlay>
         </Card>
       </Row> {/* end row */}
-      <Row className='mt-5'></Row>
+      <Row className='mt-4'></Row>
         <Row className='all_buttons_news'>
           <Col xs={12} md={6} lg="4" className='buttons_news'>
           <Card className='shadow  bg-white rounded' >
@@ -28,11 +28,11 @@ export default function ButtonsNews() {
             <Card.Body className='card_body_news'>
               <Card.Title className='card_title_news'>Some quick example text to build on the card title and make up the
               </Card.Title>
-              <Row className='mt-5'></Row>
+              <Row className='mt-4'></Row>
               <Row>
-                <Col className='card_text_news' xs={4} md={4}> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
-                <Col className='card_text_news' xs={4} md={4}><p><i class="bi bi-clock"> </i> 4 min</p></Col>
-                <Col className='card_text_news' xs={4} md={4}><p>26 Nov.2022</p></Col>
+                <Col className='card_text_news' xs={6} md={2}> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
+                <Col className='card_text_news' xs={6} md={4}><p><i class="bi bi-clock"> </i> 4 min</p></Col>
+                <Col className='card_text_news' xs={6} md={6}><p>26 Nov.2022</p></Col>
               </Row>  
             </Card.Body>
           </Card>
@@ -44,11 +44,11 @@ export default function ButtonsNews() {
             <Card.Body className='card_body_news'>
               <Card.Title className='card_title_news'>Some quick example text to build on the card title and make up the
               </Card.Title>
-              <Row className='mt-5'></Row>
+              <Row className='mt-4'></Row>
               <Row>
-                <Col className='card_text_news' xs={4} md={4}> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
-                <Col className='card_text_news' xs={4} md={4}><p><i class="bi bi-clock"> </i> 4 min</p></Col>
-                <Col className='card_text_news' xs={4} md={4}><p>26 Nov.2022</p></Col>
+                <Col className='card_text_news' xs={6} md={2}> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
+                <Col className='card_text_news' xs={6} md={4}><p><i class="bi bi-clock"> </i> 4 min</p></Col>
+                <Col className='card_text_news' xs={6} md={6}><p>26 Nov.2022</p></Col>
               </Row>  
             </Card.Body>
           </Card>
@@ -60,11 +60,11 @@ export default function ButtonsNews() {
             <Card.Body className='card_body_news'>
               <Card.Title className='card_title_news'>Some quick example text to build on the card title and make up the
               </Card.Title>
-              <Row className='mt-5'></Row>
+              <Row className='mt-4'></Row>
               <Row>
-                <Col className='card_text_news' xs={4} md={4}> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
-                <Col className='card_text_news' xs={4} md={4}><p><i class="bi bi-clock"> </i> 4 min</p></Col>
-                <Col className='card_text_news' xs={4} md={4}><p>26 Nov.2022</p></Col>
+                <Col className='card_text_news' xs={6} md={2}> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
+                <Col className='card_text_news' xs={6} md={4}><p><i class="bi bi-clock"> </i> 4 min</p></Col>
+                <Col className='card_text_news' xs={6} md={6}><p>26 Nov.2022</p></Col>
               </Row>  
             </Card.Body>
           </Card>
@@ -78,11 +78,11 @@ export default function ButtonsNews() {
             <Card.Body className='card_body_news'>
               <Card.Title className='card_title_news'>Some quick example text to build on the card title and make up the
               </Card.Title>
-              <Row className='mt-5'></Row>
+              <Row className='mt-4'></Row>
               <Row>
-                <Col className='card_text_news' xs={4} md={4}> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
-                <Col className='card_text_news' xs={4} md={4}><p><i class="bi bi-clock"> </i> 4 min</p></Col>
-                <Col className='card_text_news' xs={4} md={4}><p>26 Nov.2022</p></Col>
+                <Col className='card_text_news' xs={6} md={2}> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
+                <Col className='card_text_news' xs={6} md={4}><p><i class="bi bi-clock"> </i> 4 min</p></Col>
+                <Col className='card_text_news' xs={6} md={6}><p>26 Nov.2022</p></Col>
               </Row>  
             </Card.Body>
           </Card>
@@ -94,11 +94,11 @@ export default function ButtonsNews() {
             <Card.Body className='card_body_news'>
               <Card.Title className='card_title_news'>Some quick example text to build on the card title and make up the
               </Card.Title>
-              <Row className='mt-5'></Row>
+              <Row className='mt-4'></Row>
               <Row>
-                <Col className='card_text_news' xs={4} md={4}> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
-                <Col className='card_text_news' xs={4} md={4}><p><i class="bi bi-clock"> </i> 4 min</p></Col>
-                <Col className='card_text_news' xs={4} md={4}><p>26 Nov.2022</p></Col>
+                <Col className='card_text_news' xs={6} md={2}> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
+                <Col className='card_text_news' xs={6} md={4}><p><i class="bi bi-clock"> </i> 4 min</p></Col>
+                <Col className='card_text_news' xs={6} md={6}><p>26 Nov.2022</p></Col>
               </Row>  
             </Card.Body>
           </Card>
@@ -110,11 +110,11 @@ export default function ButtonsNews() {
             <Card.Body className='card_body_news'>
               <Card.Title className='card_title_news'>Some quick example text to build on the card title and make up the
               </Card.Title>
-              <Row className='mt-5'></Row>
+              <Row className='mt-4'></Row>
               <Row>
-                <Col className='card_text_news' xs={4} md={4}> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
-                <Col className='card_text_news' xs={4} md={4}><p><i class="bi bi-clock"> </i> 4 min</p></Col>
-                <Col className='card_text_news' xs={4} md={4}><p>26 Nov.2022</p></Col>
+                <Col className='card_text_news' xs={6} md={2}> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
+                <Col className='card_text_news' xs={6} md={4}><p><i class="bi bi-clock"> </i> 4 min</p></Col>
+                <Col className='card_text_news' xs={6} md={6}><p>26 Nov.2022</p></Col>
               </Row>  
             </Card.Body>
           </Card>
