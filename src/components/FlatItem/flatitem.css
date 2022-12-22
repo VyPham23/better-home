@@ -83,12 +83,12 @@
     background-color: red;
     color: #ffffff;
     position: absolute;
-    /* left: -40px;
+    left: -40px;
     top: 20px;
     transform: rotate(-30deg);
     text-align: center;
-    padding: 0 45px; */
-    left: 0;
+    padding: 0 45px;
+    /* left: 0;
     top: 10px;
-    padding: 0 20px;
+    padding: 0 20px; */
 }
