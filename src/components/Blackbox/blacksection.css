@@ -1,0 +1,41 @@
+.black{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.agn, .cpn{
+    width: 50%;
+    position: relative;
+    height: 120px;
+    display: flex;
+    margin: 0;
+}
+
+.agn{
+    background-color: #282434;
+}
+
+.cpn{
+    background-color: #181726;
+}
+
+.black-pic{
+    margin: auto 20px;
+}
+
+.txt-area{
+    margin: auto 20px auto 0;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.txt-area p{
+    margin: auto;
+}
+
+@media (max-width: 990px) {
+    .black{
+        display: none;
+    }
+}

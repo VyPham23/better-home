@@ -1,5 +1,6 @@
 .item-image{
-    overflow: hidden;  
+    overflow: hidden;
+    position: relative;
 }
 .item-image img{
     min-height: 240px;
@@ -65,4 +66,15 @@
     height: auto;
     width: 60px;
     border-radius: 4px;
+}
+
+.item-price{
+    color: #ffffff;
+    position: absolute;
+    right: 5%;
+    bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px #202020;
 }

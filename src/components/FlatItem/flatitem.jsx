@@ -8,6 +8,9 @@ const FlatItem = () => {
             <div className="item">
                 <div className="item-image">
                     <img className="img-fluid" src={product} alt="flat" />
+                    <div className="item-price">
+                        <span>$3,950,000</span>
+                    </div>
                 </div>
                 <div className="item-description">
                     <div className="mb-3">

@@ -4,10 +4,8 @@ import './features.css';
 const Features = () => {
     return (
         <div>
-            <div className="container mt-5 mb-5">
-
+            <div className="ft-container">
                 <div className="fd-item fd-features">
-                    
                     <div className="row">
                         <div className="col-lg-4">
                             <i className="fa fa-check"></i>

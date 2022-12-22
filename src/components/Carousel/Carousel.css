@@ -1,8 +1,4 @@
-#slider {
-    margin-bottom: 50px;
-}
-
-img{
+.cr-img{
     height: 450px;
     width: 100%;
     object-fit: cover;

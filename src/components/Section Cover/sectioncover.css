@@ -40,6 +40,10 @@
     border-right: solid #161616 2px;
 }
 
+.prop-des{
+    text-align: justify;
+}
+
 #all-btn{
     background-color: #00908E;
     color:white;

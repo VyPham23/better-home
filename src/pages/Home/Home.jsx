@@ -1,4 +1,5 @@
 import React from "react";
+import BlackSection from "../../components/Blackbox/blacksection";
 import CarouselFadeExample from "../../components/Carousel/Carousel";
 import FlatList from "../../components/FlatList/flatlist";
 import Footer from "../../components/Footer/footer";
@@ -16,6 +17,7 @@ const Home = () => {
             <UpperNav/>
             <Navbar/>
             <CarouselFadeExample/>
+            <BlackSection/>
             <Intro/>
             <SectionCover text="Rent A House"/>
             <FlatList/>
