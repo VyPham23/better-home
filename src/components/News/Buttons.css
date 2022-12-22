@@ -55,7 +55,7 @@
 .card_body_news{
     height: 180px;
 }
-.card_title_news{
+.card_title_news, .card_text_news{
     text-align: justify;
 }
 @media only screen and (min-width: 400px) and (max-width: 540px){
@@ -67,6 +67,9 @@
 @media only screen and (min-width: 900px) and (max-width: 1100px){
     .card_body_news{
         height: 220px;
+    }
+    .card_text_news{
+        font-size: 0.8rem;
     }
 }
 @media only screen and (min-width: 250px) and (max-width: 399px){
