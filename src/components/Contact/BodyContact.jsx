@@ -17,7 +17,7 @@ export default function BodyContact() {
             <Card.Img src="./images/anh4.jpg" alt="Card image"/>
             <Card.ImgOverlay>
               <Card.Title><h5 className='text'>Contact Us</h5></Card.Title>
-              <Card.Text><p className='news'>Anytime, anywhere, with superior quality products, we are with you at every moment</p></Card.Text>
+              <Card.Text><p className='news_contact'>Anytime, anywhere, with superior quality products, we are with you at every moment</p></Card.Text>
             </Card.ImgOverlay>
           </Card>
         </Row>
