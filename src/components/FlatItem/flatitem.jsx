@@ -11,6 +11,9 @@ const FlatItem = () => {
                     <div className="item-price">
                         <span>$3,950,000</span>
                     </div>
+                    <div className="item-date">
+                        <span>12.12.2022</span>
+                    </div>
                 </div>
                 <div className="item-description">
                     <div className="mb-3">

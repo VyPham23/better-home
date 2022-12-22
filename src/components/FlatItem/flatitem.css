@@ -78,3 +78,17 @@
     font-size: 1.5rem;
     text-shadow: 2px 2px 4px #202020;
 }
+
+.item-date{
+    background-color: red;
+    color: #ffffff;
+    position: absolute;
+    /* left: -40px;
+    top: 20px;
+    transform: rotate(-30deg);
+    text-align: center;
+    padding: 0 45px; */
+    left: 0;
+    top: 10px;
+    padding: 0 20px;
+}
