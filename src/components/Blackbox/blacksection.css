@@ -1,6 +1,7 @@
 .black{
     height: 150px;
     display: flex;
+    justify-content: space-around;
 }
 
 .agn, .cpn{
@@ -19,10 +20,18 @@
     background-color: #181726;
 }
 
+.black-pic{
+    margin: auto 20px;
+}
+
 .txt-area{
-    margin: auto 50px;
+    margin: auto 20px auto 0;
     text-align: justify;
     color: #ffffff;
+}
+
+.txt-area p{
+    margin: auto;
 }
 
 @media (max-width: 990px) {
