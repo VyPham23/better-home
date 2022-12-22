@@ -4,6 +4,11 @@
 .bg-gray {
     background-color: #F0F0F0 !important;
 }
+.prevNext_news{
+    justify-content: space-between;
+    align-items: center;
+    display: list-item;
+}
 .left_news {
     border-radius: 5px;
     padding: 10px;
@@ -13,6 +18,7 @@
     height: 35px;
     margin-right: 200px;
     cursor: pointer;
+
 }
 .right_news {
     border-radius: 5px;
@@ -22,6 +28,7 @@
     width: 60px;
     height: 35px;
     cursor: pointer;
+    
 }
 .text{
     top: 70px;
@@ -32,9 +39,60 @@
     top: 100px;
     position: relative;
 }
-@media only screen and (min-width: 250px) and (max-width: 384px){
-    .right_news{
-        bottom: 34px;
-        position: relative;
+.all_buttons_news{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+.buttons_news{
+    padding: 35px ;
+}
+.img_card_news{
+    height: 200px;
+}
+.card_body_news{
+    height: 180px;
+}
+.card_title_news{
+    text-align: justify;
+}
+@media only screen and (min-width: 400px) and (max-width: 540px){
+
+    .buttons_news{
+        padding: 15px ;
     }
+}
+@media only screen and (min-width: 900px) and (max-width: 1100px){
+    .card_body_news{
+        height: 220px;
+    }
+}
+@media only screen and (min-width: 250px) and (max-width: 399px){
+
+    .all_buttons_news{
+        padding: 5px;
+    }
+    .card_title_news{
+        font-size: 1rem;
+    }
+    .card_text_news{
+        font-size: 0.7rem;
+    }
+    .buttons_news{
+        padding: 10px ;
+    }
+    .card_body_news{
+        height: 180px;
+    }
+    
+   
+}
+@media only screen and (min-width: 250px) and (max-width: 360px){
+
+    .left_news{
+        margin-right: 20px;
+    }
+   
 }

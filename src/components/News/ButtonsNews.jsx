@@ -21,107 +21,108 @@ export default function ButtonsNews() {
         </Card>
       </Row> {/* end row */}
       <Row className='mt-5'></Row>
-        <Row>
-          <Col xs={12} md={4}>
-          <Card className='shadow  bg-white rounded' style={{width: '90%', height: '70%'}}>
-            <Card.Img variant="top" src="./images/anh1.jpg" />
-            <Card.Body>
-              <Card.Title className='text-right'>Some quick example text to build on the card title and make up the
+        <Row className='all_buttons_news'>
+          <Col xs={12} md={6} lg="4" className='buttons_news'>
+          <Card className='shadow  bg-white rounded' >
+            <Card.Img variant="top" src="./images/anh1.jpg" className='img_card_news'/>
+            <Card.Body className='card_body_news'>
+              <Card.Title className='card_title_news'>Some quick example text to build on the card title and make up the
               </Card.Title>
               <Row className='mt-5'></Row>
               <Row>
-                <Col> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
-                <Col><p><i class="bi bi-clock"> </i> 4 min</p></Col>
-                <Col><p>26 Nov.2022</p></Col>
-              </Row>   
+                <Col className='card_text_news' xs={4} md={4}> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
+                <Col className='card_text_news' xs={4} md={4}><p><i class="bi bi-clock"> </i> 4 min</p></Col>
+                <Col className='card_text_news' xs={4} md={4}><p>26 Nov.2022</p></Col>
+              </Row>  
             </Card.Body>
           </Card>
           </Col>  {/* end col */}
 
-          <Col xs={12} md={4}>
-          <Card className='shadow  bg-white rounded' style={{ width: '90%', height: '70%' }}>
-            <Card.Img variant="top" src="./images/anh1.jpg" />
-            <Card.Body>
-              <Card.Title className='text-right'>Some quick example text to build on the card title and make up the
+          <Col xs={12} md={6} lg="4" className='buttons_news'>
+          <Card className='shadow  bg-white rounded' >
+            <Card.Img variant="top" src="./images/anh1.jpg" className='img_card_news'/>
+            <Card.Body className='card_body_news'>
+              <Card.Title className='card_title_news'>Some quick example text to build on the card title and make up the
               </Card.Title>
               <Row className='mt-5'></Row>
               <Row>
-                <Col> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
-                <Col><p><i class="bi bi-clock"> </i> 4 min</p></Col>
-                <Col><p>26 Nov.2022</p></Col>
-              </Row>   
-            </Card.Body>
-          </Card>
-          </Col>{/* end col */}
-
-          <Col xs={12} md={4}>
-          <Card className='shadow  bg-white rounded' style={{ width: '90%', height: '70%' }}>
-            <Card.Img variant="top" src="./images/anh1.jpg" />
-            <Card.Body>
-              <Card.Title className='text-right'>Some quick example text to build on the card title and make up the
-              </Card.Title>
-              <Row className='mt-5'></Row>
-              <Row>
-                <Col> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
-                <Col><p><i class="bi bi-clock"> </i> 4 min</p></Col>
-                <Col><p>26 Nov.2022</p></Col>
-              </Row>   
-            </Card.Body>
-          </Card>
-          </Col>{/* end col */}
-        </Row>{/* end row */}
-
-        <Row>
-          <Col xs={12} md={4}>
-          <Card className='shadow  bg-white rounded' style={{ width: '90%', height: '70%' }}>
-            <Card.Img variant="top" src="./images/anh1.jpg" />
-            <Card.Body>
-              <Card.Title className='text-right'>Some quick example text to build on the card title and make up the
-              </Card.Title>
-              <Row className='mt-5'></Row>
-              <Row>
-                <Col> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
-                <Col><p><i class="bi bi-clock"> </i> 4 min</p></Col>
-                <Col><p>26 Nov.2022</p></Col>
-              </Row>   
+                <Col className='card_text_news' xs={4} md={4}> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
+                <Col className='card_text_news' xs={4} md={4}><p><i class="bi bi-clock"> </i> 4 min</p></Col>
+                <Col className='card_text_news' xs={4} md={4}><p>26 Nov.2022</p></Col>
+              </Row>  
             </Card.Body>
           </Card>
           </Col>  {/* end col */}
 
-          <Col xs={12} md={4}>
-          <Card className='shadow  bg-white rounded' style={{ width: '90%', height: '70%' }}>
-            <Card.Img variant="top" src="./images/anh1.jpg" />
-            <Card.Body>
-              <Card.Title className='text-right'>Some quick example text to build on the card title and make up the
+          <Col xs={12} md={6} lg="4" className='buttons_news'>
+          <Card className='shadow  bg-white rounded' >
+            <Card.Img variant="top" src="./images/anh1.jpg" className='img_card_news'/>
+            <Card.Body className='card_body_news'>
+              <Card.Title className='card_title_news'>Some quick example text to build on the card title and make up the
               </Card.Title>
               <Row className='mt-5'></Row>
               <Row>
-                <Col> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
-                <Col><p><i class="bi bi-clock"> </i> 4 min</p></Col>
-                <Col><p>26 Nov.2022</p></Col>
-              </Row>   
+                <Col className='card_text_news' xs={4} md={4}> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
+                <Col className='card_text_news' xs={4} md={4}><p><i class="bi bi-clock"> </i> 4 min</p></Col>
+                <Col className='card_text_news' xs={4} md={4}><p>26 Nov.2022</p></Col>
+              </Row>  
             </Card.Body>
           </Card>
-          </Col>{/* end col */}
-
-          <Col xs={12} md={4}>
-          <Card className='shadow  bg-white rounded' style={{ width: '90%', height: '70%' }}>
-            <Card.Img variant="top" src="./images/anh1.jpg" />
-            <Card.Body>
-              <Card.Title className='text-right'>Some quick example text to build on the card title and make up the
-              </Card.Title>
-              <Row className='mt-5'></Row>
-              <Row>
-                <Col> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
-                <Col><p><i class="bi bi-clock"> </i> 4 min</p></Col>
-                <Col><p>26 Nov.2022</p></Col>
-              </Row>   
-            </Card.Body>
-          </Card>
-          </Col>{/* end col */}
+          </Col>  {/* end col */}
         </Row>{/* end row */}
 
-        <Row>
+        <Row className='all_buttons_news'>
+          <Col xs={12} md={6} lg="4" className='buttons_news'>
+          <Card className='shadow  bg-white rounded' >
+            <Card.Img variant="top" src="./images/anh1.jpg" className='img_card_news'/>
+            <Card.Body className='card_body_news'>
+              <Card.Title className='card_title_news'>Some quick example text to build on the card title and make up the
+              </Card.Title>
+              <Row className='mt-5'></Row>
+              <Row>
+                <Col className='card_text_news' xs={4} md={4}> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
+                <Col className='card_text_news' xs={4} md={4}><p><i class="bi bi-clock"> </i> 4 min</p></Col>
+                <Col className='card_text_news' xs={4} md={4}><p>26 Nov.2022</p></Col>
+              </Row>  
+            </Card.Body>
+          </Card>
+          </Col>  {/* end col */}
+
+          <Col xs={12} md={6} lg="4" className='buttons_news'>
+          <Card className='shadow  bg-white rounded' >
+            <Card.Img variant="top" src="./images/anh1.jpg" className='img_card_news'/>
+            <Card.Body className='card_body_news'>
+              <Card.Title className='card_title_news'>Some quick example text to build on the card title and make up the
+              </Card.Title>
+              <Row className='mt-5'></Row>
+              <Row>
+                <Col className='card_text_news' xs={4} md={4}> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
+                <Col className='card_text_news' xs={4} md={4}><p><i class="bi bi-clock"> </i> 4 min</p></Col>
+                <Col className='card_text_news' xs={4} md={4}><p>26 Nov.2022</p></Col>
+              </Row>  
+            </Card.Body>
+          </Card>
+          </Col>  {/* end col */}
+
+          <Col xs={12} md={6} lg="4" className='buttons_news'>
+          <Card className='shadow  bg-white rounded' >
+            <Card.Img variant="top" src="./images/anh1.jpg" className='img_card_news'/>
+            <Card.Body className='card_body_news'>
+              <Card.Title className='card_title_news'>Some quick example text to build on the card title and make up the
+              </Card.Title>
+              <Row className='mt-5'></Row>
+              <Row>
+                <Col className='card_text_news' xs={4} md={4}> <p ><i className='bi bi-moon-stars'/>   20</p></Col>
+                <Col className='card_text_news' xs={4} md={4}><p><i class="bi bi-clock"> </i> 4 min</p></Col>
+                <Col className='card_text_news' xs={4} md={4}><p>26 Nov.2022</p></Col>
+              </Row>  
+            </Card.Body>
+          </Card>
+          </Col>  {/* end col */}
+        </Row>{/* end row */}
+
+
+        <Row >
           <div className="prevNext_news">
             <LeftOutlined className="left_news"/>
             <RightOutlined  className="right_news"/>
