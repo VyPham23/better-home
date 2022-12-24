@@ -41,6 +41,7 @@
   .App{
     justify-content: center;
     flex-wrap: wrap;
+    overflow: hidden;
   }
 
   
@@ -50,6 +51,7 @@
   .App{
     display: block;
     margin-bottom: 10px;
+    overflow: hidden;
   }
 
 }

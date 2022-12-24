@@ -1,3 +1,7 @@
+.intro{
+    position: static;
+}
+
 .intro_container {
     background: rgba(0, 0, 0, 0.3);
     /* mix-blend-mode: darken; */
@@ -8,7 +12,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 50px;
-    position: relative;
     margin-top: 50px;
 }
 

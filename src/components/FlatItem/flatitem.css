@@ -71,7 +71,7 @@
 .item-price{
     color: #ffffff;
     position: absolute;
-    right: 5%;
+    left: 5%;
     bottom: 5px;
     text-transform: uppercase;
     font-weight: 600;

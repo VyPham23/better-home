@@ -1,11 +1,11 @@
 .black{
-    height: 150px;
-    display: flex;
+    /* height: 150px; */
+    /* display: flex; */
     justify-content: space-around;
 }
 
 .agn, .cpn{
-    width: 50%;
+    /* width: 50%; */
     position: relative;
     height: 120px;
     display: flex;
@@ -34,8 +34,8 @@
     margin: auto;
 }
 
-@media (max-width: 990px) {
+/* @media (max-width: 990px) {
     .black{
         display: none;
     }
-}
+} */
