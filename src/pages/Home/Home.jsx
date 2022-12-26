@@ -25,6 +25,7 @@ const Home = () => {
             <UpperNav/>
             <Navbar/>
             <CarouselFadeExample/>
+            
             <BlackSection/>
             <Intro/>
 

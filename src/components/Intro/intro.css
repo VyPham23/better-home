@@ -28,7 +28,8 @@
     position: relative;
     top: 150px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 130px;
     font-size: 1rem;
 }
 

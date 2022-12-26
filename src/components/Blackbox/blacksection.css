@@ -34,8 +34,32 @@
     margin: auto;
 }
 
-/* @media (max-width: 990px) {
-    .black{
-        display: none;
+@media only screen and (min-width: 650px) and (max-width: 1030px){
+
+    .txt-area h4{
+        font-size: 1.3rem;
     }
-} */
+
+    .txt-area p{
+        font-size: 1rem;
+    }
+
+    .black-pic img{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 649px){
+
+    .txt-area h4{
+        font-size: 1rem;
+    }
+
+    .txt-area p{
+        font-size: 0.7rem;
+    }
+
+    .black-pic img{
+        width: 60%;
+    }
+}

@@ -31,7 +31,7 @@ function CarouselFadeExample(props) {
                 {sliderList.map((slider) => (
                     <Carousel.Item>
                         <img
-                            className="d-block w-100 cr-img"
+                            className="d-block w-100 cr-img img-fluid"
                             src={slider.image_slider}
                             alt="First slide"
                         />
