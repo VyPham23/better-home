@@ -42,7 +42,7 @@ const FlatForRent = () => {
             <div className="container">
                 <div className="row">
                     {apartForRentList.map((apartForRent) => (
-                        <div className="text-center col-lg-4 col-12 col-md-6">
+                        <div className="text-center col-lg-4 col-12 col-md-12">
                             <div className="item">
                                 <div className="item-image">
                                     <img className="img-fluid" src={apartForRent.image} alt="flat" />

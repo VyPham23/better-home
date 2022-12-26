@@ -56,8 +56,50 @@
     margin: 30px auto;
 }
 
-@media (max-width: 991.98px){
+
+@media only screen and (min-width: 790px) and (max-width: 1030px){
+
+    .banner-title{
+        font-size: 2rem;
+    }
+
+    .des{
+        font-size: 0.8rem;
+    }
+
+    .prop-stat span{
+        font-size: 0.8rem;
+    }
+
+}
+
+@media only screen and (min-width: 770px) and (max-width: 789px){
+
+    .banner-title{
+        font-size: 1.8rem;
+    }
+
+    .des{
+        font-size: 0.6rem;
+    }
+
+    .prop-stat span{
+        font-size: 0.6rem;
+    }
+
+}
+
+@media only screen and (min-width: 430px) and (max-width: 769px){
+
+    .banner-title{
+        font-size: 1.6rem;
+    }
+
     .prop-des{
         display: none;
+    }
+
+    .prop-all{
+        margin-top: 10px;
     }
 }
