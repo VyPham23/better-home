@@ -40,7 +40,7 @@
     position: relative;
 }
 .all_buttons_news{
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     padding: 10px;
     margin: 10px;
@@ -56,7 +56,12 @@
     height: 180px;
 }
 .card_title_news, .card_text_news{
-    text-align: justify;
+    text-align: left;
+}
+
+.news_information{
+    display: flex;
+    justify-content: space-between;
 }
 @media only screen and (min-width: 400px) and (max-width: 540px){
 
@@ -78,7 +83,7 @@
         padding: 5px;
     }
     .card_title_news{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .card_text_news{
         font-size: 0.7rem;
@@ -92,6 +97,16 @@
     .lastest {
         top: 15px;
         position: relative;
+    }
+
+    .news_information{
+        display: block;
+    }
+
+    .news_information span{
+        display: block;
+        margin-bottom: 5px;
+        font-size: 0.8rem;
     }
    
 }

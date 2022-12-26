@@ -2,7 +2,7 @@ import React from 'react';
 import './sectioncover.css';
 import back from './27.png';
 
-const SectionCover = ({ text }) => {
+const SectionForSell = () => {
     return (
         <div className="banner d-flex align-items-center" style={{ backgroundImage: `url(${back})` }}>
             <div className="bg-custom">
@@ -10,7 +10,7 @@ const SectionCover = ({ text }) => {
                     <div className="row">
                         <div className="col-lg-6 mx-auto">
                             <div className="banner-area text-center pt-4 pb-4">
-                                <h2 className="mt-2 mb-4 banner-title"> { text } </h2>
+                                <h2 className="mt-2 mb-4 banner-title">Buy A House</h2>
                             </div>
                         </div>
                     </div>
@@ -40,4 +40,4 @@ const SectionCover = ({ text }) => {
     );
 };
 
-export default SectionCover;
+export default SectionForSell;

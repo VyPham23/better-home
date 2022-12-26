@@ -1,13 +1,22 @@
 import React from "react";
 import BlackSection from "../../components/Blackbox/blacksection";
 import CarouselFadeExample from "../../components/Carousel/Carousel";
-import FlatList from "../../components/FlatList/flatlist";
+
+import FlatForRent from "../../components/FlatList/FlatForRent";
+import FlatForSell from "../../components/FlatList/FlatForSell";
+import ServiceApart from "../../components/FlatList/ServiceApart";
+
 import Footer from "../../components/Footer/footer";
 import Navbar from "../../components/Header/Navbar/navbar";
 import UpperNav from "../../components/Header/Navbar/uppernav";
 import Intro from "../../components/Intro/intro";
 import NewsList from "../../components/News/newslist";
-import SectionCover from "../../components/Section Cover/sectioncover";
+
+import SectionServiceOwner from "../../components/SectionCover/SectionServiceOwner";
+import SectionForRent from "../../components/SectionCover/SectionForRent";
+import SectionForSell from "../../components/SectionCover/SectionForSell";
+import SectionServiceApart from "../../components/SectionCover/SectionServiceApart";
+
 import ServiceList from "../../components/ServiceList/servicelist";
 // import Product from "../../components/Product/product";
 
@@ -19,15 +28,19 @@ const Home = () => {
             <CarouselFadeExample/>
             <BlackSection/>
             <Intro/>
-            <SectionCover text="Rent A House"/>
-            <FlatList/>
-            
-            <SectionCover text="Buy A House"/>
-            <FlatList/>
-            <SectionCover text="Service Apartment"/>
-            <FlatList/>
-            <SectionCover text="Services for House Owner"/>
+
+            <SectionForRent/>
+            <FlatForRent/>
+
+            <SectionForSell/>
+            <FlatForSell/>
+
+            <SectionServiceApart/>
+            <ServiceApart/>
+
+            <SectionServiceOwner/>
             <ServiceList/>
+
             <NewsList/>
             <Footer/>
             

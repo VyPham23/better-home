@@ -3,7 +3,7 @@ import './flatlist.css';
 import './flatitem.css';
 import product from "./product1.jpeg";
 
-const FlatList = () => {
+const ServiceApart = () => {
     return (
         <section className="section-all-re">
             <div className="container">
@@ -44,4 +44,4 @@ const FlatList = () => {
     );
 };
 
-export default FlatList;
+export default ServiceApart;
