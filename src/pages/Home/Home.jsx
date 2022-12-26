@@ -21,6 +21,7 @@ const Home = () => {
             <Intro/>
             <SectionCover text="Rent A House"/>
             <FlatList/>
+            
             <SectionCover text="Buy A House"/>
             <FlatList/>
             <SectionCover text="Service Apartment"/>
