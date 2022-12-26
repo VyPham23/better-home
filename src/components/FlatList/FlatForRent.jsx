@@ -48,6 +48,7 @@ const FlatForRent = () => {
                                     <img className="img-fluid" src={apartForRent.image} alt="flat" />
                                     <div className="item-price">
                                         <span>${numberWithCommas(apartForRent.price)}</span>
+                                        <span>20 <i class="bi bi-eye"></i></span>
                                     </div>
                                     <div className="item-date">
                                         <span>{apartForRent.available_from ? getDate(apartForRent.available_from) : "Hot"}</span>

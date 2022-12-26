@@ -22,7 +22,7 @@ import ServiceList from "../../components/ServiceList/servicelist";
 
 const Home = () => {
     return (
-        <div>
+        <div style={{ overflowX: "hidden" }}>
             <UpperNav/>
             <Navbar/>
             <CarouselFadeExample/>
