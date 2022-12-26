@@ -1,8 +1,38 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 import './news.css';
-import News from './news';
 
 const NewsList = () => {
+
+    const [newsList, setNewsList] = useState([])
+
+    /*get news list*/
+    useEffect(() => {
+        const getNews = async () => {
+            const newsFromServer = await fetchNews()
+            setNewsList(newsFromServer)
+        }
+        getNews()
+    }, [])
+
+    const fetchNews = async () => {
+        const url_news_list = "http://localhost/admin_api/public/api/v1/home/news"
+        const res = await fetch(url_news_list)
+        const data = await res.json()
+        return data['data']
+    }
+    /*--------------*/
+
+    const getDate = (date) => {
+        const getDate = date.substring(0, 10)
+
+        const dateArray = getDate.split('-')
+
+        const formatedDate = dateArray[2] + '-' + dateArray[1] + '-' + dateArray[0]
+
+        return formatedDate
+    }
+
     return (
         <section className="section-all-re">
             <div className="container">
@@ -11,10 +41,26 @@ const NewsList = () => {
                     <div className="col-lg-12 col-12 col-md-12 news-start">
                         <h2><a href="/">Recent News</a></h2>
                     </div>
-                    <News title="New 1 Ahaha"/>
-                    <News title="New 2 Ahaha"/>
-                    <News title="New 3 Ahaha"/>
-                    <News title="New 4 Ahaha"/>
+                    {newsList.map((news) => (
+                        <div className="col-lg-6 col-12 col-md-12">
+                            <div className="news">
+                                <div className="news-image">
+                                    <img style={{height:"18rem"}} className="img-fluid" src={news.image_news} alt="news" />
+                                </div>
+                                <div className="news-description">
+                                    <div className="mb-3 news-text">
+                                        <h4><a href="/"> {news.title_news} </a></h4>
+                                        <div className='mb-1' style={{display: "flex", justifyContent: "space-between"}}>
+                                            <span><i class="bi bi-eye"></i> {news.view_count}</span>
+                                            <span><i class="bi bi-pencil"></i> {news.author_news}</span>
+                                            <span><i class="bi bi-calendar-minus"></i> {news.created_at ? getDate(news.created_at) : ""}</span>
+                                        </div>
+                                        <span >{news.intro_news}</span><br />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
         </section>
