@@ -76,7 +76,7 @@ export default function ButtonsNews() {
           <Card className='shadow  bg-white rounded' >
             <Card.Img variant="top" src="./images/anh1.jpg" className='img_card_news'/>
             <Card.Body className='card_body_news'>
-              <Card.Title className='card_title_news'>Some quick example text to build on the card title and make up the
+              <Card.Title className='card_title_news'>Some quick example text
               </Card.Title>
               <Row className='mt-4'></Row>
               <Row>
