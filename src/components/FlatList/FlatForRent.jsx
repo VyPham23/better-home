@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import './flatlist.css';
 import './flatitem.css';
-import product from "./product1.jpeg";
 
 const FlatForRent = () => {
     const [apartForRentList, setApartForRentList] = useState([])
@@ -21,6 +20,7 @@ const FlatForRent = () => {
         const data = await res.json()
         return data['data']
     }
+    /*--------------*/
 
     const getDate = (date) => {
         const getDate = date.substring(0, 10)
@@ -48,7 +48,7 @@ const FlatForRent = () => {
                                     <img className="img-fluid" src={apartForRent.image} alt="flat" />
                                     <div className="item-price">
                                         <span>${numberWithCommas(apartForRent.price)}</span>
-                                        <span>20 <i class="bi bi-eye"></i></span>
+                                        <span>{apartForRent.view_count} <i class="bi bi-eye"></i></span>
                                     </div>
                                     <div className="item-date">
                                         <span>{apartForRent.available_from ? getDate(apartForRent.available_from) : "Hot"}</span>
