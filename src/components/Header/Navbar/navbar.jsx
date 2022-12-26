@@ -5,7 +5,7 @@ import './navbar.css';
 function Navbar(props) {
     return (
         
-        <header className='main-nav'>
+        <header style={{overflow: "hidden"}} className='main-nav'>
           <div className='left-nav'>
             <a href='/serviceForHouseOwner'>Service For House Owner</a>
             <a href='/property'>Real Estate For Business</a>

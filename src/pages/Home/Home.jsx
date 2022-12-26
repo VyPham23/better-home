@@ -1,4 +1,3 @@
-import React from "react";
 import BlackSection from "../../components/Blackbox/blacksection";
 import CarouselFadeExample from "../../components/Carousel/Carousel";
 
