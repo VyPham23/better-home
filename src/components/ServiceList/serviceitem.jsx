@@ -4,7 +4,7 @@ import sv from './47.png';
 
 const ServiceItem = ({name}) => {
     return (
-        <div className="text-center col-lg-3 col-12 col-md-6">
+        <div className="text-center col-lg-6 col-12 col-md-6">
             <div className="sv">
                 <div className="sv-image">
                     <img className="img-fluid" src={sv} alt="flat" />
