@@ -49,3 +49,11 @@
     height: 50px;
     padding: 25px;
 }
+
+.ft-row{
+    margin: 25px auto;
+}
+
+.type, .park, .built, .lot, .heating{
+    text-transform: uppercase;
+}

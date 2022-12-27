@@ -36,7 +36,18 @@ const DetailDes = () => {
                             The city is located in the South Bay region of the Greater Los Angeles area; it is one of the three Beach Cities.</span>
                     </div>
                     <div class="col-md-12 col-lg-4 col-xl-4 dt-all">
-                        
+                        <div class="row">
+                            <div className="col-lg-6 type">Type</div>
+                            <div className="col-lg-6 park">Park</div>
+                        </div>
+                        <div class="row">
+                            <div className="col-lg-6 built">Built</div>
+                            <div className="col-lg-6 lot">Lot</div>
+                        </div>
+                        <div class="row">
+                            <div className="col-lg-6 heating">Heating</div>
+                            <div></div>
+                        </div>
                     </div>
                 </div>
             </div>
