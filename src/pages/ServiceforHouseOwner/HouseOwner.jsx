@@ -7,13 +7,12 @@ import Footer from '../../components/Footer/footer';
 
 function HouseOwner(){
     return(
-        <>
+        <div style={ {overflowX: "hidden"} }>
             <UpperNav/>
             <Navbar/>
             <Sell/>
             <Footer/>
-        </>
-
+        </div>
     );
 }
 

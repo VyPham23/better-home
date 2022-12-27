@@ -30,6 +30,11 @@ header {
     display: flex;
 }
 
+.main-nav div{
+    display: flex;
+    justify-content: center;
+}
+
 .left-nav a, .right-nav a {
     color: #000000;
     text-decoration: none;
@@ -37,8 +42,6 @@ header {
     font-size: 0.7rem;
     letter-spacing: 2px;
     text-transform: uppercase;
-    justify-content: space-around;
-    align-items: center;
     font-weight: 600;
 }
 
@@ -69,9 +72,24 @@ header {
     overflow-wrap: break-word;
 }
     
-@media only screen and (min-width: 430px) and (max-width: 530px){
+@media only screen and (min-width: 550px) and (max-width: 700px){
 
     .left-nav a, .right-nav a{
-        font-size: 0.5rem;
+        font-size: 0.6rem;
+    }
+}
+
+@media only screen and (min-width: 485px) and (max-width: 549px){
+
+    .left-nav a, .right-nav a{
+        font-size: 0.45rem;
+    }
+}
+
+
+@media only screen and (min-width: 430px) and (max-width: 484px){
+
+    .left-nav a, .right-nav a{
+        font-size: 0.35rem;
     }
 }

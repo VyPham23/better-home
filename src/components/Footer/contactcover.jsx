@@ -10,8 +10,8 @@ const ContactCover = () => {
                     <div className="row">
                         <div className="col-lg-6 mx-auto">
                             <div className="banner-area text-center pt-4 pb-4">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <h2 className="mt-2 mb-4 banner-title">Need for IT Solution Service</h2>
+                                <p>We supply the best apartment service for human</p>
+                                <h2 className="contact-title mt-2 mb-4">Need For Apartment Service</h2>
                             </div>
                             <div>
                                 <button className="contact-btn">Contact Us</button>

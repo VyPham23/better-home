@@ -9,7 +9,7 @@ import './AboutUs.css'
 
 function AboutUs() {
   return (
-    <div className='Aboutus_mainpage'>
+    <div className='Aboutus_mainpage' style={ {overflowX: "hidden"} }>
       <UpperNav/>
       <Navbar/>
       <IntroAboutUs/>

@@ -1,49 +1,62 @@
-.footer{
-    padding:4rem 0;
+.footer {
+    padding: 4rem 0;
     background: #FFFFFF;
     color: #393a42;
 }
-.footer .fa-instagram,.footer .fa-facebook,.footer .fa-twitter{
+
+.footer .fa-instagram,
+.footer .fa-facebook,
+.footer .fa-twitter {
     /* color: #393a42 !important; */
     font-size: 22px;
 }
-.footer-title{
+
+.footer-title {
     font-size: 21px;
     font-weight: bold;
     color: #104C48;
 }
-.footer-ul{
-    margin:0;
-    padding:0;
+
+.footer-ul {
+    margin: 0;
+    padding: 0;
 }
-.footer-ul li{
+
+.footer-ul li {
     list-style: none;
     margin-left: 0;
     margin-bottom: 10px;
     font-size: 15px;
     color: #393a42;
 }
-.footer-other-text{
+
+.footer-other-text {
     font-size: 15px;
     color: #393a42;
 }
-.fa-home{
+
+.fa-home {
     font-size: 30px
 }
-.footer .fa-facebook,.footer .fa-twitter,.footer .fa-instagram{
+
+.footer .fa-facebook,
+.footer .fa-twitter,
+.footer .fa-instagram {
     color: #FFFFFF !important;
     font-size: 20px;
 }
 
-.inp-footer{
+.inp-footer {
     outline: 0;
     border: 0;
 }
-.footer-social{
+
+.footer-social {
     display: flex;
     margin: 0 0 16px;
 }
-.footer-social-item{
+
+.footer-social-item {
     width: 45px;
     height: 45px;
     background: #00908e;
@@ -54,19 +67,50 @@
     align-items: center;
     border-radius: 50%;
 }
-.footer-info-item{
+
+.footer-info-item {
     width: 25px;
 }
 
-.footer span{
+.footer span {
     text-align: left;
 }
 
-.contact-btn{
+.contact-btn {
     margin: 15px auto;
     background-color: transparent;
     padding: 15px 30px;
     border-radius: 4px;
     border: solid #FFFFFF 2px;
     color: #FFFFFF;
+}
+
+.contact-title {
+    font-size: 2.1rem;
+}
+
+
+
+@media only screen and (min-width: 650px) and (max-width: 1030px) {
+
+    .contact-title {
+        font-size: 2rem;
+    }
+
+    .contact-btn {
+        margin: 15px auto;
+        padding: 12px 25px;
+    }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 649px) {
+
+    .contact-title {
+        font-size: 1.8rem;
+    }
+
+    .contact-btn {
+        margin: 15px auto;
+        padding: 10px 20px;
+    }
 }

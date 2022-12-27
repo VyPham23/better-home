@@ -9,7 +9,7 @@ import RentaHouse from '../../components/RentAHouse/Rent';
 
 function ServiceforApart() {
   return (
-    <div className='main_serviceApart'>
+    <div className='main_serviceApart' style={ {overflowX: "hidden"} }>
       <UpperNav/>
       <Navbar/>
       <ServiceApart/>

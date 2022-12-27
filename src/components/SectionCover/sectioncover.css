@@ -21,7 +21,7 @@
 
 .banner-title{
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
 }
 
 .container{
@@ -76,7 +76,7 @@
 @media only screen and (min-width: 770px) and (max-width: 789px){
 
     .banner-title{
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     .des{
@@ -92,7 +92,7 @@
 @media only screen and (min-width: 430px) and (max-width: 769px){
 
     .banner-title{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 
     .prop-des{

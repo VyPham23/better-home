@@ -5,15 +5,13 @@ import './footer.css';
 const Footer = () => {
     return (
         <section className="footer">
-
-        {/* <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"/> */}
+            
             <ContactCover/>
 
             <div className="container">
                 <div className="row">
 
-                    <div className="col-lg-4 col-md-6">
+                    <div className="block-infor col-lg-4 col-md-6">
                         <div className="footer-title d-flex">
                             <i className="fas fa-home"></i> <p> &nbsp; Better Home</p>
                         </div>
@@ -37,7 +35,7 @@ const Footer = () => {
                         </ul>
                         
                     </div>
-                    <div className="col-lg-3 col-md-6">
+                    <div className="block-infor col-lg-3 col-md-6">
                         <p className="footer-title d-flex">Menu</p>
                         <ul className="footer-ul">
                             <li className="d-flex">Buy</li>
@@ -47,7 +45,7 @@ const Footer = () => {
                             <li className="d-flex">Real Estate fo Business</li>
                         </ul>
                     </div>
-                    <div className="col-lg-3 col-md-6">
+                    <div className="block-infor col-lg-3 col-md-6">
                         <div>
                             <p className="footer-title d-flex">Our Company</p>
                             <ul className="footer-ul">
@@ -60,7 +58,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-2 col-md-6">
+                    <div className="block-infor col-lg-2 col-md-6">
                         <p className="footer-title d-flex">Social Media</p>
                         <div className="footer-social">
                             <div className="footer-social-item"><i className="fab fa-facebook"></i></div>
