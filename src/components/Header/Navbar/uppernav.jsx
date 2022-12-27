@@ -1,10 +1,8 @@
-import React from 'react';
 import './navbar.css';
-
 
 function UpperNav (props) {    
     return (
-        <header>
+        <header style={{overflow: "hidden"}}>
             <nav className='upper-nav'>
                 <div className='left-nav'>
                     <a href='/'>Home</a>

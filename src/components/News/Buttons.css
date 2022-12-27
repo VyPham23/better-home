@@ -58,47 +58,53 @@
 .card_title_news, .card_text_news{
     text-align: justify;
 }
-@media only screen and (min-width: 400px) and (max-width: 540px){
 
-    .buttons_news{
-        padding: 15px ;
-    }
+.news_information{
+    display: flex;
+    justify-content: space-between;
 }
+
 @media only screen and (min-width: 900px) and (max-width: 1100px){
+
+    .lastest{
+        font-size: 2.5rem;
+    }
+
     .card_body_news{
         height: 220px;
     }
     .card_text_news{
         font-size: 0.8rem;
     }
-}
-@media only screen and (min-width: 250px) and (max-width: 399px){
 
-    .all_buttons_news{
-        padding: 5px;
+    .news_information span{
+        font-size: 0.8rem;
     }
+
     .card_title_news{
         font-size: 1rem;
     }
-    .card_text_news{
-        font-size: 0.7rem;
-    }
-    .buttons_news{
-        padding: 10px ;
-    }
-    .card_body_news{
-        height: 180px;
-    }
-    .lastest {
-        top: 15px;
-        position: relative;
-    }
-   
 }
-@media only screen and (min-width: 250px) and (max-width: 360px){
 
-    .left_news{
-        margin-right: 20px;
+@media only screen and (min-width: 430px) and (max-width: 899px){
+
+    .lastest{
+        font-size: 2rem;
     }
-   
+
+    .card_body_news{
+        height: 220px;
+    }
+    .card_text_news{
+        font-size: 0.8rem;
+    }
+
+    .news_information span{
+        font-size: 0.8rem;
+    }
+
+    .card_title_news{
+        font-size: 1rem;
+    }
 }
+

@@ -11,7 +11,6 @@ function News() {
       <Navbar/>
       <ButtonsNews/>
       <Footer/>
-
     </div>
   )
 }
