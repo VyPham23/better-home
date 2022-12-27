@@ -48,23 +48,8 @@
     font-weight: bolder;
 }
 
-@media (max-width:990px) {
-    /* .intro_container {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 60px;
-        flex-basis: 100%;
-        font-size: 0.7rem;
-    }
 
-    .intro_button {
-        flex-wrap: wrap;
-        font-size: 0.6rem;
-    } */
-    
-}
-
-@media only screen and (min-width: 650px) and (max-width: 1030px){
+@media only screen and (min-width: 650px){
 
     .intro_button{
         font-size: 0.8rem;
