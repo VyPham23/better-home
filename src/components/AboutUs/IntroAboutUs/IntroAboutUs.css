@@ -1,32 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,600&display=swap');
 
-.IntroAbout{
-    font-family: 'Open Sans';
-    margin-top: 60px;
+.aboutUs_main{
+    margin-top: 90px;
+    scroll-behavior: smooth; 
 }
 .aboutText{
-    padding: 90px;
+    padding: 70px;
 }
 .aboutText .title_aboutus{
     width: 200px;
     rotate: 270deg; 
-    margin-left: -90px;
+    margin-left: -50px;
     /* display: flex; */
     margin-top: 70px;
     color: #00908E;
-    font-weight: 700px;
+    font-weight: 800px;
 }
-.aboutText .title_aboutUs_2{
-    rotate: -270deg;
+
+.aboutText .title_aboutus_2{
     width: 200px;
-    margin-right: -90px;
+    rotate: -270deg; 
+    margin-left: -70px;
+    /* display: flex; */
     margin-top: 70px;
     color: #00908E;
-    font-weight: 700px;
+    font-weight: 800px;
 }
-.aboutText p{
-    text-align: start;
-    font-family: 'Open Sans';
+
+/* .aboutText .title_aboutUs_2{
+    margin-right: -50px;
+    rotate: -270deg;
+    width: 200px;
+    background-color: red;
+    margin-top: 70px;
+    color: #00908E;
+    font-weight: 800px;
+} */
+.aboutTextP p{
+    text-align: justify;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
@@ -38,5 +48,6 @@
     height: 434px;
     object-fit: cover;
     width: 100%;
+    
 }
 
