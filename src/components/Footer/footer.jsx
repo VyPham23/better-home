@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
 
-                    <div className="col-lg-4 col-md-6">
+                    <div className="block-infor col-lg-4 col-md-6">
                         <div className="footer-title d-flex">
                             <i className="fas fa-home"></i> <p> &nbsp; Better Home</p>
                         </div>
@@ -35,7 +35,7 @@ const Footer = () => {
                         </ul>
                         
                     </div>
-                    <div className="col-lg-3 col-md-6">
+                    <div className="block-infor col-lg-3 col-md-6">
                         <p className="footer-title d-flex">Menu</p>
                         <ul className="footer-ul">
                             <li className="d-flex">Buy</li>
@@ -45,7 +45,7 @@ const Footer = () => {
                             <li className="d-flex">Real Estate fo Business</li>
                         </ul>
                     </div>
-                    <div className="col-lg-3 col-md-6">
+                    <div className="block-infor col-lg-3 col-md-6">
                         <div>
                             <p className="footer-title d-flex">Our Company</p>
                             <ul className="footer-ul">
@@ -58,7 +58,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-2 col-md-6">
+                    <div className="block-infor col-lg-2 col-md-6">
                         <p className="footer-title d-flex">Social Media</p>
                         <div className="footer-social">
                             <div className="footer-social-item"><i className="fab fa-facebook"></i></div>
