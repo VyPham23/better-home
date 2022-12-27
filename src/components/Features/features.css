@@ -1,9 +1,9 @@
+
 .fd-item, .dt-body {
     background: #fff;
-    padding: 35px;
+    padding: 30px;
     border-radius: 4px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0;
     box-shadow: 0 8px 24px rgb(149 157 165 / 20%);
 }
 
@@ -15,6 +15,37 @@
     text-align: justify;
 }
 
-.ft-container{
-    margin: auto auto;
+.ft-container, .des-container{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.left-side, .right-side{
+    background-color: #ffffff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.dt-body-0{
+    height: 50px;
+    box-shadow: 0 8px 24px rgb(149 157 165 / 20%);
+}
+
+.left-text{
+    margin: auto;
+}
+
+.middle-part{
+    background-color: transparent;
+    padding: 0;
+}
+
+.txt-ctn{
+    margin: auto;
+}
+
+.upper{
+    height: 50px;
+    padding: 25px;
 }

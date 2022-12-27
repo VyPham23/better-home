@@ -3,6 +3,23 @@ import React from 'react';
 const DetailDes = () => {
     return (
         <div className="des-container">
+            {/* <div className="dt-body-0">
+            </div> */}
+            <div className="dt-body upper">
+                <div class="row up-part">
+                    <div class="col-md-0 col-lg-4 col-xl-4 left-side">
+                        <span className="left-text">Photos</span>
+                    </div>
+                    <div class="col-md-0 col-lg-4 col-xl-4 middle-part">
+                    </div>
+                    <div class="col-md-12 col-lg-4 col-xl-4 right-side">
+                        <div className="txt-ctn">
+                            <span className="left-text">Schedule A Visit</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             <div className="dt-body">
                 <div class="row">
                     <div class="col-md-12 col-lg-2 col-xl-2 dt-price">
