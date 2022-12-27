@@ -50,12 +50,12 @@ const NewsList = () => {
                                 <div className="news-description">
                                     <div className="mb-3 news-text">
                                         <h4><a href="/"> {news.title_news} </a></h4>
-                                        <div className='mb-1' style={{display: "flex", justifyContent: "space-between"}}>
+                                        <div className='news-infor mb-1' style={{display: "flex", justifyContent: "space-between"}}>
                                             <span><i class="bi bi-eye"></i> {news.view_count}</span>
                                             <span><i class="bi bi-pencil"></i> {news.author_news}</span>
                                             <span><i class="bi bi-calendar-minus"></i> {news.created_at ? getDate(news.created_at) : ""}</span>
                                         </div>
-                                        <span >{news.intro_news}</span><br />
+                                        <span className='news-intro' >{news.intro_news}</span><br />
                                     </div>
                                 </div>
                             </div>
