@@ -38,7 +38,7 @@
 .aboutTextP p{
     text-align: justify;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 22px;
     color: black;
     font-style: normal;
@@ -51,3 +51,26 @@
     
 }
 
+@media only screen and (min-width: 650px) and (max-width: 1030px) {
+
+    .title_aboutus, .title_aboutus_2{
+        font-size: 2rem;
+    }
+
+    .aboutTextP p{
+        font-size: 0.8rem;
+    }
+
+}
+
+@media only screen and (min-width: 430px) and (max-width: 649px) {
+
+    .title_aboutus, .title_aboutus_2{
+        font-size: 1.7rem;
+    }
+
+    .aboutTextP p{
+        font-size: 0.7rem;
+    }
+
+}
