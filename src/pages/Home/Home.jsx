@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import BlackSection from "../../components/Blackbox/blacksection";
 import CarouselFadeExample from "../../components/Carousel/Carousel";
 
@@ -11,41 +12,61 @@ import UpperNav from "../../components/Header/Navbar/uppernav";
 import Intro from "../../components/Intro/intro";
 import NewsList from "../../components/News/newslist";
 
-import SectionServiceOwner from "../../components/SectionCover/SectionServiceOwner";
-import SectionForRent from "../../components/SectionCover/SectionForRent";
-import SectionForSell from "../../components/SectionCover/SectionForSell";
-import SectionServiceApart from "../../components/SectionCover/SectionServiceApart";
-
+import SectionCover from "../../components/SectionCover/SectionCover";
 import ServiceList from "../../components/ServiceList/servicelist";
-// import Product from "../../components/Product/product";
+
+import pic1 from './pic1.jpg';
+import pic2 from './pic2.jpg';
+import pic3 from './pic3.jpg';
+import pic4 from './pic4.jpg';
 
 const Home = () => {
+
+    const [description, setDescription] = useState("Hermosa Beach is a beachfront city in Los Angeles County in the U.S. state of California, United States. Its population was 19,728 at the 2020 U.S. Census. The city is located in the South Bay region of the Greater Los Angeles area; it is one of the three Beach Cities.")
+    const [numApart, setNumApart] = useState(0)
+
     return (
         <div style={{ overflowX: "hidden" }}>
-            <UpperNav/>
-            <Navbar/>
-            <CarouselFadeExample/>
-            
-            <BlackSection/>
-            <Intro/>
+            <UpperNav />
+            <Navbar />
+            <CarouselFadeExample />
 
-            <SectionForRent/>
-            <FlatForRent/>
+            <BlackSection />
+            <Intro />
 
-            <SectionForSell/>
-            <FlatForSell/>
+            <SectionCover
+                nameSection="Rent A House"
+                description={description}
+                numApart={100}
+                picture={pic1} />
+            <FlatForRent />
 
-            <SectionServiceApart/>
-            <ServiceApart/>
+            <SectionCover
+                nameSection="Buy A House"
+                description={description}
+                numApart={200}
+                picture={pic2} />
+            <FlatForSell />
 
-            <SectionServiceOwner/>
-            <ServiceList/>
+            <SectionCover
+                nameSection="Service Apartment"
+                description={description}
+                numApart={150}
+                picture={pic3} />
+            <ServiceApart />
 
-            <NewsList/>
-            <Footer/>
-            
+            <SectionCover
+                nameSection="Service House Owner"
+                description={description}
+                numApart={120}
+                picture={pic4} />
+            <ServiceList />
+
+            <NewsList />
+            <Footer />
+
         </div>
-        
+
     );
 };
 
