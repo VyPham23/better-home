@@ -8,7 +8,7 @@ import MapbannerRent from '../../components/RentAHouse/MapRent';
 
 function RentAHouse() {
   return (
-    <div className='body_rentaHouse'>
+    <div className='body_rentaHouse' style={ {overflowX: "hidden"} }>
       <UpperNav/>
       <Navbar/>
       {/* banner map */}
