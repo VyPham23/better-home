@@ -1,38 +1,84 @@
-.bg-rent-button {
-    background-color: #00908E !important;
+.Rentahouse_sec{
+    margin: 0;
+    height: 100%;
+    width: 100%;
 }
-.buttonsRent{
-    height: 7vh;
-    width: 20vw;
-    margin: 0 15px;
-    border-radius: 5px;
+.mapImg img{
+    height: 80%;
+    width: 100%;  
+  
+}
+
+.title_address{
+    /* margin-top: 30px; */
+    margin-bottom: 40px;
     background-color: #00908E;
-    color: aliceblue;
-    border: none;
-    box-shadow: 2px 2px 4px black;
-    left: 50px;
-    position: relative;
+    margin-left: 100px;
+    border-radius: 10px;
+    width: 200px;
+    height: 45px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.func {
-    position: relative;
-    top: 140px;
+
+.title_address h6{
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.readmore1{
-    position: relative;
-    text-align: right;
-    bottom: 50px;
+.title_address{
+    margin-top: -20px;
+}
+
+.Rentahouse_sec .Funvin .card_house img{
+    /* width: 400px; */
+    height: 250px;
+    justify-items: center;
+    align-items: center;
+}
+.Rentahouse_sec .Funvin .card_house p{
+    text-align: justify;
+}
+.cardHouse_main{
+    justify-content: center;
+    align-items: center;
+}
+.Rentahouse_sec .Funvin .card_house{
+    margin-top: 5px;
+    margin-bottom: 20px ;
+}
+.button-readMore{
+    margin-right: 30px;
+}
+.button-readMore button{
+    background-color: white;
     color: #00908E;
+    font-weight: 700;
+    font-size: 13px;
+    height: 30px;
+    margin-top: 20px;
 }
-@media only screen and (min-width: 250px) and (max-width: 700px){
-    
-    .buttonsRent{
-        width: 42vw;
-    }
+.button-readMore button .icon_readMore{
+    display: inline-flex;
+    font-size: medium;
+}
+.dropdown_title{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: #00908E;
+    margin-left: 100px;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.dropdown_title .dropdown_element{
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-/* .imgrent{
-    position: relative;
-    height: 300px;
-    width: 400px;
-} */
+}

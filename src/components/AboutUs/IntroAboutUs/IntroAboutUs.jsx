@@ -6,61 +6,40 @@ import aboutUs_2 from './aboutUs_2.jpg';
 
 const IntroAboutUs = () =>{
     return(
-        <main className='IntroAbout'>
-            {/* intro 2 */}
-            <Row span={12} className='aboutUs_main'>
-                <Col span={12} className="aboutText">
-                    <Row>
-                        <Col xs={10} sm={8} md={8} lg={6} xl={4}>
-                            <h1 className='title_aboutus'>ABOUT US</h1>
-                        </Col>
-                        <Col xs={24} sm={16} md={16} lg={18} xl={20}>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Sed velit orci, bibendum id malesuada sed, elementum ac sem. Sed sem erat, placerat nec tellus vel, pretium auctor erat. 
-                                In bibendum tincidunt urna ac blandit. 
-                                Sed aliquam vestibulum quam et sollicitudin. 
-                                Vivamus vehicula est nec molestie eleifend. 
-                                <br></br><br></br>
-                                In bibendum tincidunt urna ac blandit. 
-                                Sed aliquam vestibulum quam et sollicitudin. 
-                                Vivamus vehicula est nec molestie eleifend. 
-                            </p>
-                        </Col>
-                    </Row>
+        <main style={{padding:'0px', margin:'0px'}}>
+            {/* ABOUT us 1 */}
+            <Row className='aboutUs_main' gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+                <Col xs={4} sm={4} md={2} lg={2} xl={2} className="aboutText">
+                    <h1 className='title_aboutus'>ABOUT US</h1>
                 </Col>
-                <Col xs={24} sm={24} md={12} lg={12} xl={12} className='aboutImage'>
+
+                <Col xs={19} sm={19} md={10} lg={11} xl={8} className='aboutTextP'>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                    </p>
+                </Col>
+                
+                <Col xs={24} sm={24} md={12} lg={11} xl={14} className='aboutImage'>
                     <img src={aboutUs_1} alt='aboutUsImg1'></img>
                 </Col>
-            </Row><br></br>
+            </Row>
 
 
             {/* intro 2 */}
-            <Row span={12} className='aboutUs_main'>
-                <Col xs={24} sm={24} md={12} lg={12} xl={12} className='aboutImage'>
+            <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }} className='aboutUs_main'>
+                <Col xs={24} sm={24} md={12} lg={11} xl={14} className='aboutImage'>
                     <img src={aboutUs_2} alt='aboutUsImg2'></img>
                 </Col>
                 
-                <Col span={12} className="aboutText">
-                    <Row>
-                        <Col xs={16} sm={16} md={16} lg={18} xl={20}>
-                            <p style={{marginLeft:"15px"}}>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Sed velit orci, bibendum id malesuada sed, elementum ac sem. Sed sem erat, placerat nec tellus vel, pretium auctor erat. 
-                                In bibendum tincidunt urna ac blandit. 
-                                Sed aliquam vestibulum quam et sollicitudin. 
-                                Vivamus vehicula est nec molestie eleifend. 
-                                <br></br><br></br>
-                                In bibendum tincidunt urna ac blandit. 
-                                Sed aliquam vestibulum quam et sollicitudin. 
-                                Vivamus vehicula est nec molestie eleifend. 
-                            </p>
-                        </Col>
-                        <Col xs={8} sm={8} md={8} lg={6} xl={4}>
-                            <h1 className='title_aboutUs_2'>ABOUT US</h1>
-                        </Col>
-                    </Row>
+                <Col xs={19} sm={19} md={10} lg={11} xl={8} className='aboutTextP'>
+                    <p style={{marginLeft:"25px", marginTop:'20px'}}>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                    </p>
                 </Col>
+                <Col xs={4} sm={4} md={2} lg={2} xl={2} className="aboutText">
+                    <h1 className='title_aboutus_2'>ABOUT US</h1>
+                </Col>
+                    
                 
             </Row>
         </main>

@@ -11,10 +11,10 @@ const Sell = () =>{
         <section>                
             {/* SELL YOUR HOUSE */}
             <Row className='sellfHouseOwner' gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-                <Col xs={1} sm={1} md={1} lg={1} xl={1}>
+                <Col xs={1} sm={1} md={1} lg={1} xl={2}>
                     <div className='greenLine' style={{float:'left'}}></div>
                 </Col>
-                <Col  xs={23} sm={23} md={11} lg={11} xl={10}>
+                <Col  xs={23} sm={23} md={11} lg={11} xl={9}>
                     <div className="sellhouse_info">
                         <h1><span style={{color:'#00908E'}}>Sell</span> Your House</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit orci, bibendum id malesuada sed, 
@@ -37,12 +37,12 @@ const Sell = () =>{
             {/* Rent out your house */}
          
             <Row className='rentoutHouse' gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-                <Col className="imgSell" xs={24} sm={24} md={12} lg={12} xl={13}>
+                <Col className="imgSell" xs={24} sm={24} md={24} lg={13} xl={13}>
                     <img src={serviceImage2} alt='rentOutmage'></img>
                 </Col>
                 
-                <Col  xs={23} sm={23} md={11} lg={11} xl={10}>
-                    <div className="sellhouse_info">
+                <Col  xs={23} sm={23} md={23} lg={10} xl={10}>
+                    <div className="sellhouse_info" style={{marginLeft:'40px'}}>
                         <h1><span style={{color:'#00908E'}}>Rent Out</span> Your House</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit orci, bibendum id malesuada sed, 
                             elementum ac sem. Sed sem erat, placerat nec tellus vel, pretium auctor erat. 
@@ -57,7 +57,7 @@ const Sell = () =>{
                     </div>
                 </Col>
                 <Col xs={1} sm={1} md={1} lg={1} xl={1}>
-                    <div className='greenLine' style={{float:'right'}}></div>
+                    <div className='greenLine' style={{float:'right', clear:'right'}}></div>
                 </Col>
             </Row>
 
