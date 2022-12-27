@@ -56,3 +56,35 @@
 .image_manage img{
     height: 700px;
 }
+
+@media only screen and (min-width: 650px) and (max-width: 1030px) {
+
+    .sellhouse_info h1{
+        font-size: 1.8rem;
+    }
+
+    .sellhouse_info p{
+        font-size: 0.8rem;
+    }
+
+    .image_manage img{
+        height: 600px;
+    }
+
+}
+
+@media only screen and (min-width: 430px) and (max-width: 649px) {
+
+    .sellhouse_info h1{
+        font-size: 1.8rem;
+    }
+
+    .sellhouse_info p{
+        font-size: 0.8rem;
+    }
+
+    .image_manage img{
+        height: 500px;
+    }
+
+}
