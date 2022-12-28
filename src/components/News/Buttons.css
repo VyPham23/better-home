@@ -99,12 +99,16 @@
 
 @media only screen and (max-width: 475px){
 
-    .news_information{
-        display: block;
+    .box-news{
+        width: 90%;
     }
+    
+}
 
-    .news_information div{
-        margin-bottom: 10px;
+@media only screen and (max-width: 395px){
+
+    .box-news{
+        width: 100%;
     }
     
 }

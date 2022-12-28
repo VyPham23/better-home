@@ -1,9 +1,7 @@
-import React from 'react'
 import './Buttons.css'
 import { Container } from 'react-bootstrap'
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 import { useState, useEffect } from 'react';
 
