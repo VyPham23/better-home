@@ -6,7 +6,6 @@
 
 .agn, .cpn{
     /* width: 50%; */
-    position: relative;
     height: 120px;
     display: flex;
     margin: 0;
@@ -34,7 +33,7 @@
     margin: auto;
 }
 
-@media only screen and (min-width: 650px) and (max-width: 1030px){
+@media only screen and (max-width: 1030px){
 
     .txt-area h4{
         font-size: 1.3rem;
@@ -49,7 +48,7 @@
     }
 }
 
-@media only screen and (min-width: 430px) and (max-width: 649px){
+@media only screen and (max-width: 649px){
 
     .txt-area h4{
         font-size: 1rem;

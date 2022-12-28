@@ -50,7 +50,7 @@
 }
 
 
-@media only screen and (min-width: 650px) and (max-width: 1030px){
+@media only screen and (max-width: 1030px){
 
     .intro_button{
         font-size: 0.8rem;
@@ -59,7 +59,7 @@
 
 }
 
-@media only screen and (min-width: 430px) and (max-width: 649px){
+@media only screen and (max-width: 649px){
 
     #title{
         font-size: 1.8rem;

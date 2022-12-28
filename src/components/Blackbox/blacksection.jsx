@@ -8,7 +8,6 @@ const BlackSection = () => {
         <div className="black">
             <div className="row">
                 <div className="col-lg-6 agn">
-                {/* <div className="agn"> */}
                     <div className="black-pic">
                         <img src={Pic1} alt="pic" />
                     </div>
