@@ -1,132 +1,230 @@
-.buttons_contact {
-    background: rgba(255, 255, 255, 0.3);
-    mix-blend-mode: darken;
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 5px;
-    position: relative;
-    margin-top: 5px;
+.buttons_contact{
+    overflow-x: hidden;
+}
 
-}
-.button_contact1{
-    padding-bottom: 35px;
-}
 #title1 {
     font-size: 2.5rem;
-    position: relative;
     top: 30px;
     color: black;
 }
 #title2 {
     font-size: 1rem;
-    position: relative;
     top: 40px;
     color: black;
 }
-.person_buttons_contact{
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    margin: 10px;
-    position: relative;
-}
-.intro_button_1 {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    top: 50px;
-    font-size: 0.65rem;
-}
 
 .intro_button_2 {
-    height: 17vh;
-    width: 17vw;
-    margin: 0 15px;
     border-radius: 5px;
     background-color: #00908E;
-    color: aliceblue;
+    font-size: 0.9rem;
+    width: 300px;
+    height: 150px;
+    padding: 12px;
+    color: #fff;
     border: none;
-    box-shadow: 2px 2px 4px black;  
 }
-.text_contact {
-    top: 50px;
-    font-size: 3rem;
-    right: 180px;
-    position: relative;
-}
-.card-text{
-    top: 70px;
-    position: relative;
-}
-.news_contact{
-    right: 80px;
-    position: relative;
-}
+
+
+/*----------------------------------------*/
 .img1 , .img2 , .img3{
     height: 40px;
     width: 40px;
 }
-.text_contact1, .text_contact2, .text_contact3{
-    text-align: center;
+
+.contact-area{
+    display: flex;
+    justify-content: space-around;
 }
-.intro_button_2{
-    padding: 10px;
-    margin: 10px;
-    align-items: center;
+
+.contact-block{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-contact{
+    padding: 24px 12px;
+}
+
+.contact-top{
     position: relative;
-    font-size: 0.55rem;
 }
-@media only screen and (min-width: 250px) and (max-width: 850px) {
-    .intro_button_2{
-        width: 80%;
-        font-size: 0.5rem;
-    }
-    .text_contact {
-        font-size: 1.8rem;
-        right: 0px;
-        position: relative;
-    }
-    .news_contact{
-        right: 0px;
-        position: relative;
-    }
+
+.contact_details{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 12px;
+    padding: 0 100px 0 0;
+}
+
+.contact-name{
+    background-color: #01918e;
+    opacity: 80%;
+    width: 60%;
+    border-top-left-radius: 25px;
+    padding: 8px;
+    color: #fff;
+    bottom: 0px;
+    position: absolute;
+}
+
+.image-contact-ava{
+    height: 25rem;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1030px) {
+
     .img1 , .img2 , .img3{
-        height: 32px;
-        width: 32px;
+        height: 35px;
+        width: 35px;
     }
-}
-@media only screen and (min-width: 700px) and (max-width: 1000px){
-    .intro_button_2{
-        width: 80%;
-        font-size: 0.5rem;
+
+    .contact_details{
+        padding: 0 50px 0 0;
     }
-}
-@media only screen and (min-width: 250px) and (max-width: 767px) {
-    .buttons_contact {
-        bottom: 70px;
+
+    .text_contact_details{
+        font-size: 0.85rem;
     }
-}
-@media only screen and (min-width: 550px) and (max-width: 1100px) {
-    .text_contact1, .text_contact2, .text_contact3{
-        font-size: 0.9rem;
+
+    .text_contact{
+        font-size: 2.5rem;
     }
-}
-@media only screen and (min-width: 375px) and (max-width: 549px) {
-    .text_contact1, .text_contact2, .text_contact3{
-        font-size: 0.7rem;
+
+    #title1{
+        font-size: 2rem;
     }
+
 }
-@media only screen and (min-width: 250px) and (max-width: 375px) {
-    .text_contact1, .text_contact2, .text_contact3{
+
+@media only screen and (max-width: 999px) {
+
+    .contact_details{
+        padding: 0 120px 0 0;
+    }
+
+    .text_contact_details{
+        font-size: 0.8rem;
+    }
+
+    .image-contact-ava{
+        height: 24rem;
+    }
+
+    .contact-name{
+        font-size: 0.8rem;
+    }
+
+    .contact-block{
+        margin-bottom: 12px;
+        width: 50%;
+    }
+
+    .box{
+        margin-bottom: 12px;
+    }
+
+    .text_contact{
+        font-size: 2.5rem;
+    }
+
+    #title1{
+        font-size: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 894px) {
+
+    .contact_details{
+        padding: 0 70px 0 0;
+    }
+
+    .image-contact-ava{
+        height: 20rem;
+    }
+
+    .contact-block{
+        margin-bottom: 12px;
+        width: 60%;
+    }
+
+    .box{
+        margin-bottom: 12px;
+    }
+
+    .text_contact{
+        font-size: 2.3rem;
+    }
+
+    #title2{
+        font-size: 0.8rem;
+    }
+
+}
+
+@media only screen and (max-width: 654px) {
+
+    .img1 , .img2 , .img3{
+        height: 25px;
+        width: 25px;
+    }
+
+    .contact_details{
+        padding: 0 80px 0 0;
+    }
+
+    .text_contact_details{
+        font-size: 0.65rem;
+    }
+
+    .image-contact-ava{
+        height: 18rem;
+    }
+
+    .contact-name{
         font-size: 0.6rem;
     }
-    .news_contact{
-        display: none;
 
+    #title1{
+        font-size: 1.8rem;
     }
-    .intro_button_1{
-        top: 20px;
+
+}
+
+@media only screen and (max-width: 580px) {
+
+    .img1 , .img2 , .img3{
+        height: 25px;
+        width: 25px;
+    }
+
+    .contact_details{
+        padding: 0 80px 0 0;
+    }
+
+    .text_contact_details{
+        font-size: 0.65rem;
+    }
+
+    .image-contact-ava{
+        height: 22rem;
+    }
+
+    .contact-name{
+        font-size: 0.6rem;
+    }
+
+    .contact-block{
+        margin-bottom: 12px;
+        width: 70%;
+    }
+
+    .text_contact{
+        font-size: 2rem;
+    }
+
+    #title1{
+        font-size: 1.8rem;
     }
 }

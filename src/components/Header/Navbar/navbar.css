@@ -68,6 +68,10 @@ header {
     color: #FF718E;
 }
 
+.left-nav :hover, .right-nav :active{
+    color: #FF718E;
+}
+
 .nav-item{
     overflow-wrap: break-word;
 }
