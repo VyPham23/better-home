@@ -61,9 +61,9 @@ const Footer = () => {
                     <div className="block-infor col-lg-2 col-md-6">
                         <p className="footer-title d-flex">Social Media</p>
                         <div className="footer-social">
-                            <div className="footer-social-item"><i className="fab fa-facebook"></i></div>
-                            <div className="footer-social-item"><i className="fab fa-twitter"></i></div>
-                            <div className="footer-social-item"> <i className="fab fa-instagram"></i></div>
+                            <div className="footer-social-item fbicon"><i className="fab fa-facebook-f"></i></div>
+                            <div className="footer-social-item twticon"><i className="fab fa-twitter"></i></div>
+                            <div className="footer-social-item igicon"> <i className="fab fa-instagram"></i></div>
                         </div>
                     </div>
 
