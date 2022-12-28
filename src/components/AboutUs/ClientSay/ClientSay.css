@@ -102,8 +102,6 @@
     }
 
     .clientSay .info_clientSay .messages-client{
-        display: flex;
-        justify-content: center;
         padding: 0 100px;
     }
 }
@@ -127,8 +125,13 @@
     }
 
     .clientSay .info_clientSay .messages-client{
-        display: flex;
-        justify-content: center;
         padding: 0 120px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    .clientSay .info_clientSay .messages-client{
+        padding: 0 80px;
     }
 }
