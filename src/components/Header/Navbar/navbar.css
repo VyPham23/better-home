@@ -76,14 +76,14 @@ header {
     overflow-wrap: break-word;
 }
     
-@media only screen and (min-width: 550px) and (max-width: 700px){
+@media only screen and (max-width: 700px){
 
     .left-nav a, .right-nav a{
         font-size: 0.6rem;
     }
 }
 
-@media only screen and (min-width: 485px) and (max-width: 549px){
+@media only screen and (max-width: 549px){
 
     .left-nav a, .right-nav a{
         font-size: 0.45rem;
@@ -91,9 +91,14 @@ header {
 }
 
 
-@media only screen and (min-width: 430px) and (max-width: 484px){
+@media only screen and (max-width: 484px){
 
     .left-nav a, .right-nav a{
         font-size: 0.35rem;
+    }
+
+    .main-nav .left-nav{
+        display: flex;
+        justify-content: initial;
     }
 }
