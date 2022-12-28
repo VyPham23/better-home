@@ -56,7 +56,7 @@ const Sell = () => {
                     </div>
                 </Col>
                 <Col xs={1} sm={1} md={1} lg={1} xl={2}>
-                    <div className='greenLine' style={{ float: 'left' }}></div>
+                    <div className='greenLine' style={{ float: 'right' }}></div>
                 </Col>
             </Row>
 
