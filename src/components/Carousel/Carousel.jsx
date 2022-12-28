@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState, useEffect } from 'react';
 import './Carousel.css';
+import apartment from './product1.jpeg';
 
 function CarouselFadeExample(props) {
 
@@ -28,15 +29,15 @@ function CarouselFadeExample(props) {
     return (
         <div id="slider">
             <Carousel fade>
-                {sliderList.map((slider) => (
+                {/* {sliderList.map((slider) => ( */}
                     <Carousel.Item>
                         <img
                             className="d-block w-100 cr-img img-fluid"
-                            src={slider.image_slider}
+                            src={apartment}
                             alt="First slide"
                         />
                     </Carousel.Item>
-                ))}
+                {/* // ))} */}
             </Carousel>
         </div>
     );

@@ -1,10 +1,11 @@
 .intro{
     position: static;
+    background-image: url(./sell\ 1.png);
 }
 
 .intro_container {
     /* mix-blend-mode: darken; */
-    background-image: url(./sell\ 1.png);
+    background: rgb(29 34 43 / 35%);
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,7 +50,7 @@
 }
 
 
-@media only screen and (min-width: 650px){
+@media only screen and (min-width: 650px) and (max-width: 1030px){
 
     .intro_button{
         font-size: 0.8rem;
