@@ -27,7 +27,11 @@
     margin-left: 0;
     margin-bottom: 10px;
     font-size: 15px;
+}
+
+.footer-ul a{
     color: #393a42;
+    text-decoration: none;
 }
 
 .footer-other-text {
