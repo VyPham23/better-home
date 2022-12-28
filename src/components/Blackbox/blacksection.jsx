@@ -7,18 +7,18 @@ const BlackSection = () => {
     return (
         <div className="black">
             <div className="row">
-                <div className="col-lg-6 agn">
+                <div className="col-lg-6 col-md-6 col-12 agn">
                     <div className="black-pic">
-                        <img src={Pic1} alt="pic" />
+                        <i class="bi bi-calendar-check"></i>
                     </div>
                     <div className="txt-area">
                         <h4>Our Agent</h4>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, labore.</p>
                     </div>
                 </div>
-                <div className="col-lg-6 cpn">
+                <div className="col-lg-6 col-md-6 col-12 cpn">
                     <div className="black-pic">
-                        <img src={Pic2} alt="pic" />
+                        <i class="bi bi-house-door"></i>
                     </div>
                     <div className="txt-area">
                         <h4>Our Company</h4>

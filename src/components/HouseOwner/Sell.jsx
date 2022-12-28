@@ -38,7 +38,7 @@ const Sell = () => {
 
             <Row className='rentoutHouse' gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
                 <Col className="imgSell" xs={23} sm={23} md={23} lg={12} xl={12}>
-                    <img className='img-fluid' src={seviceImage1} alt='rentOutmage'></img>
+                    <img className='img-fluid' src={serviceImage2} alt='rentOutmage'></img>
                 </Col>
                 <Col xs={23} sm={23} md={23} lg={10} xl={10}>
                     <div className="sellhouse_info" style={{ marginLeft: '40px' }}>

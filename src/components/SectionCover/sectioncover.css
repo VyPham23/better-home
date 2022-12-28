@@ -67,25 +67,9 @@
         font-size: 0.8rem;
     }
 
-    .prop-stat span{
-        font-size: 0.8rem;
-    }
-
 }
 
-@media only screen and (max-width: 789px){
-
-    .des{
-        font-size: 0.6rem;
-    }
-
-    .prop-stat span{
-        font-size: 0.6rem;
-    }
-
-}
-
-@media only screen and (max-width: 769px){
+@media only screen and (max-width: 764px){
 
     .banner-title{
         font-size: 1.8rem;
@@ -98,4 +82,13 @@
     .prop-all{
         margin-top: 10px;
     }
+
+    .des{
+        font-size: 0.6rem;
+    }
+
+    .prop-stat span{
+        font-size: 1.2rem;
+    }
+
 }
