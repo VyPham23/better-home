@@ -1,15 +1,14 @@
 .intro{
-    position: static;
-    background-image: url(./sell\ 1.png);
+    background-image: url(./27.png);
+    height: 500px;
+    background-size: cover!important;
+    background-position: center!important;
+    padding-top: 80px;
+    margin-top: 50px;
 }
 
 .intro_container {
-    /* mix-blend-mode: darken; */
     background: rgb(29 34 43 / 35%);
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     margin-bottom: 50px;
     margin-top: 50px;
 }
@@ -18,17 +17,15 @@
     color: white;
     text-transform: uppercase;
     font-size: 2.5rem;
-    position: relative;
     top: 100px;
     text-shadow: 0.5rem 0.5rem 0.8rem #000000;
 }
 
 .intro_button {
-    position: relative;
     top: 150px;
     display: flex;
     justify-content: space-between;
-    padding: 0 auto;
+    padding: 0 120px;
     font-size: 1rem;
 }
 
@@ -50,16 +47,20 @@
 }
 
 
-@media only screen and (min-width: 650px) and (max-width: 1030px){
+@media only screen and (max-width: 1030px){
 
     .intro_button{
         font-size: 0.8rem;
         padding: 0 100px;
     }
 
+    #title{
+        font-size: 2.2rem;
+    }
+
 }
 
-@media only screen and (min-width: 430px) and (max-width: 649px){
+@media only screen and (max-width: 649px){
 
     #title{
         font-size: 1.8rem;

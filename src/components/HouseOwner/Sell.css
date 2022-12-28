@@ -26,10 +26,7 @@
     line-height: 22px;
     color: #000000;
 }
-.imgSell img{
-    height: 434px;
-    object-fit: cover;
-}
+
 .button-moredetail button{
     height: 50px;
     background-color: white;
@@ -53,11 +50,8 @@
     line-height: 54px;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.14);
 }
-.image_manage img{
-    height: 700px;
-}
 
-@media only screen and (min-width: 650px) and (max-width: 1030px) {
+@media only screen and (max-width: 1030px) {
 
     .sellhouse_info h1{
         font-size: 1.8rem;
@@ -67,24 +61,9 @@
         font-size: 0.8rem;
     }
 
-    .image_manage img{
-        height: 600px;
-    }
-
 }
 
-@media only screen and (min-width: 430px) and (max-width: 649px) {
+@media only screen and (max-width: 649px) {
 
-    .sellhouse_info h1{
-        font-size: 1.8rem;
-    }
-
-    .sellhouse_info p{
-        font-size: 0.8rem;
-    }
-
-    .image_manage img{
-        height: 500px;
-    }
 
 }

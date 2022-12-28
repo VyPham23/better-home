@@ -53,7 +53,7 @@
     
 }
 
-@media only screen and (min-width: 650px) and (max-width: 1030px) {
+@media only screen and (max-width: 1030px) {
 
     .ChooseUs .title_chooseUs{
         font-size: 1.8rem;
@@ -73,7 +73,7 @@
 
 }
 
-@media only screen and (min-width: 530px) and (max-width: 649px) {
+@media only screen and (max-width: 649px) {
 
     .ChooseUs .title_chooseUs{
         font-size: 1.5rem;
@@ -92,15 +92,7 @@
     }
 }
 
-@media only screen and (min-width: 430px) and (max-width: 529px) {
-
-    .ChooseUs .title_chooseUs{
-        font-size: 1.5rem;
-    }
-
-    .list_chooseUs ul li{
-        font-size: 0.65rem;
-    }
+@media only screen and (max-width: 529px) {
 
     .number_ChooseUs h4{
         font-size: 11px;

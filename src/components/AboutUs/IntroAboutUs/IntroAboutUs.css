@@ -45,13 +45,11 @@
 
 }
 .aboutImage img{
-    height: 434px;
-    object-fit: cover;
     width: 100%;
     
 }
 
-@media only screen and (min-width: 650px) and (max-width: 1030px) {
+@media only screen and (max-width: 1030px) {
 
     .title_aboutus, .title_aboutus_2{
         font-size: 2rem;
@@ -63,7 +61,7 @@
 
 }
 
-@media only screen and (min-width: 430px) and (max-width: 649px) {
+@media only screen and (max-width: 649px) {
 
     .title_aboutus, .title_aboutus_2{
         font-size: 1.7rem;

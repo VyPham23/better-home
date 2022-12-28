@@ -21,7 +21,7 @@ const WhyChooseUs = () => {
                 </ul>
             </Col>
             <Col span={10}>
-                <img src={WhyChoose_img1} alt='WhyChoose_img' className='WhyChoose_img1'></img>
+                <img src={WhyChoose_img1} alt='WhyChoose_img' className='WhyChoose_img1 img-fluid'></img>
             </Col>
         </Row>  
 

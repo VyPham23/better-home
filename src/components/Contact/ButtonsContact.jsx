@@ -18,7 +18,7 @@ export default function ButtonsContact() {
           <button className="intro_button_2">
             <i class="bi bi-telephone" style={{ fontSize: 20 }}></i>
             <br />
-            <br />(+84) 090. 453.234
+            <br />(+84) 090 453 234
           </button>
         </div>
         <div className='col-lg-4 col-md-12 col-12 mb-2'>
