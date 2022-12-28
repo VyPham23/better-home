@@ -55,7 +55,7 @@
     padding: 0 150px;
 }
 
-@media only screen and (min-width: 650px) and (max-width: 1030px) {
+@media only screen and (max-width: 1030px) {
 
     .clientSay .title_clientSay{
         font-size: 24px;
@@ -80,7 +80,7 @@
     }
 }
 
-@media only screen and (min-width: 570px) and (max-width: 649px) {
+@media only screen and (max-width: 649px) {
 
     .clientSay .title_clientSay{
         font-size: 22px;
@@ -88,38 +88,10 @@
 
     .clientSay .info_clientSay p{
         font-size: 10px;
-    }
-
-    .clientSay .info_clientSay .img_clientSay{
-        width: 80px;
-        height: 80px;
-        border-radius: 50px;
-    }
-
-    .clientSay .info_clientSay .name_clientSay h3{
-        font-size: 1rem;
-    }
-
-    .clientSay .info_clientSay .name_clientSay p{
-        font-size: 0.8rem;
     }
 }
 
-@media only screen and (min-width: 470px) and (max-width: 569px) {
-
-    .clientSay .title_clientSay{
-        font-size: 22px;
-    }
-
-    .clientSay .info_clientSay p{
-        font-size: 10px;
-    }
-
-    .clientSay .info_clientSay .img_clientSay{
-        width: 80px;
-        height: 80px;
-        border-radius: 50px;
-    }
+@media only screen and (max-width: 569px) {
 
     .clientSay .info_clientSay .name_clientSay h3{
         font-size: 0.8rem;
@@ -136,7 +108,7 @@
     }
 }
 
-@media only screen and (min-width: 430px) and (max-width: 469px) {
+@media only screen and (max-width: 469px) {
 
     .clientSay .title_clientSay{
         font-size: 22px;
@@ -144,12 +116,6 @@
 
     .clientSay .info_clientSay p{
         font-size: 10px;
-    }
-
-    .clientSay .info_clientSay .img_clientSay{
-        width: 80px;
-        height: 80px;
-        border-radius: 50px;
     }
 
     .clientSay .info_clientSay .name_clientSay h3{

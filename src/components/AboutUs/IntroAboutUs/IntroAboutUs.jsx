@@ -20,7 +20,7 @@ const IntroAboutUs = () =>{
                 </Col>
                 
                 <Col xs={24} sm={24} md={12} lg={11} xl={14} className='aboutImage'>
-                    <img src={aboutUs_1} alt='aboutUsImg1'></img>
+                    <img className='img-fluid' src={aboutUs_1} alt='aboutUsImg1'></img>
                 </Col>
             </Row>
 
@@ -28,7 +28,7 @@ const IntroAboutUs = () =>{
             {/* intro 2 */}
             <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }} className='aboutUs_main'>
                 <Col xs={24} sm={24} md={12} lg={11} xl={14} className='aboutImage'>
-                    <img src={aboutUs_2} alt='aboutUsImg2'></img>
+                    <img className='img-fluid' src={aboutUs_2} alt='aboutUsImg2'></img>
                 </Col>
                 
                 <Col xs={19} sm={19} md={10} lg={11} xl={8} className='aboutTextP'>
