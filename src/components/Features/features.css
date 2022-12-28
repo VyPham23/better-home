@@ -1,9 +1,9 @@
+
 .fd-item, .dt-body {
     background: #fff;
-    padding: 35px;
+    padding: 30px;
     border-radius: 4px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0;
     box-shadow: 0 8px 24px rgb(149 157 165 / 20%);
 }
 
@@ -15,6 +15,54 @@
     text-align: justify;
 }
 
-.ft-container{
-    margin: auto auto;
+.des-container{
+    z-index: 2;
+    top: -50px;
+}
+.ft-container, .des-container{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.left-side, .right-side{
+    background-color: #ffffff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 12px 0;
+}
+
+.dt-body-0{
+    height: 50px;
+    box-shadow: 0 8px 24px rgb(149 157 165 / 20%);
+}
+
+.left-text{
+    margin: auto;
+}
+
+.middle-part{
+    background-color: transparent;
+    padding: 0;
+}
+
+.txt-ctn{
+    margin: auto;
+}
+
+.upper{
+    padding: 0 12px;
+    background: transparent;
+}
+.ft-row{
+    margin: 25px auto;
+}
+
+.type, .park, .built, .lot, .heating{
+    text-transform: uppercase;
+}
+
+.row .up-part{
+    margin: 0;
+    padding: 0;
 }

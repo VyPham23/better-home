@@ -27,7 +27,11 @@
     margin-left: 0;
     margin-bottom: 10px;
     font-size: 15px;
+}
+
+.footer-ul a{
     color: #393a42;
+    text-decoration: none;
 }
 
 .footer-other-text {
@@ -39,7 +43,7 @@
     font-size: 30px
 }
 
-.footer .fa-facebook,
+.footer .fa-facebook-f,
 .footer .fa-twitter,
 .footer .fa-instagram {
     color: #FFFFFF !important;
@@ -59,7 +63,6 @@
 .footer-social-item {
     width: 45px;
     height: 45px;
-    background: #00908e;
     margin: 5px;
     display: flex;
     justify-content: center;
@@ -89,7 +92,17 @@
     font-size: 2.1rem;
 }
 
+.fbicon{
+    background: #4267B2;
+}
 
+.twticon{
+    background: #00ACED;
+}
+
+.igicon{
+    background: #C13584;
+}
 
 @media only screen and (max-width: 1030px) {
 
