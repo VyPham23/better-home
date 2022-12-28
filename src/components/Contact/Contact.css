@@ -26,7 +26,7 @@
 
 
 /*----------------------------------------*/
-.img1 , .img2 , .img3{
+.img1 {
     height: 40px;
     width: 40px;
 }
@@ -42,7 +42,7 @@
 }
 
 .box-contact{
-    padding: 24px 12px;
+    padding: 22px 12px;
 }
 
 .contact-top{
@@ -72,7 +72,7 @@
     width: 100%;
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1080px) {
 
     .img1 , .img2 , .img3{
         height: 35px;
@@ -80,7 +80,7 @@
     }
 
     .contact_details{
-        padding: 0 50px 0 0;
+        padding: 0 120px 0 0;
     }
 
     .text_contact_details{
@@ -97,85 +97,49 @@
 
 }
 
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 730px) {
 
     .contact_details{
-        padding: 0 120px 0 0;
-    }
-
-    .text_contact_details{
-        font-size: 0.8rem;
-    }
-
-    .image-contact-ava{
-        height: 24rem;
-    }
-
-    .contact-name{
-        font-size: 0.8rem;
-    }
-
-    .contact-block{
-        margin-bottom: 12px;
-        width: 50%;
-    }
-
-    .box{
-        margin-bottom: 12px;
-    }
-
-    .text_contact{
-        font-size: 2.5rem;
-    }
-
-    #title1{
-        font-size: 2rem;
-    }
-
-}
-
-@media only screen and (max-width: 894px) {
-
-    .contact_details{
-        padding: 0 70px 0 0;
+        padding: 0 20px 0 0;
     }
 
     .image-contact-ava{
         height: 20rem;
     }
 
-    .contact-block{
-        margin-bottom: 12px;
-        width: 60%;
-    }
-
-    .box{
-        margin-bottom: 12px;
-    }
-
-    .text_contact{
-        font-size: 2.3rem;
-    }
-
-    #title2{
+    .contact-name{
         font-size: 0.8rem;
+    }
+
+    .img1 {
+        height: 35px;
+        width: 35px;
+    }
+
+    .text_contact_details{
+        font-size: 0.8rem;
+    }
+
+    #title1{
+        font-size: 1.7rem;
+    }
+
+    #title2 {
+        font-size: 0.8rem;
+    }
+
+    .intro_button_2 {
+        font-size: 0.8rem;
+        width: 280px;
+        height: 140px;
     }
 
 }
 
-@media only screen and (max-width: 654px) {
-
-    .img1 , .img2 , .img3{
-        height: 25px;
-        width: 25px;
-    }
+@media only screen and (max-width: 530px) {
 
     .contact_details{
-        padding: 0 80px 0 0;
-    }
-
-    .text_contact_details{
-        font-size: 0.65rem;
+        padding: 0;
     }
 
     .image-contact-ava{
@@ -183,48 +147,81 @@
     }
 
     .contact-name{
-        font-size: 0.6rem;
+        font-size: 0.7rem;
+    }
+
+    .img1 {
+        height: 30px;
+        width: 30px;
+    }
+
+    .text_contact_details{
+        font-size: 0.75rem;
     }
 
     #title1{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+    }
+
+    #title2 {
+        font-size: 0.7rem;
+    }
+
+    .intro_button_2 {
+        font-size: 0.7rem;
+        width: 250px;
+        height: 125px;
     }
 
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 490px) {
 
-    .img1 , .img2 , .img3{
-        height: 25px;
-        width: 25px;
+    .image-contact-ava{
+        height: 15rem;
     }
 
     .contact_details{
-        padding: 0 80px 0 0;
-    }
-
-    .text_contact_details{
-        font-size: 0.65rem;
-    }
-
-    .image-contact-ava{
-        height: 22rem;
+       display: block;
     }
 
     .contact-name{
         font-size: 0.6rem;
     }
 
-    .contact-block{
-        margin-bottom: 12px;
-        width: 70%;
+    .text_contact_details{
+        font-size: 0.7rem;
     }
 
-    .text_contact{
-        font-size: 2rem;
+    .img1 {
+        height: 25px;
+        width: 25px;
     }
 
-    #title1{
-        font-size: 1.8rem;
+    .box-contact{
+        padding: 15px 12px;
+    }
+
+    .intro_button_2 {
+        font-size: 0.65rem;
+        width: 200px;
+        height: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+
+    .image-contact-ava{
+        height: 14rem;
+    }
+
+    .img1 {
+        height: 20px;
+        width: 20px;
+    }
+
+    .box-contact{
+        padding: 12px 12px;
     }
 }
