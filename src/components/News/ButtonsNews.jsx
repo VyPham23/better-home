@@ -44,16 +44,17 @@ export default function ButtonsNews() {
       <>
         <section className='buttons'>
           <Container fluid>
-            <h5 className='lastest mt-5'>Lastest News</h5>
+            <h5 className='lastest mt-5'>LATEST NEWS</h5>
             <Row className='mt-4'></Row>
 
             <Row className='all_buttons_news'>
               {newsList.map((news) => (
                 <div className='buttons_news col-lg-4 col-md-6 col-12'>
                   <Card className='shadow bg-white rounded box-news' >
-                    <Card.Img variant="top" src={news.image_news} className='img_card_news' />
-                    <Card.Body className='card_body_news'>
-                      <Card.Title className='card_title_news'>{news.title_news}
+                    <img src={news.image_news} className='img_card_news img-fluid' alt="news-image" />
+                    <div className='cart_body_news'>
+                      <Card.Title className='card_title_news'>
+                        {news.title_news}
                       </Card.Title>
                       <Row className='mt-4'></Row>
                       <Row>
@@ -69,7 +70,7 @@ export default function ButtonsNews() {
                           </div>
                         </div>
                       </Row>
-                    </Card.Body>
+                    </div>
                   </Card>
                 </div>
               ))} {/* end col */}

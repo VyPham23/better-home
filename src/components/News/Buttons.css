@@ -43,12 +43,7 @@
 .buttons_news{
     padding: 12px ;
 }
-.img_card_news{
-    height: 200px;
-}
-.card_body_news{
-    height: 180px;
-}
+
 .card_title_news, .card_text_news{
     text-align: justify;
 }
@@ -58,15 +53,20 @@
     justify-content: space-between;
 }
 
+.cart_body_news{
+    padding: 50px 30px;
+}
+
+.img_card_news{
+    height: 200px;
+}
+
 @media only screen and (max-width: 1100px){
 
     .lastest{
         font-size: 2.5rem;
     }
 
-    .card_body_news{
-        height: 220px;
-    }
     .card_text_news{
         font-size: 0.8rem;
     }
@@ -84,10 +84,6 @@
 
     .lastest{
         font-size: 2rem;
-    }
-
-    .card_body_news{
-        height: 150px;
     }
 
     .box-news{
