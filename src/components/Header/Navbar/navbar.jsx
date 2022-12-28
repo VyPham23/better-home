@@ -13,8 +13,8 @@ function Navbar(props) {
         <a href='/'><img src={Logo} alt='logo' /></a>
       </div>
       <div className='right-nav col-lg-5 col-md-5 col-5'>
-        <a href='/buy_a_house'>Buy A House</a>
-        <a href='/rent_a_house'>Rent A House</a>
+        <a href='/buy_a_house'>Buy House</a>
+        <a href='/rent_a_house'>Rent House</a>
         <a href='/service_apartment' className='nav-item-removed'>Service Apartment</a>
       </div>
     </header>
