@@ -8,15 +8,15 @@ import MapbannerRent from '../../components/RentAHouse/MapRent';
 
 function BuyAHouse() {
   return (
-    <div className='main_BuyaHouse' style={ {overflowX: "hidden"} }>
-      <UpperNav/>
-      <Navbar/>
+    <div className='main_BuyaHouse' style={{ overflowX: "hidden" }}>
+      <UpperNav />
+      <Navbar />
       {/* banner map */}
       <div className="mapbanner">
-        <MapbannerRent/>
+        <MapbannerRent />
       </div>
-      <RentaHouse/>
-      <Footer/>
+      <RentaHouse />
+      <Footer />
     </div>
   )
 }

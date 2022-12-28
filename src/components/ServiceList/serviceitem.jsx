@@ -1,13 +1,12 @@
 import React from 'react';
 import './service.css';
-import sv from './47.png';
 
-const ServiceItem = ({name}) => {
+const ServiceItem = ({name, picture}) => {
     return (
-        <div className="text-center col-lg-6 col-12 col-md-6">
+        <div className="text-center col-lg-3 col-12 col-md-6">
             <div className="sv">
                 <div className="sv-image">
-                    <img className="img-fluid" src={sv} alt="flat" />
+                    <img className="img-fluid" src={picture} alt="flat" />
                 </div>
                 <div className="sv-description">
                     <div className="mb-3 sv-text">
