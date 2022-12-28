@@ -44,20 +44,13 @@ export default function ButtonsNews() {
       <>
         <section className='buttons'>
           <Container fluid>
-            <Row>
-              <Card className="bg-dark text-white">
-                <Card.Img src="./images/anh4.jpg" alt="Card image" />
-                <Card.ImgOverlay>
-                  <Card.Title><h5 className='lastest'>Lastest News</h5></Card.Title>
-                </Card.ImgOverlay>
-              </Card>
-            </Row> {/* end row */}
+            <h5 className='lastest mt-5'>Lastest News</h5>
             <Row className='mt-4'></Row>
 
             <Row className='all_buttons_news'>
               {newsList.map((news) => (
-                <Col xs={12} md={6} lg="4" className='buttons_news'>
-                  <Card className='shadow  bg-white rounded' >
+                <div className='buttons_news col-lg-4 col-md-6 col-12'>
+                  <Card className='shadow bg-white rounded box-news' >
                     <Card.Img variant="top" src={news.image_news} className='img_card_news' />
                     <Card.Body className='card_body_news'>
                       <Card.Title className='card_title_news'>{news.title_news}
@@ -65,20 +58,20 @@ export default function ButtonsNews() {
                       <Row className='mt-4'></Row>
                       <Row>
                         <div className='news_information'>
-                          <span>
+                          <div>
                             <i class="bi bi-eye"></i> {news.view_count}
-                          </span>
-                          <span>
+                          </div>
+                          <div>
                             <i class="bi bi-pencil"></i> {news.author_news}
-                          </span>
-                          <span>
+                          </div>
+                          <div>
                             <i class="bi bi-clock"></i> {news.created_at ? getDate(news.created_at) : ""}
-                          </span>
+                          </div>
                         </div>
                       </Row>
                     </Card.Body>
                   </Card>
-                </Col>
+                </div>
               ))} {/* end col */}
             </Row>{/* end row */}
 
