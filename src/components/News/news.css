@@ -50,7 +50,7 @@
 
 
 
-@media only screen and (min-width: 700px) and (max-width: 1100px){
+@media only screen and (max-width: 1100px){
 
     .news-start h2{
         font-size: 2rem;
@@ -70,7 +70,7 @@
     
 }
 
-@media only screen and (min-width: 430px) and (max-width: 699px){
+@media only screen and (max-width: 699px){
 
     .news-start h2{
         font-size: 1.8rem;

@@ -1,4 +1,3 @@
-import React from 'react';
 import ContactCover from './contactcover';
 import './footer.css';
 
