@@ -9,8 +9,7 @@
 .aboutText .title_aboutus{
     width: 200px;
     rotate: 270deg; 
-    margin-left: -50px;
-    /* display: flex; */
+    margin-left: -60px;
     margin-top: 70px;
     color: #00908E;
     font-weight: 800px;
@@ -18,23 +17,13 @@
 
 .aboutText .title_aboutus_2{
     width: 200px;
-    rotate: -270deg; 
-    margin-left: -70px;
-    /* display: flex; */
+    rotate: 90deg; 
+    margin-left: -80px;
     margin-top: 70px;
     color: #00908E;
     font-weight: 800px;
 }
 
-/* .aboutText .title_aboutUs_2{
-    margin-right: -50px;
-    rotate: -270deg;
-    width: 200px;
-    background-color: red;
-    margin-top: 70px;
-    color: #00908E;
-    font-weight: 800px;
-} */
 .aboutTextP p{
     text-align: justify;
     font-weight: 400;
@@ -49,7 +38,7 @@
     
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 767px) {
 
     .title_aboutus, .title_aboutus_2{
         font-size: 2rem;
@@ -59,9 +48,13 @@
         font-size: 0.8rem;
     }
 
+    .aboutText .title_aboutus_2{
+        margin-left: 0px;
+    }
+
 }
 
-@media only screen and (max-width: 649px) {
+@media only screen and (max-width: 674px) {
 
     .title_aboutus, .title_aboutus_2{
         font-size: 1.7rem;
@@ -71,4 +64,47 @@
         font-size: 0.7rem;
     }
 
+    .aboutText .title_aboutus_2{
+        margin-left: -20px;
+    }
+
+}
+
+@media only screen and (max-width: 520px) {
+
+    .aboutText .title_aboutus_2{
+        margin-left: -40px;
+    }
+
+}
+
+@media only screen and (max-width: 490px) {
+
+    .aboutText .title_aboutus_2{
+        margin-left: -60px;
+    }
+
+}
+
+@media only screen and (max-width: 430px) {
+
+    .aboutText .title_aboutus{
+        margin-left: -60px;
+    }
+
+    .aboutText .title_aboutus_2{
+        margin-left: -80px;
+    }
+
+    .title_aboutus, .title_aboutus_2{
+        font-size: 1.5rem;
+    }
+
+    .aboutTextP p{
+        font-size: 0.55rem;
+    }
+
+    .aboutText .title_aboutus_2{
+        margin-left: -60px;
+    }
 }

@@ -73,10 +73,10 @@
 
 }
 
-@media only screen and (max-width: 649px) {
+@media only screen and (max-width: 768px) {
 
     .ChooseUs .title_chooseUs{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     .list_chooseUs ul li{
@@ -84,21 +84,29 @@
     }
 
     .number_ChooseUs h4{
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .number_ChooseUs h2{
         font-size: 22px;
     }
+
+    .list_chooseUs ul li{
+        font-size: 0.75rem;
+    }
 }
 
-@media only screen and (max-width: 529px) {
+@media only screen and (max-width: 549px) {
 
     .number_ChooseUs h4{
-        font-size: 11px;
+        font-size: 16px;
     }
 
     .number_ChooseUs h2{
         font-size: 20px;
+    }
+
+    .list_chooseUs ul li{
+        font-size: 0.65rem;
     }
 }
