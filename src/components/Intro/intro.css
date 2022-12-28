@@ -1,15 +1,14 @@
 .intro{
-    position: static;
-    background-image: url(./sell\ 1.png);
+    background-image: url(./27.png);
+    height: 500px;
+    background-size: cover!important;
+    background-position: center!important;
+    padding-top: 80px;
+    margin-top: 50px;
 }
 
 .intro_container {
-    /* mix-blend-mode: darken; */
     background: rgb(29 34 43 / 35%);
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     margin-bottom: 50px;
     margin-top: 50px;
 }
@@ -18,13 +17,11 @@
     color: white;
     text-transform: uppercase;
     font-size: 2.5rem;
-    position: relative;
     top: 100px;
     text-shadow: 0.5rem 0.5rem 0.8rem #000000;
 }
 
 .intro_button {
-    position: relative;
     top: 150px;
     display: flex;
     justify-content: space-between;

@@ -57,7 +57,7 @@
 }
 
 
-@media only screen and (min-width: 790px) and (max-width: 1030px){
+@media only screen and (max-width: 1030px){
 
     .banner-title{
         font-size: 2rem;
@@ -73,11 +73,7 @@
 
 }
 
-@media only screen and (min-width: 770px) and (max-width: 789px){
-
-    .banner-title{
-        font-size: 2rem;
-    }
+@media only screen and (max-width: 789px){
 
     .des{
         font-size: 0.6rem;
@@ -89,7 +85,7 @@
 
 }
 
-@media only screen and (min-width: 430px) and (max-width: 769px){
+@media only screen and (max-width: 769px){
 
     .banner-title{
         font-size: 1.8rem;
