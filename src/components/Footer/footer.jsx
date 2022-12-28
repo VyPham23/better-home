@@ -38,20 +38,20 @@ const Footer = () => {
                     <div className="block-infor col-lg-3 col-md-6">
                         <p className="footer-title d-flex">Menu</p>
                         <ul className="footer-ul">
-                            <li className="d-flex">Buy</li>
-                            <li className="d-flex">Rent</li>
-                            <li className="d-flex">Service Apartment</li>
-                            <li className="d-flex">Service for House Owner</li>
-                            <li className="d-flex">Real Estate fo Business</li>
+                            <li className="d-flex"><a href='/buy_a_house'>Buy A House</a></li>
+                            <li className="d-flex"><a href='/rent_a_house'>Rent A House</a></li>
+                            <li className="d-flex"><a href='/service_apartment'>Service Apartment</a></li>
+                            <li className="d-flex"><a href='/servicefor_HouseOwner'>Service for House Owner</a></li>
+                            <li className="d-flex"><a href='/property'>Real Estate fo Business</a></li>
                         </ul>
                     </div>
                     <div className="block-infor col-lg-3 col-md-6">
                         <div>
                             <p className="footer-title d-flex">Our Company</p>
                             <ul className="footer-ul">
-                                <li className="d-flex">Contact</li>
-                                <li className="d-flex">About Us</li>
-                                <li className="d-flex">News</li>
+                                <li className="d-flex"><a href='/contact'>Contact</a></li>
+                                <li className="d-flex"><a href='/about'>About Us</a></li>
+                                <li className="d-flex"><a href='/news'>News</a></li>
                             </ul>
 
                             
