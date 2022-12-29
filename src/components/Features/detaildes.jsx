@@ -3,8 +3,28 @@ import BathImg from './102-bath.png';
 import SqftImg from './101-sqft.png'
 import Calendar from './calendar.png'
 
+/*ICON AREA*/
 import internet from './Icon_Features/internet.png'
+import television from './Icon_Features/television.png'
+import telephone from './Icon_Features/phone.png'
 
+import refrigerator from './Icon_Features/refrigerator.png'
+import air_condition from './Icon_Features/air_condition.png'
+import water from './Icon_Features/water.png'
+
+import balcony from './Icon_Features/balcony.png'
+import power from './Icon_Features/power.png'
+import security from './Icon_Features/security.png'
+
+import parking from './Icon_Features/parking.png'
+import store from './Icon_Features/store.png'
+import garden from './Icon_Features/garden.png'
+
+import pool from './Icon_Features/pool.png'
+import furnishture from './Icon_Features/house.png'
+import gym from './Icon_Features/gym.png'
+
+/*---------*/
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState, useEffect } from 'react';
@@ -13,7 +33,7 @@ import './features.css';
 
 const DetailDes = () => {
     return (
-        <div className='details_apartment_area'>
+        <div className='details_apartment_area pb-5'>
             <div className='slider_area'>
                 <Carousel fade>
                     <Carousel.Item>
@@ -132,66 +152,70 @@ const DetailDes = () => {
                 <div className='row feature_title'>
                     <span>FEATURES</span>
                 </div>
-                <div className="row features_item">
+                <div className="row features_item pb-4">
                     <div className='col-4 col-lg-4 col-md-4'>
                         <img className='icon_details' src={internet} alt="feature-item" />
                         &nbsp; <span className='feature_item_name'>Internet</span>
                     </div>
                     <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={internet} alt="feature-item" />
+                        <img className='icon_details' src={television} alt="feature-item" />
                         &nbsp; <span className='feature_item_name'>Cable Television</span>
                     </div>
                     <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={internet} alt="feature-item" />
+                        <img className='icon_details' src={telephone} alt="feature-item" />
                         &nbsp; <span className='feature_item_name'>Telephone</span>
                     </div>
+
                     <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={internet} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Internet</span>
+                        <img className='icon_details' src={refrigerator} alt="feature-item" />
+                        &nbsp; <span className='feature_item_name'>Refrigerator</span>
                     </div>
                     <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={internet} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Cable Television</span>
+                        <img className='icon_details' src={air_condition} alt="feature-item" />
+                        &nbsp; <span className='feature_item_name'>Air Condition</span>
                     </div>
                     <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={internet} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Telephone</span>
+                        <img className='icon_details' src={water} alt="feature-item" />
+                        &nbsp; <span className='feature_item_name'>Water Heater</span>
+                    </div>
+
+                    <div className='col-4 col-lg-4 col-md-4'>
+                        <img className='icon_details' src={balcony} alt="feature-item" />
+                        &nbsp; <span className='feature_item_name'>Balcony</span>
                     </div>
                     <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={internet} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Internet</span>
+                        <img className='icon_details' src={power} alt="feature-item" />
+                        &nbsp; <span className='feature_item_name'>General Power</span>
                     </div>
                     <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={internet} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Cable Television</span>
+                        <img className='icon_details' src={security} alt="feature-item" />
+                        &nbsp; <span className='feature_item_name'>Security 24/24</span>
+                    </div>
+
+                    <div className='col-4 col-lg-4 col-md-4'>
+                        <img className='icon_details' src={parking} alt="feature-item" />
+                        &nbsp; <span className='feature_item_name'>Parking</span>
                     </div>
                     <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={internet} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Telephone</span>
+                        <img className='icon_details' src={store} alt="feature-item" />
+                        &nbsp; <span className='feature_item_name'>Convenient Store 24/24</span>
                     </div>
                     <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={internet} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Internet</span>
+                        <img className='icon_details' src={garden} alt="feature-item" />
+                        &nbsp; <span className='feature_item_name'>Garden</span>
+                    </div>
+
+                    <div className='col-4 col-lg-4 col-md-4'>
+                        <img className='icon_details' src={pool} alt="feature-item" />
+                        &nbsp; <span className='feature_item_name'>Swimming Pool</span>
                     </div>
                     <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={internet} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Cable Television</span>
+                        <img className='icon_details' src={furnishture} alt="feature-item" />
+                        &nbsp; <span className='feature_item_name'>Fully Furnished</span>
                     </div>
                     <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={internet} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Telephone</span>
-                    </div>
-                    <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={internet} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Internet</span>
-                    </div>
-                    <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={internet} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Cable Television</span>
-                    </div>
-                    <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={internet} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Telephone</span>
+                        <img className='icon_details' src={gym} alt="feature-item" />
+                        &nbsp; <span className='feature_item_name'>GYM</span>
                     </div>
 
                 </div>
