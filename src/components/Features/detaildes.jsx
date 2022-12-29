@@ -22,7 +22,7 @@ const DetailDes = () => {
                     </Carousel.Item>
                 </Carousel>
                 <div class="row in_slider_area">
-                    <div className='col-lg-4 col-md-4 col-4 in_slider_display in_slider_display_photo'>
+                    <div className='col-lg-4 col-md-12 col-12 in_slider_display in_slider_display_photo'>
                         <span>Photos</span>
                         <span className='button_pagination_area'>
                             <button className='button_pagination'>&lt;</button>
@@ -31,24 +31,42 @@ const DetailDes = () => {
                         </span>
                     </div>
 
-                    <div className='col-lg-4 col-md-4 col-4 not_display'>
+                    <div className='col-lg-4 col-md-12 col-12 not_display'>
                     </div>
 
-                    <div className='col-lg-4 col-md-4 col-4 in_slider_display'>
+                    <div className='col-lg-4 col-md-12 col-12 in_slider_display'>
                         <img className='icon_details' src={Calendar} alt="item" />
                         <span>Schedule A Visit</span>
                     </div>
                 </div>
             </div>
+            <div class="row in_slider_display_responsive">
+                <div className='col-lg-4 col-md-12 col-12 in_slider_display in_slider_display_photo'>
+                    <span>Photos</span>
+                    <span className='button_pagination_area'>
+                        <button className='button_pagination'>&lt;</button>
+                        01 / 09
+                        <button className='button_pagination'>&gt;</button>
+                    </span>
+                </div>
+
+                <div className='col-lg-4 col-md-12 col-12 not_display'>
+                </div>
+
+                <div className='col-lg-4 col-md-12 col-12 in_slider_display'>
+                    <img className='icon_details' src={Calendar} alt="item" />
+                    <span>Schedule A Visit</span>
+                </div>
+            </div>
 
             <div className="row apart_detail_area">
-                <div className="apart_detail_area_left col-lg-3 col-md-4 col-4">
+                <div className="apart_detail_area_left col-lg-3 col-md-12 col-12">
                     <div className="apart_detail_area_left_block">
                         <span>FOR SALE</span>
                         <p>$1,500,000</p>
                     </div>
                 </div>
-                <div className="apart_detail_area_middle col-lg-6 col-md-4 col-4">
+                <div className="apart_detail_area_middle col-lg-6 col-md-12 col-12">
                     <div className='apart_name' style={{ textAlign: "justify" }}>
                         <span>
                             7983 Valmont Rd, Boulder, CO 80301
@@ -56,20 +74,20 @@ const DetailDes = () => {
                     </div>
                     <div className='apart_detail_icon_infor'>
                         <span className='title_icon'>
-                            <img className='icon_details' src={BedImg} alt="detail_icon" /> BEDS 
+                            <img className='icon_details' src={BedImg} alt="detail_icon" /> BEDS
                             &nbsp; <span className='number'>4</span>
                         </span>
                         <span className='title_icon'>
-                            <img className='icon_details' src={BathImg} alt="detail_icon" /> BATHS 
+                            <img className='icon_details' src={BathImg} alt="detail_icon" /> BATHS
                             &nbsp; <span className='number'>4</span>
                         </span>
                         <span className='title_icon'>
-                            <img className='icon_details' src={SqftImg} alt="detail_icon" /> SQFT 
+                            <img className='icon_details' src={SqftImg} alt="detail_icon" /> SQFT
                             &nbsp; <span className='number'>3.122</span>
                         </span>
                     </div>
                     <div style={{ textAlign: "justify" }}>
-                        <span >
+                        <span className='apart_description' >
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Aliquam quia iste possimus repudiandae provident quasi,
                             eveniet amet culpa aspernatur dolores facere voluptate excepturi
@@ -77,7 +95,7 @@ const DetailDes = () => {
                         </span>
                     </div>
                 </div>
-                <div className="apart_detail_area_right col-lg-3 col-md-4 col-4">
+                <div className="apart_detail_area_right col-lg-3 col-md-12 col-12">
                     <div style={{ textAlign: "justify" }} className="row apart_detail_area_right_1">
                         <div>
                             <span>TYPE</span>
@@ -99,8 +117,10 @@ const DetailDes = () => {
                         </div>
                     </div>
                     <div className="row apart_detail_area_right_3" style={{ textAlign: "justify" }}>
-                        <span>HEATING</span>
-                        <p>Air Cooling</p>
+                        <div>
+                            <span>HEATING</span>
+                            <p>Air Cooling</p>
+                        </div>
                     </div>
                 </div>
             </div>
