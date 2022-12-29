@@ -55,27 +55,27 @@ const DetailDes = () => {
                     </div>
                     <div class="col-md-12 col-lg-3 col-xl-3 dt-moreinfo">
                         <div class="row">
-                            <div className="col-lg-6 type">
+                            <div className="col-md-6 col-lg-6 type">
                                 <div><h6>Type</h6></div>
                                 <div><p>Single Family</p></div>
                             </div>
-                            <div className="col-lg-6 type">
+                            <div className="col-md-6 col-lg-6 type">
                                 <div><h6>Park</h6></div>
                                 <div><p>2 Spaces</p></div>
                             </div>
                         </div>
                         <div class="row">
-                            <div className="col-lg-6 type">
+                            <div className="col-md-6 col-lg-6 type">
                                 <div><h6>Built in</h6></div>
                                 <div><p>2010</p></div>
                             </div>
-                            <div className="col-lg-6 type">
+                            <div className="col-md-6 col-lg-6 type">
                                 <div><h6>Lot</h6></div>
                                 <div><p>1.36 Acress</p></div>
                             </div>
                         </div>
                         <div class="row">
-                            <div className="col-lg-6 type">
+                            <div className="col-md-6 col-lg-6 type">
                                 <div><h6>Heating</h6></div>
                                 <div><p>Ari Cooling</p></div>
                             </div>
