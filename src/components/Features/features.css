@@ -8,14 +8,22 @@
 }
 
 .dt-price{
+    display: block;
     text-transform: uppercase;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
+.dt-price p{
+    font-size: 2rem;
+    font-weight: 700;
+}
 .dt-des{
     text-align: justify;
 }
 
 .des-container{
+    position: relative;
     z-index: 2;
     top: -50px;
 }
@@ -58,11 +66,51 @@
     margin: 25px auto;
 }
 
-.type, .park, .built, .lot, .heating{
+.type h6{
     text-transform: uppercase;
+}
+
+.type{
+    text-align: justify;
 }
 
 .row .up-part{
     margin: 0;
     padding: 0;
+}
+
+.price{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.basic-figure{
+    display: flex;
+    margin: 5px auto;
+}
+
+.basic-figure span{
+    text-transform: uppercase;
+    margin: auto 0;
+    font-weight: 600;
+}
+
+.basic-figure img{
+    margin: 20px 10px;
+}
+
+.info h3{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.dt-moreinfo{
+    padding-left: 35px;
+    padding-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.description{
+    margin-bottom: 20px;
 }
