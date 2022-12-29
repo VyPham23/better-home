@@ -102,7 +102,7 @@
     width: 100%;
 }
 
-.block_title_co_working{
+.block_title_co_working {
     padding: 20px 50px;
     display: flex;
     justify-content: flex-start;
@@ -114,7 +114,279 @@
     font-weight: 700;
 }
 
-.button_register_real_este{
+.button_register_real_este {
     display: flex;
     justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1030px) {
+
+    .description_real_este {
+        font-size: 0.9rem;
+        width: 60%;
+    }
+
+    .description_real_este h1 {
+        font-size: 1.7rem;
+    }
+
+    .image_real_este {
+        width: 40%;
+    }
+
+    .image_real_este img {
+        width: 100%;
+    }
+
+    .business_location_area {
+        padding: 50px 80px 150px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 890px) {
+
+    .description_real_este {
+        font-size: 0.8rem;
+    }
+
+    .description_real_este h1 {
+        font-size: 1.6rem;
+    }
+
+    .real_este_intro {
+        padding: 50px 80px 120px 80px;
+    }
+
+    .button_register_real_este button {
+        height: 45px;
+        width: 135px;
+    }
+
+    .image_real_este {
+        top: 100px;
+    }
+
+    .business_location_area {
+        padding: 50px 80px 120px 0px;
+    }
+
+    .description_business_location h1 {
+        font-size: 1.6rem;
+    }
+
+    .description_business_location p {
+        font-size: 0.8rem;
+    }
+
+    .description_business_location .button_register_real_este button {
+        height: 45px;
+        width: 135px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .description_real_este {
+        font-size: 0.7rem;
+        padding-right: 40px;
+    }
+
+    .description_real_este h1 {
+        font-size: 1.5rem;
+    }
+
+    .real_este_intro {
+        padding: 50px 80px 100px 80px;
+    }
+
+    .business_location_area {
+        padding: 50px 80px 100px 0px;
+    }
+
+    .button_register_real_este button {
+        height: 40px;
+        width: 120px;
+    }
+
+    .business_location_area {
+        padding: 50px 50px 100px 0px;
+    }
+
+    .description_business_location .button_register_real_este button {
+        height: 40px;
+        width: 120px;
+    }
+
+    .business_location_img img {
+        top: -30px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+
+    .description_real_este {
+        font-size: 0.6rem;
+        padding-right: 30px;
+    }
+
+    .description_real_este h1 {
+        font-size: 1.45rem;
+    }
+
+    .real_este_intro {
+        padding: 50px 80px 80px 70px;
+    }
+
+    .button_register_real_este button {
+        font-size: 0.7rem;
+        height: 35px;
+        width: 105px;
+    }
+
+    .business_location_area {
+        padding: 50px 40px 70px 0px;
+    }
+
+    .description_business_location h1 {
+        font-size: 1.5rem;
+    }
+
+    .description_business_location p {
+        font-size: 0.65rem;
+    }
+
+    .description_business_location .button_register_real_este button {
+        height: 35px;
+        width: 105px;
+    }
+
+    .business_location_img img{
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+
+    .description_real_este {
+        font-size: 0.55rem;
+        padding-right: 0px;
+    }
+
+    .description_real_este h1 {
+        font-size: 1.4rem;
+    }
+
+    .real_este_intro {
+        padding: 50px 80px 70px 50px;
+    }
+
+    .business_location_area {
+        padding: 50px 40px 50px 0px;
+    }
+
+    .button_register_real_este button {
+        font-size: 0.6rem;
+        height: 30px;
+        width: 90px;
+    }
+
+    .description_business_location h1 {
+        font-size: 1.4rem;
+    }
+
+    .description_business_location p {
+        font-size: 0.55rem;
+    }
+
+    .description_business_location .button_register_real_este button {
+        height: 30px;
+        width: 90px;
+    }
+
+    .business_location_img img {
+        top: -25px;
+    }
+
+}
+
+@media only screen and (max-width: 510px) {
+
+    .description_real_este {
+        font-size: 0.5rem;
+    }
+
+    .description_real_este h1 {
+        font-size: 1.3rem;
+    }
+
+    .real_este_intro {
+        padding: 50px 50px 70px 30px;
+    }
+
+    .button_register_real_este button {
+        font-size: 0.5rem;
+        height: 25px;
+        width: 75px;
+    }
+
+    .business_location_area {
+        padding: 50px 30px 40px 0px;
+    }
+
+    .description_business_location h1 {
+        font-size: 1.3rem;
+    }
+
+    .description_business_location p {
+        font-size: 0.45rem;
+    }
+
+    .description_business_location .button_register_real_este button {
+        height: 25px;
+        width: 75px;
+    }
+
+    .business_location_img img {
+        top: -20px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .description_real_este {
+        font-size: 0.45rem;
+    }
+
+    .description_real_este h1 {
+        font-size: 1.25rem;
+    }
+
+    .real_este_intro {
+        padding: 50px 30px 65px 30px;
+    }
+
+    .button_register_real_este button {
+        font-size: 0.4rem;
+        height: 20px;
+        width: 60px;
+    }
+
+    .image_real_este {
+        top: 110px;
+    }
+
+    .business_location_area {
+        padding: 50px 20px 30px 0px;
+    }
+
+    .description_business_location .button_register_real_este button {
+        height: 20px;
+        width: 60px;
+    }
+
+    .business_location_img img {
+        top: -15px;
+    }
 }

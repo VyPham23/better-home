@@ -67,7 +67,7 @@ const RealEsteBusiness = () => {
                     </div>
                 </div>
             </div>
-            <div className='co_working_area'>
+            {/* <div className='co_working_area'>
                 <div className='block_title_co_working'>
                     <span className='title_co_working'>Co-Working Space</span>
                 </div>
@@ -97,7 +97,7 @@ const RealEsteBusiness = () => {
                         </Button>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
