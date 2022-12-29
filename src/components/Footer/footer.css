@@ -28,6 +28,10 @@
     margin-bottom: 10px;
 }
 
+.footer-ul li :hover{
+    color: #FF718E;
+}
+
 .footer-ul a{
     color: #393a42;
     text-decoration: none;
