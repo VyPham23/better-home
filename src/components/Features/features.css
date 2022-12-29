@@ -16,6 +16,7 @@
 }
 
 .des-container{
+    position: relative;
     z-index: 2;
     top: -50px;
 }

@@ -7,12 +7,12 @@ const DetailDes = () => {
             </div> */}
             <div className="dt-body upper">
                 <div class="row up-part">
-                    <div class="col-md-0 col-lg-4 col-xl-4 left-side">
+                    <div class="col-md-0 col-lg-3 col-xl-3 left-side">
                         <span className="left-text">Photos</span>
                     </div>
-                    <div class="col-md-0 col-lg-4 col-xl-4 middle-part">
+                    <div class="col-md-0 col-lg-6 col-xl-6 middle-part">
                     </div>
-                    <div class="col-md-12 col-lg-4 col-xl-4 right-side">
+                    <div class="col-md-12 col-lg-3 col-xl-3 right-side">
                         <div className="txt-ctn">
                             <span className="left-text">Schedule A Visit</span>
                         </div>
@@ -22,7 +22,7 @@ const DetailDes = () => {
             
             <div className="dt-body">
                 <div class="row">
-                    <div class="col-md-12 col-lg-2 col-xl-2 dt-price">
+                    <div class="col-md-12 col-lg-3 col-xl-3 dt-price">
                         <span className="stat">For sale <br/> $1,500,000 </span>
                     </div>
                     <div class="col-md-12 col-lg-6 col-xl-6 dt-des">
@@ -35,7 +35,7 @@ const DetailDes = () => {
                             Its population was 19,728 at the 2020 U.S. Census. 
                             The city is located in the South Bay region of the Greater Los Angeles area; it is one of the three Beach Cities.</span>
                     </div>
-                    <div class="col-md-12 col-lg-4 col-xl-4 dt-all">
+                    <div class="col-md-12 col-lg-3 col-xl-3 dt-all">
                         <div class="row">
                             <div className="col-lg-6 type">Type</div>
                             <div className="col-lg-6 park">Park</div>
