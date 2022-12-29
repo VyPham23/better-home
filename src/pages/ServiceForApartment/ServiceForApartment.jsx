@@ -4,8 +4,6 @@ import UpperNav from '../../components/Header/Navbar/uppernav';
 import Footer from '../../components/Footer/footer';
 import './ServiceForApartment.css'
 import ServiceApart from '../../components/ServiceApartment/ServiceApar';
-// import RentaHouse from '../../components/RentAHouse/Rent';
-
 
 function ServiceforApart() {
   return (
@@ -13,7 +11,6 @@ function ServiceforApart() {
       <UpperNav/>
       <Navbar/>
       <ServiceApart/>
-      {/* <RentaHouse className='rentaHouse_service'/> */}
       <Footer/>
     </div>
   )
