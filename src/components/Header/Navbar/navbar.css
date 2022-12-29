@@ -89,14 +89,13 @@ header {
 @media only screen and (max-width: 549px){
 
     .left-nav a, .right-nav a{
-        font-size: 0.45rem;
+        font-size: 0.55rem;
     }
 
     .logo img {
         width: 80%;
     }
 }
-
 
 @media only screen and (max-width: 484px){
 

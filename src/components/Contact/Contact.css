@@ -72,6 +72,8 @@
     width: 100%;
 }
 
+
+
 @media only screen and (max-width: 1080px) {
 
     .img1 , .img2 , .img3{
@@ -80,7 +82,7 @@
     }
 
     .contact_details{
-        padding: 0 120px 0 0;
+        padding: 0 100px 0 0;
     }
 
     .text_contact_details{
@@ -97,14 +99,30 @@
 
 }
 
+@media only screen and (max-width: 990px) {
+
+    .image-contact-ava{
+        height: 30rem;
+    }
+
+}
+
+@media only screen and (max-width: 820px) {
+
+    .image-contact-ava{
+        height: 26rem;
+    }
+
+}
+
 @media only screen and (max-width: 730px) {
 
     .contact_details{
-        padding: 0 20px 0 0;
+        padding: 0 70px 0 0;
     }
 
     .image-contact-ava{
-        height: 20rem;
+        height: 22rem;
     }
 
     .contact-name{
@@ -136,10 +154,18 @@
 
 }
 
+@media only screen and (max-width: 610px) {
+
+    .contact_details{
+        padding: 0 30px 0 0;
+    }
+
+}
+
 @media only screen and (max-width: 530px) {
 
     .contact_details{
-        padding: 0;
+        padding: 0 10px 0 0;
     }
 
     .image-contact-ava{

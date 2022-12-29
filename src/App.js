@@ -7,8 +7,8 @@ import Detail from './pages/Detail/Detail';
 import News from './pages/News/News';
 import RentAHouse from './pages/RentAHouse/RentAHouse';
 import BuyAHouse from './pages/BuyAHouse/BuyAHouse';
-import HouseOwner from './pages/ServiceforHouseOwner/HouseOwner';
-import ServiceforApart from './pages/ServiceForApartment/ServiceForApartment';
+import HouseOwner from './pages/ServiceHouseOwner/HouseOwner';
+import ServiceforApart from './pages/ServiceApartment/ServiceForApartment';
 
 function App() {
   return (
