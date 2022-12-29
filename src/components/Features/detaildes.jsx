@@ -198,7 +198,7 @@ const DetailDes = () => {
                     </div>
                     <div className='col-4 col-lg-4 col-md-4'>
                         <img className='icon_details' src={store} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Convenient Store 24/24</span>
+                        &nbsp; <span className='feature_item_name'>Store 24/24</span>
                     </div>
                     <div className='col-4 col-lg-4 col-md-4'>
                         <img className='icon_details' src={garden} alt="feature-item" />
