@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../../components/Header/Navbar/navbar';
 import UpperNav from '../../components/Header/Navbar/uppernav';
-import RentaHouse from '../../components/RentAHouse/Rent';
+import RentAHouseArea from '../../components/RentAHouse/RentAHouse';
 import Footer from '../../components/Footer/footer';
 import './RentaHouse.css'
 
@@ -10,7 +10,7 @@ function RentAHouse() {
     <div className='body_rentaHouse' style={ {overflowX: "hidden"} }>
       <UpperNav/>
       <Navbar/>
-      <RentaHouse/>
+      <RentAHouseArea/>
       <Footer/>
     </div>
   )
