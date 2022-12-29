@@ -12,8 +12,8 @@ export default function BodyContact() {
       <div className='contact-area'>
         <Col xs={12} md={1}></Col>
 
-        <div className='row col-lg-10 col-md-10 col-12 contact-block'>
-          <div className='col-lg-5 col-md-10 col-12 box'>
+        <div className='row col-lg-10 col-md-12 col-12 contact-block'>
+          <div className='col-lg-5 col-md-6 col-6 box'>
             <Card className='shadow  bg-gray rounded' style={{ width: '100%' }}>
               <div className="contact-top">
                 <img className='image-contact-ava' src="./images/anh3.png" alt="image-contact" />
@@ -36,7 +36,7 @@ export default function BodyContact() {
             </Card>
           </div>
 
-          <div className='col-lg-5 col-md-10 col-12 box'>
+          <div className='col-lg-5 col-md-6 col-6 box'>
             <Card className='shadow  bg-gray rounded' style={{ width: '100%' }}>
               <div className="contact-top">
                 <img className='image-contact-ava' src="./images/anh2.jpg" alt="image-contact" />

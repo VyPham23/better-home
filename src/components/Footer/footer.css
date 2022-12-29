@@ -26,7 +26,6 @@
     list-style: none;
     margin-left: 0;
     margin-bottom: 10px;
-    font-size: 15px;
 }
 
 .footer-ul a{
@@ -104,7 +103,7 @@
     background: #C13584;
 }
 
-@media only screen and (min-width: 650px) and (max-width: 1030px) {
+@media only screen and (max-width: 700px) {
 
     .contact-title {
         font-size: 2rem;
@@ -114,9 +113,18 @@
         margin: 15px auto;
         padding: 12px 25px;
     }
+
+    .infor-company{
+        font-size: 0.8rem;
+    }
+
+    .footer-social-item {
+        width: 35px;
+        height: 35px;
+    }
 }
 
-@media only screen and (min-width: 430px) and (max-width: 649px) {
+@media only screen and (max-width: 440px) {
 
     .contact-title {
         font-size: 1.8rem;
@@ -125,5 +133,18 @@
     .contact-btn {
         margin: 15px auto;
         padding: 10px 20px;
+    }
+
+    .infor-company{
+        font-size: 0.65rem;
+    }
+
+    .footer-social-item {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-title{
+        font-size: 1rem;
     }
 }
