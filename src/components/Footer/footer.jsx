@@ -7,7 +7,7 @@ const Footer = () => {
 
             <ContactCover />
 
-            <div className="container">
+            <div className="container mt-5">
                 <div className="row">
 
                     <div className="block-infor col-lg-4 col-md-6 col-6">

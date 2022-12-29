@@ -4,7 +4,7 @@ import './footer.css';
 
 const ContactCover = () => {
     return (
-        <div className="banner d-flex align-items-center" style={{ backgroundImage: `url(${back})` }}>
+        <div className="banner_footer d-flex align-items-center" style={{ backgroundImage: `url(${back})` }}>
             <div className="bg-custom">
                 <div className="container">
                     <div className="row">

@@ -1,7 +1,14 @@
 .footer {
-    padding: 4rem 0;
     background: #FFFFFF;
     color: #393a42;
+}
+
+.banner_footer{
+    min-height: 500px;
+    background: no-repeat;
+    background-size: cover!important;
+    background-position: center!important;
+    position: relative;
 }
 
 .footer .fa-instagram,
