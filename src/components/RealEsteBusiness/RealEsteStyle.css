@@ -1,0 +1,120 @@
+.real_este_intro {
+    display: flex;
+    padding: 50px 80px 150px 100px;
+    position: relative;
+    background-color: #08948c;
+}
+
+.image_real_este img {
+    width: 85%;
+}
+
+.description_real_este,
+.image_real_este {
+    width: 50%;
+}
+
+.description_real_este {
+    text-align: justify;
+    color: #fff;
+    padding-right: 60px;
+}
+
+.image_real_este {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+}
+
+.business_location_area {
+    display: flex;
+    padding: 50px 140px 250px 0px;
+    position: relative;
+}
+
+.description_business_location,
+.business_location_img {
+    width: 50%;
+}
+
+.business_location_img img {
+    width: 30%;
+    position: absolute;
+    left: 50px;
+    top: -50px;
+}
+
+.description_business_location {
+    text-align: justify;
+}
+
+.description_business_location h1 {
+    color: #08948c;
+    font-weight: 700;
+}
+
+.button_register_real_este button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    height: 50px;
+    width: 150px;
+}
+
+.description_business_location .button_register_real_este button {
+    background-color: transparent;
+    border: 1px solid #08948c;
+    height: 50px;
+    width: 150px;
+    color: #08948c;
+}
+
+.co_working_area .button_register_real_este button {
+    background-color: transparent;
+    border: 1px solid #08948c;
+    height: 50px;
+    width: 150px;
+    color: #08948c;
+}
+
+.co_working_area {
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.block_co_working {
+    margin: 0 120px;
+    box-shadow: -3px 2px 8px #888888;
+    background-color: #fff;
+    bottom: -70px;
+    position: absolute;
+    z-index: 1000;
+    padding: 30px 50px;
+
+}
+
+.block_co_working p {
+    text-align: justify;
+}
+
+.image_co_working img {
+    height: 450px;
+    width: 100%;
+}
+
+.block_title_co_working{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title_co_working {
+    font-size: 2.5rem;
+    color: #08948c;
+    font-weight: 700;
+}
+
+.button_register_real_este{
+    display: flex;
+    justify-content: flex-end;
+}

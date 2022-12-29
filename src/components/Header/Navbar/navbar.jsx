@@ -7,7 +7,7 @@ function Navbar(props) {
     <header style={{ overflow: "hidden" }} className='main-nav'>
       <div className='left-nav col-lg-5 col-md-5 col-5'>
         <a href='/servicefor_HouseOwner'>Service House Owner</a>
-        <a href='/property'>Real Estate Business</a>
+        <a href='/real_este'>Real Estate Business</a>
       </div>
       <div className='logo col-lg-2 col-md-2 col-2'>
         <a href='/'><img src={Logo} alt='logo' /></a>

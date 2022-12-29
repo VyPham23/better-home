@@ -5,6 +5,7 @@ import AboutUs from './pages/AboutUs/AboutUs';
 import Contact from './pages/Contact/Contact';
 import Detail from './pages/Detail/Detail';
 import News from './pages/News/News';
+import RealEste from './pages/RealEste/RealEste';
 import RentAHouse from './pages/RentAHouse/RentAHouse';
 import BuyAHouse from './pages/BuyAHouse/BuyAHouse';
 import HouseOwner from './pages/ServiceHouseOwner/HouseOwner';
@@ -21,6 +22,7 @@ function App() {
             <Route path='/news' element={<News/>}/>
             <Route path='/rent_a_house' element={<RentAHouse/>}/>
             <Route path='/buy_a_house' element={<BuyAHouse/>}/>
+            <Route path='/real_este' element={<RealEste/>}/>
             <Route path='/service_apartment' element={<ServiceforApart/>}/>
             <Route path='/servicefor_HouseOwner' element={<HouseOwner/>}/>
             <Route path='/detail' element={<Detail/>}/>

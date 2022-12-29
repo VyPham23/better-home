@@ -17,7 +17,7 @@ const Sell = () => {
                 <Col xs={23} sm={23} md={23} lg={10} xl={10}>
                     <div className="sellhouse_info">
                         <h1><span>Sell</span> Your House</h1>
-                        <p style={{alignItem:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit orci, bibendum id malesuada sed,
+                        <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit orci, bibendum id malesuada sed,
                             elementum ac sem. Sed sem erat, placerat nec tellus vel, pretium auctor erat.
                             In bibendum tincidunt urna ac blandit. Sed aliquam vestibulum quam et sollicitudin.
                             Vivamus vehicula est nec molestie eleifend. Donec diam nisi, fermentum a tempus in, feugiat ut nunc.
@@ -43,7 +43,7 @@ const Sell = () => {
                 <Col xs={23} sm={23} md={23} lg={10} xl={10}>
                     <div className="sellhouse_info" style={{ marginLeft: '40px' }}>
                         <h1><span style={{ color: '#00908E' }}>Rent Out</span> Your House</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit orci, bibendum id malesuada sed,
+                        <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit orci, bibendum id malesuada sed,
                             elementum ac sem. Sed sem erat, placerat nec tellus vel, pretium auctor erat.
                             In bibendum tincidunt urna ac blandit. Sed aliquam vestibulum quam et sollicitudin.
                             Vivamus vehicula est nec molestie eleifend. Donec diam nisi, fermentum a tempus in, feugiat ut nunc.
@@ -68,7 +68,7 @@ const Sell = () => {
                 </Col>
                 <Col xs={23} sm={23} md={11} lg={10} xl={10}>
                     <div className="sellhouse_info">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit orci, bibendum id malesuada sed,
+                        <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit orci, bibendum id malesuada sed,
                             elementum ac sem. Sed sem erat, placerat nec tellus vel, pretium auctor erat.
                             In bibendum tincidunt urna ac blandit. Sed aliquam vestibulum quam et sollicitudin.
                             Vivamus vehicula est nec molestie eleifend. Donec diam nisi, fermentum a tempus in, feugiat ut nunc.
