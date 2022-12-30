@@ -44,7 +44,7 @@ const BuyAHouse = () => {
     useEffect(() => {
         const getApartForSell = async () => {
             const apartForSellFromServer = await fetchApartList()
-            setApartList(apartForSellFromServer )
+            setApartList(apartForSellFromServer)
         }
         getApartForSell()
     }, [projectSelected, urlApartList])
@@ -88,18 +88,13 @@ const BuyAHouse = () => {
                 </div>
 
                 <div className="row mb-5">
-                    <div className='col-12 col-lg-4 col-md-4 mt-5 project_hot_item'>
-                        <img className='img-fluid' src={ImgRent1} alt="project-item" />
-                        <p className='project_hot_name'>Vinhome Central Park</p>
-                    </div>
-                    <div className='col-12 col-lg-4 col-md-4 mt-5 project_hot_item'>
-                        <img className='img-fluid' src={ImgRent2} alt="project-item" />
-                        <p className='project_hot_name'>Vinhome Central Park</p>
-                    </div>
-                    <div className='col-12 col-lg-4 col-md-4 mt-5 project_hot_item'>
-                        <img className='img-fluid' src={ImgRent3} alt="project-item" />
-                        <p className='project_hot_name'>Vinhome Central Park</p>
-                    </div>
+                    {projectList.filter(project => projectList.project_status = "Hot")
+                        .map(filteredProject => (
+                            <div className='col-12 col-lg-4 col-md-4 mt-5 project_hot_item'>
+                                <img className='img-fluid' src={filteredProject.project_image} alt="project-item" />
+                                <p className='project_hot_name'>{filteredProject.project_name}</p>
+                            </div>
+                    ))}
                 </div>
             </div>
 
@@ -136,7 +131,7 @@ const BuyAHouse = () => {
                             Read More &nbsp;<ArrowRightOutlined className='icon_readMore' />
                         </button>
                     </div>
-                : ""}
+                    : ""}
             </div>
         </section>
     );

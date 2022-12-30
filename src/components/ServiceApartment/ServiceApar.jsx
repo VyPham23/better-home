@@ -46,7 +46,7 @@ const ServiceApart = () => {
     useEffect(() => {
         const getServiceApart = async () => {
             const serviceApartFromServer = await fetchApartList()
-            setApartList(serviceApartFromServer )
+            setApartList(serviceApartFromServer)
         }
         getServiceApart()
     }, [projectSelected, urlApartList])
@@ -110,18 +110,13 @@ const ServiceApart = () => {
                 </div>
 
                 <div className="row">
-                    <div className='col-12 col-lg-4 col-md-4 mt-5 project_hot_item'>
-                        <img className='img-fluid' src={ImgRent1} alt="project-item" />
-                        <p className='project_hot_name'>Vinhome Central Park</p>
-                    </div>
-                    <div className='col-12 col-lg-4 col-md-4 mt-5 project_hot_item'>
-                        <img className='img-fluid' src={ImgRent2} alt="project-item" />
-                        <p className='project_hot_name'>Vinhome Central Park</p>
-                    </div>
-                    <div className='col-12 col-lg-4 col-md-4 mt-5 project_hot_item'>
-                        <img className='img-fluid' src={ImgRent3} alt="project-item" />
-                        <p className='project_hot_name'>Vinhome Central Park</p>
-                    </div>
+                    {projectList.filter(project => projectList.project_status = "Hot")
+                        .map(filteredProject => (
+                            <div className='col-12 col-lg-4 col-md-4 mt-5 project_hot_item'>
+                                <img className='img-fluid' src={filteredProject.project_image} alt="project-item" />
+                                <p className='project_hot_name'>{filteredProject.project_name}</p>
+                            </div>
+                    ))}
                 </div>
             </div>
 
@@ -158,7 +153,7 @@ const ServiceApart = () => {
                             Read More &nbsp;<ArrowRightOutlined className='icon_readMore' />
                         </button>
                     </div>
-                : ""}
+                    : ""}
             </div>
         </main>
     );
