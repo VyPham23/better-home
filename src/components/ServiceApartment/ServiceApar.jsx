@@ -80,7 +80,7 @@ const ServiceApart = () => {
                     defaultValue={dataProject[0]}
                 />
 
-                <div className="row">
+                <div className="row mb-5">
                     <div className='col-12 col-lg-4 col-md-6 mt-5 apartment_item'>
                         <img className='img-fluid' src={ImgRent1} alt="project-item" />
                         <div className='apartment_name'>
