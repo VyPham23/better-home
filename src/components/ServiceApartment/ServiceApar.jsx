@@ -4,16 +4,69 @@ import seviceImage1 from './service_HouseOwner.1.jpg'
 import ImgRent1 from './rentaHouse1.jpg'
 import ImgRent2 from './rentaHouse2.jpg'
 import ImgRent3 from './rentaHouse3.jpg'
+import { useState, useEffect } from 'react';
 import Select from 'react-select';
 import './ServiceApartStyle.css'
 
 const ServiceApart = () => {
 
-    const dataProject = [
-        { label: "Vinhome Central Park", value: "Vinhome Central Park" },
-        { label: "Vinhome Golden River", value: "Vinhome Golden River" },
-        { label: "Vinhome River Park", value: "Vinhome River Park" }
-    ]
+    const [projectList, setProjectList] = useState([])
+    const [apartList, setApartList] = useState([])
+    const [projectSelected, setProjectSelected] = useState({
+        label: "",
+        value: 1
+    })
+
+    const [urlApartList, setUrlApartList] = useState("http://localhost/admin_api/public/api/v1/service/")
+    const [displayButton, setDisplayButton] = useState(true)
+
+    /*get project list*/
+    useEffect(() => {
+        const getProject = async () => {
+            const projectFromServer = await fetchProject()
+            setProjectList(projectFromServer)
+        }
+        getProject()
+    }, [])
+
+    const fetchProject = async () => {
+        const url_project_list = "http://localhost/admin_api/public/api/v1/projectlist"
+        const res = await fetch(url_project_list)
+        const data = await res.json()
+        return data['data']
+    }
+    /*--------------*/
+
+    const getAllApartment = () => {
+        setUrlApartList("http://localhost/admin_api/public/api/v1/serviceall/")
+        setDisplayButton(false)
+    }
+
+    /*get service apartment list when project selection change*/
+    useEffect(() => {
+        const getServiceApart = async () => {
+            const serviceApartFromServer = await fetchApartList()
+            setApartList(serviceApartFromServer )
+        }
+        getServiceApart()
+    }, [projectSelected, urlApartList])
+
+    const fetchApartList = async () => {
+        const id_project_selected = projectSelected.value
+        const url_apart_list = urlApartList + id_project_selected
+        const res = await fetch(url_apart_list)
+        const data = await res.json()
+        return data['data']
+    }
+    /*--------------*/
+
+    const dataProject = []
+    for (let i = 0; i < projectList.length; i++) {
+        dataProject.push({
+            label: projectList[i].project_name,
+            value: projectList[i].id_project
+        })
+    }
 
     const customStyles = {
         control: (base, state) => ({
@@ -75,29 +128,37 @@ const ServiceApart = () => {
             <div className='apartment_by_project'>
                 <Select
                     className='col-12 col-lg-4 col-md-12 mt-5 project_list'
+                    placeholder="Choose A Project"
                     styles={customStyles}
                     options={dataProject}
                     defaultValue={dataProject[0]}
+                    onChange={setProjectSelected}
                 />
 
                 <div className="row mb-5">
-                    <div className='col-12 col-lg-4 col-md-6 mt-5 apartment_item'>
-                        <img className='img-fluid' src={ImgRent1} alt="project-item" />
-                        <div className='apartment_name'>
-                            <div>
-                                {/* <span>{apartForRent.apartment_code}</span> */}
-                            </div>
-                            <div>
-                                {/* <span><i class="bi bi-eye"></i> {apartForRent.view_count}</span> */}
+                    {apartList.map((apart) => (
+                        <div className='col-12 col-lg-4 col-md-6 mt-5 apartment_item'>
+                            <img className='img-fluid' src={apart.image} alt="project-item" />
+                            <div className='apartment_name'>
+                                <div>
+                                    <span>{apart.apartment_code}</span>
+                                </div>
+                                <div>
+                                    <span><i class="bi bi-eye"></i> {apart.view_count}</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    ))}
+                </div>
+                {displayButton ?
                     <div className='row mb-5 btn_readmore_area'>
-                        <button className='btn_readmore_apartment'>
+                        <button
+                            onClick={getAllApartment}
+                            className='btn_readmore_apartment'>
                             Read More &nbsp;<ArrowRightOutlined className='icon_readMore' />
                         </button>
                     </div>
-                </div>
+                : ""}
             </div>
         </main>
     );
