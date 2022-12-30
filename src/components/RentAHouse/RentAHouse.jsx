@@ -87,7 +87,14 @@ const RentAHouse = () => {
                 <div className="row">
                     {projectList.filter(project => projectList.project_status = "Hot")
                         .map(filteredProject => (
-                            <div className='col-12 col-lg-4 col-md-4 mt-5 project_hot_item'>
+                            <div 
+                            onClick={() => setProjectSelected(
+                                {
+                                    label: "",
+                                    value: filteredProject.id_project
+                                }
+                            )}
+                            className='col-12 col-lg-4 col-md-4 mt-5 project_hot_item'>
                                 <img className='img-fluid' src={filteredProject.project_image} alt="project-item" />
                                 <div className='project_hot_name'>
                                 <p>{filteredProject.project_name}</p>
