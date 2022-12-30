@@ -1,6 +1,3 @@
-import ImgRent1 from './rentaHouse1.jpg'
-import ImgRent2 from './rentaHouse2.jpg'
-import ImgRent3 from './rentaHouse3.jpg'
 import { ArrowRightOutlined } from '@ant-design/icons';
 import { useState, useEffect } from 'react';
 import './Rent.css'
@@ -92,7 +89,9 @@ const RentAHouse = () => {
                         .map(filteredProject => (
                             <div className='col-12 col-lg-4 col-md-4 mt-5 project_hot_item'>
                                 <img className='img-fluid' src={filteredProject.project_image} alt="project-item" />
-                                <p className='project_hot_name'>{filteredProject.project_name}</p>
+                                <div className='project_hot_name'>
+                                <p>{filteredProject.project_name}</p>
+                                </div>
                             </div>
                     ))}
                 </div>

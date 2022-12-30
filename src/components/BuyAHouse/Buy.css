@@ -35,12 +35,14 @@
 }
 
 .project_hot_name, .apartment_name{
-    /* font-size: 1.3rem;
-    position: absolute;
-    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     color: #fff;
-    left: 35px;
-    font-weight: 700; */
+    font-weight: 700;
+    position: absolute;
+    bottom: 10px;
+    font-size: 1.3rem;
 }
 
 .btn_readmore_area{
@@ -67,6 +69,10 @@
         font-size: 1rem;
     }
 
+    .project_hot_name{
+        padding-right: 20px;
+    }
+
     .project_hot_title{
         font-size: 1rem;
     }
@@ -88,6 +94,10 @@
     .project_hot_name, .apartment_name{
         font-size: 0.8rem;
         left: 25px;
+    }
+
+    .project_hot_name{
+        padding-right: 35px;
     }
 
     .project_hot_title{

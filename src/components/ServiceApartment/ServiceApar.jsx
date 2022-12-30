@@ -1,9 +1,6 @@
 import { ArrowRightOutlined } from '@ant-design/icons';
 import { Row, Col, Button } from 'antd';
 import seviceImage1 from './service_HouseOwner.1.jpg'
-import ImgRent1 from './rentaHouse1.jpg'
-import ImgRent2 from './rentaHouse2.jpg'
-import ImgRent3 from './rentaHouse3.jpg'
 import { useState, useEffect } from 'react';
 import Select from 'react-select';
 import './ServiceApartStyle.css'
