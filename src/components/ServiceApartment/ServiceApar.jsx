@@ -33,7 +33,7 @@ const ServiceApart = () => {
                 <Col xs={23} sm={23} md={11} lg={11} xl={9}>
                     <div className="sellhouse_info">
                         <h1><span style={{ color: '#00908E' }}>Sell</span> Your House</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit orci, bibendum id malesuada sed,
+                        <p style={{ textAlign: "justify" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit orci, bibendum id malesuada sed,
                             elementum ac sem. Sed sem erat, placerat nec tellus vel, pretium auctor erat.
                             In bibendum tincidunt urna ac blandit. Sed aliquam vestibulum quam et sollicitudin.
                             Vivamus vehicula est nec molestie eleifend. Donec diam nisi, fermentum a tempus in, feugiat ut nunc.
@@ -70,12 +70,6 @@ const ServiceApart = () => {
                         <p className='project_hot_name'>Vinhome Central Park</p>
                     </div>
                 </div>
-
-                <div className='row btn_readmore_area'>
-                    <button className='btn_readmore_project'>
-                        Read More &nbsp;<ArrowRightOutlined className='icon_readMore' />
-                    </button>
-                </div>
             </div>
 
             <div className='apartment_by_project'>
@@ -89,31 +83,16 @@ const ServiceApart = () => {
                 <div className="row">
                     <div className='col-12 col-lg-4 col-md-6 mt-5 apartment_item'>
                         <img className='img-fluid' src={ImgRent1} alt="project-item" />
-                        <p className='apartment_name'>Vinhome Central Park</p>
+                        <div className='apartment_name'>
+                            <div>
+                                {/* <span>{apartForRent.apartment_code}</span> */}
+                            </div>
+                            <div>
+                                {/* <span><i class="bi bi-eye"></i> {apartForRent.view_count}</span> */}
+                            </div>
+                        </div>
                     </div>
-                    <div className='col-12 col-lg-4 col-md-6 mt-5 apartment_item'>
-                        <img className='img-fluid' src={ImgRent2} alt="project-item" />
-                        <p className='apartment_name'>Vinhome Central Park</p>
-                    </div>
-                    <div className='col-12 col-lg-4 col-md-6 mt-5 apartment_item'>
-                        <img className='img-fluid' src={ImgRent3} alt="project-item" />
-                        <p className='apartment_name'>Vinhome Central Park</p>
-                    </div>
-
-                    <div className='col-12 col-lg-4 col-md-6 mt-5 apartment_item'>
-                        <img className='img-fluid' src={ImgRent1} alt="project-item" />
-                        <p className='apartment_name'>Vinhome Central Park</p>
-                    </div>
-                    <div className='col-12 col-lg-4 col-md-6 mt-5 apartment_item'>
-                        <img className='img-fluid' src={ImgRent2} alt="project-item" />
-                        <p className='apartment_name'>Vinhome Central Park</p>
-                    </div>
-                    <div className='col-12 col-lg-4 col-md-6 mt-5 apartment_item'>
-                        <img className='img-fluid' src={ImgRent3} alt="project-item" />
-                        <p className='apartment_name'>Vinhome Central Park</p>
-                    </div>
-
-                    <div className='row mt-5 btn_readmore_area'>
+                    <div className='row mb-5 btn_readmore_area'>
                         <button className='btn_readmore_apartment'>
                             Read More &nbsp;<ArrowRightOutlined className='icon_readMore' />
                         </button>

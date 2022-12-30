@@ -48,12 +48,6 @@ const BuyAHouse = () => {
                         <p className='project_hot_name'>Vinhome Central Park</p>
                     </div>
                 </div>
-
-                <div className='row btn_readmore_area'>
-                    <button className='btn_readmore_project'>
-                        Read More &nbsp;<ArrowRightOutlined className='icon_readMore' />
-                    </button>
-                </div>
             </div>
 
             <div className='apartment_by_project'>
@@ -67,35 +61,20 @@ const BuyAHouse = () => {
                 <div className="row">
                     <div className='col-12 col-lg-4 col-md-6 mt-5 apartment_item'>
                         <img className='img-fluid' src={ImgRent1} alt="project-item" />
-                        <p className='apartment_name'>Vinhome Central Park</p>
+                        <div className='apartment_name'>
+                            <div>
+                                {/* <span>{apartForRent.apartment_code}</span> */}
+                            </div>
+                            <div>
+                                {/* <span><i class="bi bi-eye"></i> {apartForRent.view_count}</span> */}
+                            </div>
+                        </div>
                     </div>
-                    <div className='col-12 col-lg-4 col-md-6 mt-5 apartment_item'>
-                        <img className='img-fluid' src={ImgRent2} alt="project-item" />
-                        <p className='apartment_name'>Vinhome Central Park</p>
-                    </div>
-                    <div className='col-12 col-lg-4 col-md-6 mt-5 apartment_item'>
-                        <img className='img-fluid' src={ImgRent3} alt="project-item" />
-                        <p className='apartment_name'>Vinhome Central Park</p>
-                    </div>
-
-                    <div className='col-12 col-lg-4 col-md-6 mt-5 apartment_item'>
-                        <img className='img-fluid' src={ImgRent1} alt="project-item" />
-                        <p className='apartment_name'>Vinhome Central Park</p>
-                    </div>
-                    <div className='col-12 col-lg-4 col-md-6 mt-5 apartment_item'>
-                        <img className='img-fluid' src={ImgRent2} alt="project-item" />
-                        <p className='apartment_name'>Vinhome Central Park</p>
-                    </div>
-                    <div className='col-12 col-lg-4 col-md-6 mt-5 apartment_item'>
-                        <img className='img-fluid' src={ImgRent3} alt="project-item" />
-                        <p className='apartment_name'>Vinhome Central Park</p>
-                    </div>
-
-                    <div className='row mt-5 btn_readmore_area'>
-                        <button className='btn_readmore_apartment'>
-                            Read More &nbsp;<ArrowRightOutlined className='icon_readMore' />
-                        </button>
-                    </div>
+                </div>
+                <div className='row mb-5 btn_readmore_area'>
+                    <button className='btn_readmore_apartment'>
+                        Read More &nbsp;<ArrowRightOutlined className='icon_readMore' />
+                    </button>
                 </div>
             </div>
         </section>

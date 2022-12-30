@@ -35,12 +35,14 @@
 }
 
 .project_hot_name, .apartment_name{
-    font-size: 1.3rem;
-    position: absolute;
-    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     color: #fff;
-    left: 35px;
     font-weight: 700;
+    position: absolute;
+    bottom: 10px;
+    font-size: 1.3rem;
 }
 
 .btn_readmore_area{
