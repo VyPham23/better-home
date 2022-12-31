@@ -36,7 +36,6 @@ const NewsList = () => {
     return (
         <section className="section-all-re">
             <div className="container">
-                {/* <Title title={title.text} description={title.description} /> */}
                 <div className="row">
                     <div className="col-lg-12 col-12 col-md-12 news-start">
                         <h2><a href="/">Recent News</a></h2>

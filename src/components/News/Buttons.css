@@ -44,6 +44,11 @@
     padding: 12px ;
 }
 
+.cart_body_news{
+    padding: 50px 30px;
+    height: 175px;
+}
+
 .card_title_news, .card_text_news{
     text-align: justify;
 }
@@ -51,10 +56,6 @@
 .news_information{
     display: flex;
     justify-content: space-between;
-}
-
-.cart_body_news{
-    padding: 50px 30px;
 }
 
 .img_card_news{
