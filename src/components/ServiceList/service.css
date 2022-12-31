@@ -12,6 +12,15 @@
     outline-offset: 3px;
 }
 
+.button_nav_home{
+    color: #fff;
+    text-decoration: none;
+}
+
+.button_nav_home:hover{
+    color: #fff;
+}
+
 .sv-image img{
     width: 100%;
     min-height: 100px;

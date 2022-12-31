@@ -10,14 +10,13 @@ const ServiceItem = ({name, picture}) => {
                 </div>
                 <div className="sv-description">
                     <div className="mb-3 sv-text">
-                        <p><a href="/"> {name} </a></p>
-                        {/* className="item-title" */}
-                        {/* className="item-price" */}
+                        <p>{name}</p>
                     </div>
                     <div className="align-items-center">
-                        {/* d-flex alig-items-center justify-content-between */}
                         <a href="/" className="item-title">
-                            <button className="btn" id="btn-detail">REGISTER</button>
+                            <button className="btn" id="btn-detail">
+                                <a className='button_nav_home' href="/">REGISTER</a>
+                            </button>
                         </a>
                     </div>
                 </div>

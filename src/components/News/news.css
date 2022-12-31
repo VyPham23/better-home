@@ -3,6 +3,11 @@
     padding-bottom: 70px;
 }
 
+.title_news{
+    text-decoration: none;
+    color: #202020;
+}
+
 .news{
     width: 95%;
     margin: auto auto 30px;

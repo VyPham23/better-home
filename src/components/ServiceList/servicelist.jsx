@@ -10,7 +10,6 @@ const ServiceList = () => {
     return (
         <section className="section-all-re">
             <div className="container">
-                {/* <Title title={title.text} description={title.description} /> */}
                 <div className='row'>
                     <ServiceItem name="SALE YOUR HOUSE" picture={pic1} />
                     <ServiceItem name="RENT OUT YOUR HOUSE" picture={pic2} />

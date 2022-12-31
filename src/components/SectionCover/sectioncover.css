@@ -7,6 +7,15 @@
     margin: 50px auto;
 }
 
+.button_nav_home{
+    color: #fff;
+    text-decoration: none;
+}
+
+.button_nav_home:hover{
+    color: #fff;
+}
+
 .bg-custom{
     position: absolute;
     background: rgb(29 34 43 / 69%);

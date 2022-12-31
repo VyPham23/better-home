@@ -7,6 +7,15 @@
     margin-top: 50px;
 }
 
+.button_nav_home{
+    color: #fff;
+    text-decoration: none;
+}
+
+.button_nav_home:hover{
+    color: #fff;
+}
+
 .intro_container {
     margin-bottom: 50px;
     margin-top: 50px;
