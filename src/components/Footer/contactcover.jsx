@@ -14,7 +14,9 @@ const ContactCover = () => {
                                 <h2 className="contact-title mt-2 mb-4">Need For Apartment Service</h2>
                             </div>
                             <div>
-                                <button className="contact-btn">Contact Us</button>
+                                <button className="contact-btn">
+                                    <a className='button_nav_home' href="/contact">Contact Us</a>
+                                </button>
                             </div>
                         </div>
                     </div>

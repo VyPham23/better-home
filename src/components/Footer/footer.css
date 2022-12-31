@@ -98,6 +98,10 @@
     color: #FFFFFF;
 }
 
+.contact-btn:hover{
+    background-color: #007bff;
+}
+
 .contact-title {
     font-size: 2.1rem;
 }
