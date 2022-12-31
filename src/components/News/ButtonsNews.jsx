@@ -4,7 +4,6 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 
 export default function ButtonsNews() {
 

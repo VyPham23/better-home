@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import './news.css';
-import { Link } from 'react-router-dom';
 
 const NewsList = () => {
 
