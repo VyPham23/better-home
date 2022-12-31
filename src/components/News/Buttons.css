@@ -1,6 +1,12 @@
 .bg-green {
     background-color:  #00908E !important;
 }
+
+a{
+    text-decoration: none;
+    color: #202020;
+}
+
 .bg-gray {
     background-color: #F0F0F0 !important;
 }

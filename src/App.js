@@ -3,7 +3,7 @@ import './App.css';
 import AppPage from './components/appPage';
 import AboutUs from './pages/AboutUs/AboutUs';
 import Contact from './pages/Contact/Contact';
-import Detail from './pages/Detail/Detail';
+import Details from './pages/Detail/Detail';
 import News from './pages/News/News';
 import RealEste from './pages/RealEste/RealEste';
 import RentAHouse from './pages/RentAHouse/RentAHouse';
@@ -26,8 +26,8 @@ function App() {
             <Route path='/real_este' element={<RealEste/>}/>
             <Route path='/service_apartment' element={<ServiceforApart/>}/>
             <Route path='/servicefor_HouseOwner' element={<HouseOwner/>}/>
-            <Route path='/detail' element={<Detail/>}/>
-            <Route path='/news_details' element={<NewsDetails/>}/>
+            <Route path='/details' element={<Details/>}/>
+            <Route path='/news_details/:id' element={<NewsDetails/>}/>
         </Routes>
       </Router>
       

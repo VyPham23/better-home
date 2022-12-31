@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function ButtonsNews() {
 
@@ -51,9 +52,11 @@ export default function ButtonsNews() {
                   <Card className='shadow bg-white rounded box-news' >
                     <img src={news.image_news} className='img_card_news img-fluid' alt="news-image" />
                     <div className='cart_body_news'>
+                      <a href={`/news_details/${news.id_news}`}>
                       <Card.Title className='card_title_news'>
-                        {news.title_news}
-                      </Card.Title>
+                          {news.title_news}
+                        </Card.Title>
+                      </a>
                       <Row className='mt-4'></Row>
                       <Row>
                         <div className='news_information'>

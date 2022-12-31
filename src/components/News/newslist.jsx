@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import './news.css';
+import { Link } from 'react-router-dom';
 
 const NewsList = () => {
 
@@ -38,7 +39,7 @@ const NewsList = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 col-12 col-md-12 news-start">
-                        <h2><a href="/">Recent News</a></h2>
+                        <h2>Recent News</h2>
                     </div>
                     {newsList.map((news) => (
                         <div className="col-lg-6 col-12 col-md-12">
@@ -48,7 +49,9 @@ const NewsList = () => {
                                 </div>
                                 <div className="news-description">
                                     <div className="mb-3 news-text">
-                                        <h4><a href="/"> {news.title_news} </a></h4>
+                                        <a href={`/news_details/${news.id_news}`}>
+                                            <h4>{news.title_news}</h4>
+                                        </a>
                                         <div className='news-infor mb-1' style={{display: "flex", justifyContent: "space-between"}}>
                                             <span><i class="bi bi-eye"></i> {news.view_count}</span>
                                             <span><i class="bi bi-pencil"></i> {news.author_news}</span>
