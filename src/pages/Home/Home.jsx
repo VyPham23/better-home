@@ -38,28 +38,32 @@ const Home = () => {
                 nameSection="Rent A House"
                 description={description}
                 numApart={100}
-                picture={pic1} />
+                picture={pic1}
+                path={'/rent_a_house'} />
             <FlatForRent />
 
             <SectionCover
                 nameSection="Buy A House"
                 description={description}
                 numApart={200}
-                picture={pic2} />
+                picture={pic2}
+                path={'/buy_a_house'} />
             <FlatForSell />
 
             <SectionCover
                 nameSection="Service Apartment"
                 description={description}
                 numApart={150}
-                picture={pic3} />
+                picture={pic3}
+                path={'/service_apartment'} />
             <ServiceApart />
 
             <SectionCover
                 nameSection="Service House Owner"
                 description={description}
                 numApart={120}
-                picture={pic4} />
+                picture={pic4}
+                path={'/servicefor_houseowner'} />
             <ServiceList />
 
             <NewsList />

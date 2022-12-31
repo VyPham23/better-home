@@ -1,7 +1,7 @@
 import React from 'react';
 import './sectioncover.css';
 
-const SectionCover = ({nameSection, description, numApart, picture}) => {
+const SectionCover = ({nameSection, description, numApart, picture, path}) => {
     return (
         <div className="banner d-flex align-items-center" style={{ backgroundImage: `url(${picture})` }}>
             <div className="bg-custom">
@@ -27,7 +27,9 @@ const SectionCover = ({nameSection, description, numApart, picture}) => {
                             </div>
                             <div class="col-md-3 col-lg-3 col-xl-3 prop-all">
                                 <a href="/">
-                                    <button className="btn" id="all-btn">VIEW ALL</button>
+                                    <button className="btn" id="all-btn">
+                                        <a href={path}>VIEW ALL</a>
+                                    </button>
                                 </a>
                             </div>
                         </div>

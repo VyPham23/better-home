@@ -8,7 +8,7 @@ function Navbar(props) {
     <header style={{ overflow: "hidden" }} className='main-nav'>
       <div className='left-nav col-lg-5 col-md-5 col-5'>
         <Link
-        to={'/servicefor_HouseOwner'}>
+        to={'/servicefor_houseowner'}>
           Service House Owner
         </Link>
         <Link
