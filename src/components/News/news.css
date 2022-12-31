@@ -1,3 +1,14 @@
+.intro_news .news_details_title{
+    font-size: 2.5rem;
+}
+
+.news_details_sub_infor span{
+    padding: 12px;
+}
+
+
+/*------------------------*/
+
 .section-all-re{
     padding-top: 70px;
     padding-bottom: 70px;
