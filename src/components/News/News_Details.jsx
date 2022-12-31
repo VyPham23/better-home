@@ -43,18 +43,22 @@ const News_Details = () => {
 
     return (
         <div>
-            <section className="intro_news mt-5">
+            <section className="news_details_area mt-5 container">
                 <div className='news_details_title'>
                     {title}
                 </div>
-                <div className='news_details_sub_infor'>
+                <div className='news_details_sub_infor mb-5'>
                     <span>{author}</span>
                     <span>{date ? getDate(date) : ""}</span>
                 </div>
-                <article>
-                    {description}
-                </article>
+                <div
+                style={{textAlign:"justify"}}
+                className='container news_details_description'
+                dangerouslySetInnerHTML={{__html: description}}
+                >
+                </div>
             </section>
+
             <section className="section-all-re">
                 {/* <div className="container">
                 <div className="row">

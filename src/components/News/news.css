@@ -1,4 +1,4 @@
-.intro_news .news_details_title{
+.news_details_area .news_details_title{
     font-size: 2.5rem;
 }
 
@@ -6,6 +6,29 @@
     padding: 12px;
 }
 
+.news_details_area{
+    width: 75%;
+}
+
+.news_details_description img{
+    width: 100%;
+}
+
+.news_details_description h1{
+    font-size: 1.8rem;
+}
+
+.news_details_description h2{
+    font-size: 1.5rem;
+}
+
+.news_details_description h3{
+    font-size: 1.2rem;
+}
+
+.news_details_description h4{
+    font-size: 1rem;
+}
 
 /*------------------------*/
 
@@ -78,6 +101,22 @@
     .news-infor span{
         font-size: 0.8rem;
     }
+
+    .news_details_area .news_details_title{
+        font-size: 2.3rem;
+    }
+    
+}
+
+@media only screen and (max-width: 760px){
+
+    .news_details_area .news_details_title{
+        font-size: 2.2rem;
+    }
+
+    .news_details_area{
+        width: 80%;
+    }
     
 }
 
@@ -98,6 +137,47 @@
     .news-infor span{
         font-size: 0.7rem;
     }
+
+    .news_details_area .news_details_title{
+        font-size: 2rem;
+    }
+
+    .news_details_area{
+        width: 85%;
+    }
+
+    .news_details_description p{
+        font-size: 0.9rem;
+    }
+
+    .news_details_description h1{
+        font-size: 1.6rem;
+    }
+    
+    .news_details_description h2{
+        font-size: 1.35rem;
+    }
+    
+    .news_details_description h3{
+        font-size: 1.15rem;
+    }
+    
+    .news_details_description h4{
+        font-size: 1rem;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 550px){
+
+    .news_details_area .news_details_title{
+        font-size: 1.8rem;
+    }
+
+    .news_details_area{
+        width: 95%;
+    }
     
 }
 
@@ -105,6 +185,30 @@
 
     .news-description{
         height: 200px;
+    }
+    
+    .news_details_area{
+        width: 100%;
+    }
+
+    .news_details_description p{
+        font-size: 0.8rem;
+    }
+
+    .news_details_description h1{
+        font-size: 1.45rem;
+    }
+    
+    .news_details_description h2{
+        font-size: 1.2rem;
+    }
+    
+    .news_details_description h3{
+        font-size: 1.05rem;
+    }
+    
+    .news_details_description h4{
+        font-size: 0.9rem;
     }
 
 }
