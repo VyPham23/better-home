@@ -2,7 +2,7 @@ import './Contact.css'
 
 export default function ButtonsContact() {
   return (
-    <div className='buttons_contact mt-5'>
+    <div className='buttons_contact mt-5 mb-3'>
       <div>
         <h2 id='title1'>GET IN TOUCH</h2>
         <p id='title2' className='text-center'>Anytime, anywhere, with superior quality products, we are with you at every moment</p>

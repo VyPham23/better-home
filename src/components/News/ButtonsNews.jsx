@@ -74,7 +74,7 @@ export default function ButtonsNews() {
               ))} {/* end col */}
             </Row>{/* end row */}
 
-            <Row >
+            <Row className='mb-3'>
               <div className="prevNext_news">
                 <LeftOutlined className="left_news" />
                 <RightOutlined className="right_news" />

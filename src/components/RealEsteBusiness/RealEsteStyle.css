@@ -1,0 +1,486 @@
+.real_este_intro {
+    display: flex;
+    padding: 50px 80px 150px 100px;
+    position: relative;
+    background-color: #08948c;
+}
+
+.image_real_este img {
+    width: 85%;
+}
+
+.description_real_este,
+.image_real_este {
+    width: 50%;
+}
+
+.description_real_este {
+    text-align: justify;
+    color: #fff;
+    padding-right: 60px;
+}
+
+.image_real_este {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+}
+
+.business_location_area {
+    display: flex;
+    padding: 50px 140px 250px 0px;
+    position: relative;
+}
+
+.description_business_location,
+.business_location_img {
+    width: 50%;
+}
+
+.business_location_img img {
+    width: 30%;
+    position: absolute;
+    left: 50px;
+    top: -50px;
+}
+
+.description_business_location {
+    text-align: justify;
+}
+
+.description_business_location h1 {
+    color: #08948c;
+    font-weight: 700;
+}
+
+.button_register_real_este button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    height: 50px;
+    width: 150px;
+}
+
+.description_business_location .button_register_real_este button {
+    background-color: transparent;
+    border: 1px solid #08948c;
+    height: 50px;
+    width: 150px;
+    color: #08948c;
+}
+
+.co_working_area .button_register_real_este button {
+    background-color: transparent;
+    border: 1px solid #08948c;
+    height: 50px;
+    width: 150px;
+    color: #08948c;
+}
+
+.co_working_area {
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.block_co_working {
+    margin: 0 120px;
+    box-shadow: -3px 2px 8px #888888;
+    background-color: #fff;
+    bottom: -70px;
+    position: absolute;
+    z-index: 1000;
+    padding: 30px 50px;
+}
+
+.block_co_working p {
+    text-align: justify;
+}
+
+.image_co_working img {
+    height: 450px;
+    width: 100%;
+}
+
+.block_title_co_working {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title_co_working {
+    font-size: 2.5rem;
+    color: #08948c;
+    font-weight: 700;
+}
+
+.button_register_real_este {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1030px) {
+
+    .description_real_este {
+        font-size: 0.9rem;
+        width: 60%;
+    }
+
+    .description_real_este h1 {
+        font-size: 1.7rem;
+    }
+
+    .image_real_este {
+        width: 40%;
+    }
+
+    .image_real_este img {
+        width: 100%;
+    }
+
+    .business_location_area {
+        padding: 50px 80px 150px 0px;
+    }
+
+    .block_co_working p{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+
+    .description_real_este {
+        font-size: 0.8rem;
+    }
+
+    .description_real_este h1 {
+        font-size: 1.6rem;
+    }
+
+    .real_este_intro {
+        padding: 50px 80px 120px 80px;
+    }
+
+    .button_register_real_este button {
+        height: 45px;
+        width: 135px;
+    }
+
+    .image_real_este {
+        top: 100px;
+    }
+
+    .business_location_area {
+        padding: 50px 80px 120px 0px;
+    }
+
+    .description_business_location h1 {
+        font-size: 1.6rem;
+    }
+
+    .description_business_location p {
+        font-size: 0.8rem;
+    }
+    
+    .description_business_location .button_register_real_este button {
+        height: 45px;
+        width: 135px;
+    }
+
+    .block_co_working .button_register_real_este button {
+        height: 45px;
+        width: 135px;
+    }
+
+    .title_co_working{
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .description_real_este {
+        font-size: 0.7rem;
+        padding-right: 40px;
+    }
+
+    .description_real_este h1 {
+        font-size: 1.5rem;
+    }
+
+    .real_este_intro {
+        padding: 50px 80px 100px 80px;
+    }
+
+    .business_location_area {
+        padding: 50px 80px 100px 0px;
+    }
+
+    .button_register_real_este button {
+        height: 40px;
+        width: 120px;
+    }
+
+    .business_location_area {
+        padding: 50px 50px 100px 0px;
+    }
+    
+    .description_business_location .button_register_real_este button {
+        height: 40px;
+        width: 120px;
+    }
+
+    .block_co_working .button_register_real_este button {
+        height: 40px;
+        width: 120px;
+    }
+
+    .business_location_img img {
+        top: -30px;
+    }
+
+    .block_co_working {
+        bottom: -120px;
+    }
+
+    .image_co_working img {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+
+    .description_real_este {
+        font-size: 0.6rem;
+        padding-right: 30px;
+    }
+
+    .description_real_este h1 {
+        font-size: 1.45rem;
+    }
+
+    .real_este_intro {
+        padding: 50px 80px 80px 70px;
+    }
+
+    .button_register_real_este button {
+        font-size: 0.7rem;
+        height: 35px;
+        width: 105px;
+    }
+
+    .business_location_area {
+        padding: 50px 40px 70px 0px;
+    }
+
+    .description_business_location h1 {
+        font-size: 1.5rem;
+    }
+
+    .description_business_location p {
+        font-size: 0.65rem;
+    }
+
+    .description_business_location .button_register_real_este button {
+        height: 35px;
+        width: 105px;
+    }
+
+    .block_co_working .button_register_real_este button {
+        height: 35px;
+        width: 105px;
+    }
+
+    .business_location_img img{
+        width: 35%;
+    }
+
+    .block_co_working p{
+        font-size: 0.6rem;
+    }
+
+    .block_co_working {
+        bottom: -150px;
+    }
+
+    .title_co_working{
+        font-size: 2rem;
+    }
+
+    .image_co_working img {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+
+    .description_real_este {
+        font-size: 0.55rem;
+        padding-right: 0px;
+    }
+
+    .description_real_este h1 {
+        font-size: 1.4rem;
+    }
+
+    .real_este_intro {
+        padding: 50px 80px 70px 50px;
+    }
+
+    .business_location_area {
+        padding: 50px 40px 50px 0px;
+    }
+
+    .button_register_real_este button {
+        font-size: 0.6rem;
+        height: 30px;
+        width: 90px;
+    }
+
+    .description_business_location h1 {
+        font-size: 1.4rem;
+    }
+
+    .description_business_location p {
+        font-size: 0.55rem;
+    }
+
+    .description_business_location .button_register_real_este button {
+        height: 30px;
+        width: 90px;
+    }
+
+    .block_co_working .button_register_real_este button {
+        height: 30px;
+        width: 90px;
+    }
+
+    .business_location_img img {
+        top: -25px;
+    }
+
+    .block_co_working {
+        margin: 0 100px;
+        padding: 30px 30px;
+    }
+
+    .title_co_working{
+        font-size: 1.7rem;
+    }
+
+}
+
+@media only screen and (max-width: 510px) {
+
+    .description_real_este {
+        font-size: 0.5rem;
+    }
+
+    .description_real_este h1 {
+        font-size: 1.3rem;
+    }
+
+    .real_este_intro {
+        padding: 50px 50px 70px 30px;
+    }
+
+    .button_register_real_este button {
+        font-size: 0.5rem;
+        height: 25px;
+        width: 75px;
+    }
+
+    .business_location_area {
+        padding: 50px 30px 40px 0px;
+    }
+
+    .description_business_location h1 {
+        font-size: 1.3rem;
+    }
+
+    .description_business_location p {
+        font-size: 0.45rem;
+    }
+
+    .description_business_location .button_register_real_este button {
+        height: 25px;
+        width: 75px;
+    }
+
+    .block_co_working .button_register_real_este button {
+        height: 25px;
+        width: 75px;
+    }
+
+    .business_location_img img {
+        top: -20px;
+    }
+
+    .block_co_working p{
+        font-size: 0.5rem;
+    }
+
+    .block_co_working {
+        margin: 0 80px;
+        padding: 30px 15px;
+    }
+
+    .image_co_working img {
+        height: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .description_real_este {
+        font-size: 0.45rem;
+    }
+
+    .description_real_este h1 {
+        font-size: 1.25rem;
+    }
+
+    .real_este_intro {
+        padding: 50px 30px 65px 30px;
+    }
+
+    .button_register_real_este button {
+        font-size: 0.4rem;
+        height: 20px;
+        width: 60px;
+    }
+
+    .image_real_este {
+        top: 110px;
+    }
+
+    .business_location_area {
+        padding: 50px 20px 30px 0px;
+    }
+    
+    .description_business_location .button_register_real_este button {
+        height: 20px;
+        width: 60px;
+    }
+
+    .block_co_working .button_register_real_este button {
+        height: 20px;
+        width: 60px;
+    }
+
+    .business_location_img img {
+        top: -15px;
+    }
+
+    .block_co_working {
+        margin: 0 50px;
+    }
+
+    .title_co_working{
+        font-size: 1.5rem;
+    }
+
+    .image_co_working img {
+        height: 270px;
+    }
+}
