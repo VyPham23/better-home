@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import apartment from './product1.jpeg';
 import './features.css';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useParams } from "react-router-dom";
 
 const DetailDes = () => {
@@ -36,6 +36,8 @@ const DetailDes = () => {
 
     const [featureList, setFeatureList] = useState([])
 
+    const [imagesList, setImagesList] = useState([])
+
     /*------------------------------*/
 
     /*get apartment for rent by id*/
@@ -59,6 +61,8 @@ const DetailDes = () => {
             setLot(apartForRentFromServer["apart_infor"][0]['lot'])
 
             setFeatureList(apartForRentFromServer["features_infor"])
+
+            setImagesList(apartForRentFromServer["images_infor"])
         }
         getApartForRentByID()
     }, [])
@@ -80,17 +84,42 @@ const DetailDes = () => {
     }
     /*------------------*/
 
+    /*format carousel button*/
+    const ref = useRef(null);
+    const [currentIndex, setCurrentIndex] = useState(1)
+
+    const onPrevClick = () => {
+        if (currentIndex !== 1) {
+            setCurrentIndex(currentIndex - 1)
+            ref.current.prev();
+        }
+    };
+    const onNextClick = () => {
+        if (currentIndex === imagesList.length) {
+            setCurrentIndex(1)
+        }
+        else {
+            setCurrentIndex(currentIndex + 1)
+        }
+        ref.current.next();
+    };
+    /*------------------*/
+
     return (
         <div className='details_apartment_area pb-5'>
             <div className='slider_area'>
-                <Carousel fade>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100 cr-img img-fluid"
-                            src={apartment}
-                            alt="First slide"
-                        />
-                    </Carousel.Item>
+                <Carousel
+                    ref={ref}
+                    fade>
+                    {imagesList.map((image) => (
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100 cr-img img-fluid"
+                                src={image.image_description}
+                                alt="apartment-image"
+                            />
+                        </Carousel.Item>
+                    ))}
                 </Carousel>
                 <div class="row in_slider_area">
                     <div className='col-lg-4 col-md-12 col-12 in_slider_display'>
@@ -102,9 +131,13 @@ const DetailDes = () => {
                     <div className='col-lg-4 col-md-12 col-12 in_slider_display in_slider_display_photo'>
                         <span>Photos</span>
                         <span className='button_pagination_area'>
-                            <button className='button_pagination'>&lt;</button>
-                            01 / 09
-                            <button className='button_pagination'>&gt;</button>
+                            <button
+                                onClick={onPrevClick}
+                                className='button_pagination'>&lt;</button>
+                            {currentIndex} / {imagesList.length}
+                            <button
+                                onClick={onNextClick}
+                                className='button_pagination'>&gt;</button>
                         </span>
                     </div>
                 </div>
@@ -206,68 +239,6 @@ const DetailDes = () => {
                             &nbsp; <span className='feature_item_name'>{feature.feature_name}</span>
                         </div>
                     ))}
-
-                    {/* <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={Cable_Television} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Cable Television</span>
-                    </div>
-                    <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={Telephone} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Telephone</span>
-                    </div>
-
-                    <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={refrigerator} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Refrigerator</span>
-                    </div>
-                    <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={air_condition} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Air Condition</span>
-                    </div>
-                    <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={water} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Water Heater</span>
-                    </div>
-
-                    <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={balcony} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Balcony</span>
-                    </div>
-                    <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={power} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>General Power</span>
-                    </div>
-                    <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={security} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Security 24/24</span>
-                    </div>
-
-                    <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={parkingSpace} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Parking</span>
-                    </div>
-                    <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={store} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Store 24/24</span>
-                    </div>
-                    <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={garden} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Garden</span>
-                    </div>
-
-                    <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={pool} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Swimming Pool</span>
-                    </div>
-                    <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={furnishture} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>Fully Furnished</span>
-                    </div>
-                    <div className='col-4 col-lg-4 col-md-4'>
-                        <img className='icon_details' src={gym} alt="feature-item" />
-                        &nbsp; <span className='feature_item_name'>GYM</span>
-                    </div> */}
-
                 </div>
             </div>
         </div>
