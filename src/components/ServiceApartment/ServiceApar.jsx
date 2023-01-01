@@ -139,15 +139,17 @@ const ServiceApart = () => {
                 <div className="row mb-5">
                     {apartList.map((apart) => (
                         <div className='col-12 col-lg-4 col-md-6 mt-5 apartment_item'>
-                            <img className='img-fluid' src={apart.image} alt="project-item" />
-                            <div className='apartment_name'>
-                                <div>
-                                    <span>{apart.apartment_code}</span>
+                            <a href={`/details/${apart.id_apartment}`}>
+                                <img className='img-fluid' src={apart.image} alt="project-item" />
+                                <div className='apartment_name'>
+                                    <div>
+                                        <span>{apart.apartment_code}</span>
+                                    </div>
+                                    <div>
+                                        <span><i class="bi bi-eye"></i> {apart.view_count}</span>
+                                    </div>
                                 </div>
-                                <div>
-                                    <span><i class="bi bi-eye"></i> {apart.view_count}</span>
-                                </div>
-                            </div>
+                            </a>
                         </div>
                     ))}
                 </div>

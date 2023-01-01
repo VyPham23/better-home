@@ -56,7 +56,7 @@ const FlatForSell = () => {
                                 </div>
                                 <div className="item-description">
                                     <div className="mb-3">
-                                        <h4><a href="/">{apartForSell.apartment_code}</a></h4>
+                                        <h4>{apartForSell.apartment_code}</h4>
                                         <span >{apartForSell.address}, {apartForSell.project_name}</span><br />
                                     </div>
                                     <div className="align-items-center item-detail">
@@ -66,7 +66,7 @@ const FlatForSell = () => {
                                         <div className="detail dom">{apartForSell.year_built}<br />Year</div>
                                     </div>
                                     <div className="align-items-center">
-                                        <a href="/" className="item-title">
+                                        <a href={`/details/${apartForSell.id_apartment}`} className="item-title">
                                             <button className="btn" id="btn-detail">VIEW</button>
                                         </a>
                                     </div>

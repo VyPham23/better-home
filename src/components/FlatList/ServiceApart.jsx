@@ -56,7 +56,7 @@ const ServiceApart = () => {
                                 </div>
                                 <div className="item-description">
                                     <div className="mb-3">
-                                        <h4><a href="/">{serviceApart.apartment_code}</a></h4>
+                                        <h4>{serviceApart.apartment_code}</h4>
                                         <span >{serviceApart.address}, {serviceApart.project_name}</span><br />
                                     </div>
                                     <div className="align-items-center item-detail">
@@ -66,7 +66,7 @@ const ServiceApart = () => {
                                         <div className="detail dom">{serviceApart.year_built}<br />Year</div>
                                     </div>
                                     <div className="align-items-center">
-                                        <a href="/" className="item-title">
+                                        <a href={`/details/${serviceApart.id_apartment}`} className="item-title">
                                             <button className="btn" id="btn-detail">VIEW</button>
                                         </a>
                                     </div>
