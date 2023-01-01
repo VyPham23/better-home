@@ -9,7 +9,9 @@ const News_Details = () => {
     const [title, setTitle] = useState("")
     const [author, setAuthor] = useState("")
     const [date, setDate] = useState("")
-    const [description, setDescription] = useState(<h2>ABC</h2>)
+    const [description, setDescription] = useState("")
+
+    const [newsList, setNewsList] = useState([])
 
     /*get news by id*/
     useEffect(() => {
@@ -28,6 +30,7 @@ const News_Details = () => {
         const data = await res.json()
         return data['data'][0]
     }
+    /*---------------*/
 
     const getDate = (date) =>{
         const getDate = date.substring(0, 10)
@@ -57,35 +60,6 @@ const News_Details = () => {
                 dangerouslySetInnerHTML={{__html: description}}
                 >
                 </div>
-            </section>
-
-            <section className="section-all-re">
-                {/* <div className="container">
-                <div className="row">
-                    <div className="col-lg-12 col-12 col-md-12 news-start">
-                        <h2>Recent News</h2>
-                    </div>
-                   
-                        <div className="col-lg-6 col-12 col-md-12">
-                            <div className="news">
-                                <div className="news-image">
-                                    <img style={{height:"18rem"}} className="img-fluid" src="./images/anh7.jpg" alt="news" />
-                                </div>
-                                <div className="news-description">
-                                    <div className="mb-3 news-text">
-                                        <h4><a href="/"> </a></h4>
-                                        <div className='news-infor mb-1' style={{display: "flex", justifyContent: "space-between"}}>
-                                            <span><i class="bi bi-eye"></i></span>
-                                            <span><i class="bi bi-pencil"></i></span>
-                                            <span><i class="bi bi-calendar-minus"></i></span>
-                                        </div>
-                                        <span className='news-intro' ></span><br />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </div> */}
             </section>
         </div>
     )
