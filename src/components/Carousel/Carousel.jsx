@@ -28,15 +28,15 @@ function CarouselFadeExample(props) {
     return (
         <div id="slider">
             <Carousel fade>
-                {/* {sliderList.map((slider) => ( */}
+                {sliderList.map((slider) => (
                     <Carousel.Item>
                         <img
                             className="d-block w-100 cr-img img-fluid"
-                            src={apartment}
+                            src={slider.image_slider}
                             alt="First slide"
                         />
                     </Carousel.Item>
-                {/* // ))} */}
+                ))} 
             </Carousel>
         </div>
     );
