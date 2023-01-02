@@ -23,7 +23,29 @@ import pic4 from './pic4.jpg';
 const Home = () => {
 
     const [description, setDescription] = useState("Hermosa Beach is a beachfront city in Los Angeles County in the U.S. state of California, United States. Its population was 19,728 at the 2020 U.S. Census. The city is located in the South Bay region of the Greater Los Angeles area; it is one of the three Beach Cities.")
-    const [numApart, setNumApart] = useState(0)
+
+    const [numApartForRent, setNumApartForRent] = useState(0)
+    const [numApartForSell, setNumApartForSell] = useState(0)
+    const [numServiceApart, setNumServiceApart] = useState(0)
+
+    /*get number apart*/
+    useEffect(() => {
+        const getNumberApart = async () => {
+            const numberApart = await fetchNumberApart()
+            setNumApartForRent(numberApart['number_for_rent'])
+            setNumApartForSell(numberApart['number_for_sell'])
+            setNumServiceApart(numberApart['number_serivice_apart'])
+        }
+        getNumberApart()
+    }, [])
+
+    const fetchNumberApart = async () => {
+        const url_images_list = "http://localhost/admin_api/public/api/v1/home/numberapart"
+        const res = await fetch(url_images_list)
+        const data = await res.json()
+        return data['data']
+    }
+    /*--------------*/
 
     return (
         <div style={{ overflowX: "hidden" }}>
@@ -37,25 +59,25 @@ const Home = () => {
             <SectionCover
                 nameSection="Rent A House"
                 description={description}
-                numApart={100}
                 picture={pic1}
-                path={'/rent_a_house'} />
+                path={'/rent_a_house'}
+                numberApart={numApartForRent} />
             <FlatForRent />
 
             <SectionCover
                 nameSection="Buy A House"
                 description={description}
-                numApart={200}
                 picture={pic2}
-                path={'/buy_a_house'} />
+                path={'/buy_a_house'}
+                numberApart={numApartForSell} />
             <FlatForSell />
 
             <SectionCover
                 nameSection="Service Apartment"
                 description={description}
-                numApart={150}
                 picture={pic3}
-                path={'/service_apartment'} />
+                path={'/service_apartment'}
+                numberApart={numServiceApart} />
             <ServiceApart />
 
             <SectionCover
@@ -63,7 +85,7 @@ const Home = () => {
                 description={description}
                 numApart={120}
                 picture={pic4}
-                path={'/servicefor_houseowner'} />
+                path={'/servicefor_houseowner'}/>
             <ServiceList />
 
             <NewsList />
