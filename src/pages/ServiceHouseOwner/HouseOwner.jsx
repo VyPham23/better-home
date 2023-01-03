@@ -3,6 +3,7 @@ import './HouseOwner.css'
 import UpperNav from "../../components/Header/Navbar/uppernav";
 import Navbar from '../../components/Header/Navbar/navbar';
 import Footer from '../../components/Footer/footer';
+import FloatingButton from "../../components/FloatingButton/floatingbutton";
 
 
 function HouseOwner(){
@@ -11,6 +12,7 @@ function HouseOwner(){
             <UpperNav/>
             <Navbar/>
             <Sell/>
+            <FloatingButton/>
             <Footer/>
         </div>
     );

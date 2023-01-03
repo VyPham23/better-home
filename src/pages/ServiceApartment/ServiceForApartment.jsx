@@ -3,6 +3,7 @@ import UpperNav from '../../components/Header/Navbar/uppernav';
 import Footer from '../../components/Footer/footer';
 import './ServiceForApartment.css'
 import ServiceApart from '../../components/ServiceApartment/ServiceApar';
+import FloatingButton from '../../components/FloatingButton/floatingbutton';
 
 function ServiceforApart() {
   return (
@@ -10,6 +11,7 @@ function ServiceforApart() {
       <UpperNav/>
       <Navbar/>
       <ServiceApart/>
+      <FloatingButton/>
       <Footer/>
     </div>
   )

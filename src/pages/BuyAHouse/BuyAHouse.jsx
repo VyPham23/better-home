@@ -3,6 +3,7 @@ import UpperNav from '../../components/Header/Navbar/uppernav';
 import Footer from '../../components/Footer/footer';
 import BuyAHouseArea from '../../components/BuyAHouse/BuyAHouse';
 import './BuyaHouse.css'
+import FloatingButton from '../../components/FloatingButton/floatingbutton';
 
 function BuyAHouse() {
   return (
@@ -10,6 +11,7 @@ function BuyAHouse() {
       <UpperNav />
       <Navbar />
       <BuyAHouseArea />
+      <FloatingButton/>
       <Footer />
     </div>
   )
