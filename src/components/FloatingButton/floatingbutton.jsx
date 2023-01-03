@@ -21,7 +21,7 @@ const FloatingButton = () => {
                     </a>
                 </li>
                 <li>
-                    <a class="vibericon" href="" title="Chat Viber">
+                    <a class="kkticon" href="" title="Chat Kakaotalk">
                         <img src={kkt} alt=""/>
                     </a>
                 </li>
