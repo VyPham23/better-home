@@ -16,7 +16,7 @@ export default function BodyContact() {
           <div className='col-lg-5 col-md-6 col-6 box'>
             <Card className='shadow  bg-gray rounded' style={{ width: '100%' }}>
               <div className="contact-top">
-                <img className='image-contact-ava' src="./images/anh3.png" alt="image-contact" />
+                <img className='image-contact-ava' src="./images/ava1.jpg" alt="image-contact" />
                 <div className='contact-name'>Trần Đông Giang</div>
               </div>
               <div className='box-contact'>
@@ -39,7 +39,7 @@ export default function BodyContact() {
           <div className='col-lg-5 col-md-6 col-6 box'>
             <Card className='shadow  bg-gray rounded' style={{ width: '100%' }}>
               <div className="contact-top">
-                <img className='image-contact-ava' src="./images/anh2.jpg" alt="image-contact" />
+                <img className='image-contact-ava' src="./images/ava2.png" alt="image-contact" />
                 <div className='contact-name'>Trần Văn A</div>
               </div>
               <div className='box-contact'>

@@ -1,7 +1,7 @@
 .calltoaction{
     position: fixed;
     right: 0;
-    bottom: calc(50% - 140px);
+    bottom: calc(50% - 250px);
     z-index: 9999;
 }
 
@@ -21,4 +21,12 @@
 .calltoaction img {
     width: 44px;
 }
+
+@media only screen and (max-width: 500px) {
+
+    .calltoaction img {
+        width: 40px;
+    }
+}
+
 
