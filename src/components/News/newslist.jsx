@@ -44,19 +44,21 @@ const NewsList = () => {
                         <div className="col-lg-6 col-12 col-md-12">
                             <div className="news">
                                 <div className="news-image">
-                                    <img style={{height:"18rem"}} className="img-fluid" src={news.image_news} alt="news" />
+                                    <img style={{ height: "18rem" }} className="img-fluid" src={news.image_news} alt="news" />
                                 </div>
                                 <div className="news-description">
                                     <div className="mb-3 news-text">
                                         <a className='title_news' href={`/news_details/${news.id_news}`}>
                                             <h4>{news.title_news}</h4>
                                         </a>
-                                        <div className='news-infor mb-1' style={{display: "flex", justifyContent: "space-between"}}>
+                                        <div className='news-infor mb-1' style={{ display: "flex", justifyContent: "space-between" }}>
                                             <span><i class="bi bi-eye"></i> {news.view_count}</span>
                                             <span><i class="bi bi-pencil"></i> {news.author_news}</span>
                                             <span><i class="bi bi-calendar-minus"></i> {news.created_at ? getDate(news.created_at) : ""}</span>
                                         </div>
-                                        <span className='news-intro' >{news.intro_news}</span><br />
+                                        <div className='news-intro'>
+                                            <span>{news.intro_news}</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

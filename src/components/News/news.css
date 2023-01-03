@@ -64,7 +64,6 @@
     background-color: #f6f6f6;
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
-    height: 220px;
     text-align: justify;
 }
 
@@ -82,6 +81,10 @@
 
 .news-start a{
     border-bottom: solid #161616 2px;
+}
+
+.news-intro{
+    height: 70px;
 }
 
 @media only screen and (max-width: 1100px){
@@ -182,10 +185,6 @@
 }
 
 @media only screen and (max-width: 410px){
-
-    .news-description{
-        height: 200px;
-    }
     
     .news_details_area{
         width: 100%;
@@ -209,6 +208,10 @@
     
     .news_details_description h4{
         font-size: 0.9rem;
+    }
+
+    .news-intro{
+        height: 50px;
     }
 
 }

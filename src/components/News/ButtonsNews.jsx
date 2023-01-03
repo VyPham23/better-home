@@ -51,11 +51,13 @@ export default function ButtonsNews() {
                   <Card className='shadow bg-white rounded box-news' >
                     <img src={news.image_news} className='img_card_news img-fluid' alt="news-image" />
                     <div className='cart_body_news'>
-                      <a className='title_news' href={`/news_details/${news.id_news}`}>
-                      <Card.Title className='card_title_news'>
-                          {news.title_news}
-                        </Card.Title>
-                      </a>
+                      <div className="title_news_area">
+                        <a className='title_news' href={`/news_details/${news.id_news}`}>
+                          <Card.Title className='card_title_news'>
+                            {news.title_news}
+                          </Card.Title>
+                        </a>
+                      </div>
                       <Row className='mt-4'></Row>
                       <Row>
                         <div className='news_information'>

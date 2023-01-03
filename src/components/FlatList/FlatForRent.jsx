@@ -55,7 +55,7 @@ const FlatForRent = () => {
                                     </div>
                                 </div>
                                 <div className="item-description">
-                                    <div className="mb-3">
+                                    <div className="mb-3 item-description-top">
                                         <h4>{apartForRent.apartment_code}</h4>
                                         <span >{apartForRent.address}, {apartForRent.project_name}</span><br />
                                     </div>

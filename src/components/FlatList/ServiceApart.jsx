@@ -55,7 +55,7 @@ const ServiceApart = () => {
                                     </div>
                                 </div>
                                 <div className="item-description">
-                                    <div className="mb-3">
+                                    <div className="mb-3 item-description-top">
                                         <h4>{serviceApart.apartment_code}</h4>
                                         <span >{serviceApart.address}, {serviceApart.project_name}</span><br />
                                     </div>

@@ -25,6 +25,11 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
+    /* height: 240px; */
+}
+
+.item-description-top{
+    height: 90px;
 }
 
 .item-description a{
