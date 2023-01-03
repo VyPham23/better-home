@@ -6,6 +6,7 @@ import UpperNav from '../../components/Header/Navbar/uppernav';
 import Navbar from '../../components/Header/Navbar/navbar';
 import Footer from '../../components/Footer/footer';
 import './AboutUs.css'
+import FloatingButton from '../../components/FloatingButton/floatingbutton';
 
 function AboutUs() {
   return (
@@ -15,6 +16,7 @@ function AboutUs() {
       <IntroAboutUs/>
       <WhyChooseUs/>
       <ClientSay/>
+      <FloatingButton/>
       <Footer/>
     </div>
   )

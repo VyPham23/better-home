@@ -1,4 +1,5 @@
 import React from 'react'
+import FloatingButton from '../../components/FloatingButton/floatingbutton';
 import Footer from '../../components/Footer/footer';
 import Navbar from "../../components/Header/Navbar/navbar";
 import UpperNav from "../../components/Header/Navbar/uppernav";
@@ -11,6 +12,7 @@ function NewsDetails() {
         <UpperNav />
         <Navbar />
         <News_Details/>
+        <FloatingButton/>
         <Footer/>
 
     </div>
