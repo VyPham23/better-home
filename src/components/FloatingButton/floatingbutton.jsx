@@ -1,6 +1,6 @@
 import React from 'react';
 import whatsapp from './whatsapp.png';
-import viber from './viber.png';
+import kkt from './KakaoTalk.png';
 import zalo from './zalo.png';
 import './floatingbutton.css';
 
@@ -22,8 +22,7 @@ const FloatingButton = () => {
                 </li>
                 <li>
                     <a class="vibericon" href="" title="Chat Viber">
-                    {/* href="viber://chat?number=+84" */}
-                        <img src={viber} alt=""/>
+                        <img src={kkt} alt=""/>
                     </a>
                 </li>
             </ul>
