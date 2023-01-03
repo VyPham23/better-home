@@ -2,7 +2,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState, useEffect } from 'react';
 import './Carousel.css';
-import apartment from './product1.jpeg';
 
 function CarouselFadeExample(props) {
 

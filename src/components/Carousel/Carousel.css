@@ -8,14 +8,27 @@
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 750px){
     .cr-img{
         height: 65vh;
     }
 }
 
-@media only screen and (max-width: 490px){
+
+@media only screen and (max-width: 650px){
     .cr-img{
         height: 55vh;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    .cr-img{
+        height: 45vh;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .cr-img{
+        height: 35vh;
     }
 }

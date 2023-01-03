@@ -146,9 +146,13 @@ const DetailDes = () => {
                 <div className='col-lg-4 col-md-12 col-12 in_slider_display in_slider_display_photo'>
                     <span>Photos</span>
                     <span className='button_pagination_area'>
-                        <button className='button_pagination'>&lt;</button>
-                        01 / 09
-                        <button className='button_pagination'>&gt;</button>
+                        <button
+                            onClick={onPrevClick}
+                            className='button_pagination'>&lt;</button>
+                        {currentIndex} / {imagesList.length}
+                        <button
+                            onClick={onNextClick}
+                            className='button_pagination'>&gt;</button>
                     </span>
                 </div>
 

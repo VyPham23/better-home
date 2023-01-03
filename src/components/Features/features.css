@@ -178,15 +178,8 @@
 }
 
 /*----------------------------------*/
-.cr-img {
-    height: 85vh;
-}
 
 @media only screen and (max-width: 1030px) {
-    .cr-img {
-        height: 75vh;
-    }
-
     .features_item div{
         padding: 12px 0 12px 70px;
     }
@@ -348,9 +341,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .cr-img {
-        height: 65vh;
-    }
 
     .in_slider_display_responsive .in_slider_display {
         padding: 10px 50px !important;
@@ -418,9 +408,6 @@
 }
 
 @media only screen and (max-width: 495px) {
-    .cr-img {
-        height: 55vh;
-    }
 
     .in_slider_display_responsive .in_slider_display {
         padding: 10px 20px !important;
