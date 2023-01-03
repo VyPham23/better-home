@@ -10,16 +10,19 @@ const FloatingButton = () => {
             <ul>
                 <li>
                     <a class="whatsappicon" href="" title="Chat Whatsapp">
+                    {/* href=" https://wa.me/+84" */}
                         <img src={whatsapp} alt=""/>
                     </a>
                 </li>
                 <li>
                     <a class="zaloicon" href="" title="Chat Zalo">
+                    {/* href="https://zalo.me/number" */}
                         <img src={zalo} alt=""/>
                     </a>
                 </li>
                 <li>
                     <a class="vibericon" href="" title="Chat Viber">
+                    {/* href="viber://chat?number=+84" */}
                         <img src={viber} alt=""/>
                     </a>
                 </li>
