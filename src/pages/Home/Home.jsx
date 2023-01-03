@@ -5,6 +5,7 @@ import CarouselFadeExample from "../../components/Carousel/Carousel";
 import FlatForRent from "../../components/FlatList/FlatForRent";
 import FlatForSell from "../../components/FlatList/FlatForSell";
 import ServiceApart from "../../components/FlatList/ServiceApart";
+import FloatingButton from '../../components/FloatingButton/floatingbutton';
 
 import Footer from "../../components/Footer/footer";
 import Navbar from "../../components/Header/Navbar/navbar";
@@ -90,6 +91,7 @@ const Home = () => {
 
             <NewsList />
             <Footer />
+            <FloatingButton/>
 
         </div>
 
