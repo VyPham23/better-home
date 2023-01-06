@@ -15,7 +15,7 @@ const FlatForRent = () => {
     }, [])
 
     const fetchApartForRent = async () => {
-        const url_apart_for_rent_list = "http://localhost/admin_api/public/api/v1/home/renthouse"
+        const url_apart_for_rent_list = "https://api.betterhomes.site/public/api/v1/home/renthouse"
         const res = await fetch(url_apart_for_rent_list)
         const data = await res.json()
         return data['data']

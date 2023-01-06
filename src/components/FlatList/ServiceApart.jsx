@@ -17,7 +17,7 @@ const ServiceApart = () => {
     }, [])
 
     const fetchServiceApart = async () => {
-        const url_service_apart = "http://localhost/admin_api/public/api/v1/home/serviceapart"
+        const url_service_apart = "https://api.betterhomes.site/public/api/v1/home/serviceapart"
         const res = await fetch(url_service_apart)
         const data = await res.json()
         return data['data']

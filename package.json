@@ -1,6 +1,7 @@
 {
   "name": "better-home",
   "version": "0.1.0",
+  "homepage": "https://betterhomes.com.vn/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.8.0",

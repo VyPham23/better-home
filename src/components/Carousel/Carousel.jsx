@@ -17,7 +17,7 @@ function CarouselFadeExample(props) {
     }, [])
 
     const fetchSlider = async () => {
-        const url_slider_list = "http://localhost/admin_api/public/api/v1/home/sliders"
+        const url_slider_list = "https://api.betterhomes.site/public/api/v1/home/sliders"
         const res = await fetch(url_slider_list)
         const data = await res.json()
         return data['data']

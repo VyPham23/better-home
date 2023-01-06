@@ -1,4 +1,3 @@
-import React from 'react';
 import './blacksection.css';
 import Pic1 from './46.png';
 import Pic2 from './47.png';

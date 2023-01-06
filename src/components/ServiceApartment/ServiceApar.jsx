@@ -14,7 +14,7 @@ const ServiceApart = () => {
         value: 1
     })
 
-    const [urlApartList, setUrlApartList] = useState("http://localhost/admin_api/public/api/v1/service/")
+    const [urlApartList, setUrlApartList] = useState("https://api.betterhomes.site/public/api/v1/service/")
     const [displayButton, setDisplayButton] = useState(true)
 
     /*get project list*/
@@ -27,7 +27,7 @@ const ServiceApart = () => {
     }, [])
 
     const fetchProject = async () => {
-        const url_project_list = "http://localhost/admin_api/public/api/v1/projectlist"
+        const url_project_list = "https://api.betterhomes.site/public/api/v1/projectlist"
         const res = await fetch(url_project_list)
         const data = await res.json()
         return data['data']
@@ -35,7 +35,7 @@ const ServiceApart = () => {
     /*--------------*/
 
     const getAllApartment = () => {
-        setUrlApartList("http://localhost/admin_api/public/api/v1/serviceall/")
+        setUrlApartList("https://api.betterhomes.site/public/api/v1/serviceall/")
         setDisplayButton(false)
     }
 

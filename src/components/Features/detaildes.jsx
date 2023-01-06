@@ -15,7 +15,7 @@ import { useParams } from "react-router-dom";
 const DetailDes = () => {
 
     const { id } = useParams()
-    const url_apart_by_id = "http://localhost/admin_api/public/api/v1/details/" + id
+    const url_apart_by_id = "https://api.betterhomes.site/public/api/v1/details/" + id
 
     /*all property of apart for rent*/
     const [projectName, setProjectName] = useState("")

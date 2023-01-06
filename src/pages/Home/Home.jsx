@@ -41,7 +41,7 @@ const Home = () => {
     }, [])
 
     const fetchNumberApart = async () => {
-        const url_images_list = "http://localhost/admin_api/public/api/v1/home/numberapart"
+        const url_images_list = "https://api.betterhomes.site/public/api/v1/home/numberapart"
         const res = await fetch(url_images_list)
         const data = await res.json()
         return data['data']

@@ -12,7 +12,7 @@ const BuyAHouse = () => {
         value: 1
     })
 
-    const [urlApartList, setUrlApartList] = useState("http://localhost/admin_api/public/api/v1/forsell/")
+    const [urlApartList, setUrlApartList] = useState("https://api.betterhomes.site/public/api/v1/forsell/")
     const [displayButton, setDisplayButton] = useState(true)
 
     /*get project list*/
@@ -25,7 +25,7 @@ const BuyAHouse = () => {
     }, [])
 
     const fetchProject = async () => {
-        const url_project_list = "http://localhost/admin_api/public/api/v1/projectlist"
+        const url_project_list = "https://api.betterhomes.site/public/api/v1/projectlist"
         const res = await fetch(url_project_list)
         const data = await res.json()
         return data['data']
@@ -33,7 +33,7 @@ const BuyAHouse = () => {
     /*--------------*/
 
     const getAllApartment = () => {
-        setUrlApartList("http://localhost/admin_api/public/api/v1/forsellall/")
+        setUrlApartList("https://api.betterhomes.site/public/api/v1/forsellall/")
         setDisplayButton(false)
     }
 

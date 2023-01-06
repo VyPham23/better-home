@@ -4,14 +4,12 @@ import { useParams } from "react-router-dom";
 const News_Details = () => {
 
     const { id } = useParams()
-    const url_news_by_id = "http://localhost/admin_api/public/api/v1/newspage/" + id;
+    const url_news_by_id = "https://api.betterhomes.site/public/api/v1/newspage/" + id;
 
     const [title, setTitle] = useState("")
     const [author, setAuthor] = useState("")
     const [date, setDate] = useState("")
     const [description, setDescription] = useState("")
-
-    const [newsList, setNewsList] = useState([])
 
     /*get news by id*/
     useEffect(() => {

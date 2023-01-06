@@ -20,7 +20,7 @@ export default function ButtonsNews() {
   }, [])
 
   const fetchNews = async () => {
-    const url_news_list = "http://localhost/admin_api/public/api/v1/newspage/newslist"
+    const url_news_list = "https://api.betterhomes.site/public/api/v1/newspage/newslist"
     const res = await fetch(url_news_list)
     const data = await res.json()
     return data['data']

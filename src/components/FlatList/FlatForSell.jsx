@@ -17,7 +17,7 @@ const FlatForSell = () => {
     }, [])
 
     const fetchApartForSell = async () => {
-        const url_apart_for_sell_list = "http://localhost/admin_api/public/api/v1/home/buyhouse"
+        const url_apart_for_sell_list = "https://api.betterhomes.site/public/api/v1/home/buyhouse"
         const res = await fetch(url_apart_for_sell_list)
         const data = await res.json()
         return data['data']
