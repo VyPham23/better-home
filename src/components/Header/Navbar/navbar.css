@@ -63,4 +63,119 @@
     color: #ef4444;
 }
 
+.nav_left a, .nav_middle a, .nav_right a{
+    margin-right: 8px;
+    padding-right: 5px;
+}
+
+.nav_left a, .nav_right a{
+    border-right: 1px solid #c6c6c6;
+}
+
+
 /*-----------*/
+
+
+@media only screen and (max-width: 1030px) {
+
+    .nav_middle{
+        width: 8%;
+    }
+
+    .nav_left, .nav_right{
+        width: 46%;
+    }
+
+    .upper_nav_area .upper_nav_list{
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .nav_bar_area .nav_bar_list, .nav_middle{
+        height: 60px;
+    }
+
+    .upper_nav_area .upper_nav_list a{
+        font-size: 0.95rem;
+    }
+
+    .nav_bar_list a{
+        font-size: 0.85rem;
+    }
+
+}
+
+@media only screen and (max-width: 660px) {
+
+    .upper_nav_area .upper_nav_list{
+        height: 50px;
+    }
+
+    .nav_bar_area .nav_bar_list, .nav_middle{
+        height: 55px;
+    }
+
+    .upper_nav_area .upper_nav_list a{
+        font-size: 0.85rem;
+    }
+
+    .nav_bar_list a{
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+
+    .upper_nav_area .upper_nav_list{
+        height: 45px;
+    }
+
+    .nav_bar_area .nav_bar_list, .nav_middle{
+        height: 50px;
+    }
+
+    .upper_nav_area .upper_nav_list a{
+        font-size: 0.8rem;
+    }
+
+    .nav_bar_list a{
+        font-size: 0.7rem;
+    }
+
+    .nav_middle{
+        width: 10%;
+    }
+
+    .nav_left, .nav_right{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+
+    .upper_nav_area .upper_nav_list{
+        height: 40px;
+    }
+
+    .nav_bar_area .nav_bar_list, .nav_middle{
+        height: 50px;
+    }
+
+    .upper_nav_area .upper_nav_list a{
+        font-size: 0.7rem;
+    }
+
+    .nav_bar_list a{
+        font-size: 0.6rem;
+    }
+
+    .nav_middle{
+        width: 12%;
+    }
+
+    .nav_left, .nav_right{
+        width: 43%;
+    }
+}

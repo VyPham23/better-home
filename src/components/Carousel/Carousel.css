@@ -1,39 +1,39 @@
 .cr-img{
-    height: 60vh;
+    height: 65vh;
 }
 
 @media only screen and (max-width: 1030px){
     .cr-img{
-        height: 55vh;
+        height: 60vh;
     }
 }
 
 @media only screen and (max-width: 850px){
     .cr-img{
-        height: 50vh;
+        height: 55vh;
     }
 }
 
 @media only screen and (max-width: 650px){
     .cr-img{
-        height: 45vh;
+        height: 50vh;
     }
 }
 
 @media only screen and (max-width: 520px){
     .cr-img{
-        height: 40vh;
+        height: 45vh;
     }
 }
 
 @media only screen and (max-width: 450px){
     .cr-img{
-        height: 35vh;
+        height: 40vh;
     }
 }
 
 @media only screen and (max-width: 400px){
     .cr-img{
-        height: 30vh;
+        height: 35vh;
     }
 }
