@@ -1,109 +1,66 @@
-.header-wrapper {
-    background: white;
-    border-bottom: 1px solid #D1D1D5;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .4);
-    margin-bottom: .5px;
+/*UPPER AREA*/
 
-}
-  
-header {
+.upper_nav_area .upper_nav_list{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 70px;
-    width: auto;
-    padding: 0 30px;
-    margin: 0 auto;
-    border-bottom: solid #00908E;
-}
-  
-.logo {
-    display: cover;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100px;
+    border-bottom: 1px solid #00908E;
 }
 
-.logo img {
+.upper_nav_area .upper_nav_list a{
+    text-decoration: none;
+    color: #1e293b;
+    font-size: 1.1rem;
+}
+
+.upper_nav_area .upper_nav_list a:hover{
+    color: #ef4444;
+}
+
+/*---------*/
+
+/*NAVBAR AREA*/
+
+.nav_bar_area{
+    border-bottom: 5px solid #00908E;
+}
+
+.nav_bar_list{
     width: 100%;
 }
 
-.main-nav div{
+.nav_bar_area .nav_bar_list{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
 }
 
-.left-nav a, .right-nav a {
-    color: #000000;
+.nav_middle{
+    height: 70px;
+    width: 6%;
+}
+
+.nav_middle img{
+    height: 100%;
+    width: 100%;
+}
+
+.nav_left, .nav_right{
+    width: 47%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_left a, .nav_right a{
     text-decoration: none;
-    text-transform: capitalize;
-    font-size: 0.7rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: 600;
+    color: #1e293b;
 }
 
-.left-nav a, .right-nav a {
-    margin: 0 2vw;
+.nav_left a:hover, .nav_right a:hover{
+    color: #ef4444;
 }
 
-.upper-nav a{
-    margin: 0 7vw;
-    font-weight: 400;
-}
-
-.upper-nav{
-    display: flex;
-}
-
-.left-nav, .right-nav{
-    margin: 0 2vw;
-    display: flex;
-    justify-content: space-between;
-}
-
-.left-nav :hover, .right-nav :hover {
-    color: #FF718E;
-}
-
-.left-nav :hover, .right-nav :active{
-    color: #FF718E;
-}
-
-.nav-item{
-    overflow-wrap: break-word;
-}
-    
-@media only screen and (max-width: 700px){
-
-    .left-nav a, .right-nav a{
-        font-size: 0.6rem;
-    }
-
-    .logo img {
-        width: 90%;
-    }
-}
-
-@media only screen and (max-width: 549px){
-
-    .left-nav a, .right-nav a{
-        font-size: 0.55rem;
-    }
-
-    .logo img {
-        width: 80%;
-    }
-}
-
-@media only screen and (max-width: 484px){
-
-    .left-nav a, .right-nav a{
-        font-size: 0.33rem;
-    }
-
-    .logo img {
-        width: 75%;
-    }
-}
+/*-----------*/

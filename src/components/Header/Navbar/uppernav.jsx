@@ -1,34 +1,37 @@
 import './navbar.css';
 import { Link } from 'react-router-dom';
 
-function UpperNav (props) {    
+function UpperNav(props) {
     return (
-        <header style={{overflow: "hidden"}}>
-            <nav className='upper-nav'>
-                <div className='left-nav'>
+        <div className='upper_nav_area'>
+            <div className="upper_nav_list">
+                <div>
                     <Link
-                    to={'/'}>
+                        to={'/'}>
                         Home
                     </Link>
+                </div>
+                <div>
                     <Link
-                    to={'/about'}>
+                        to={'/about'}>
                         About Us
                     </Link>
                 </div>
-                <div className='left-nav'>
+                <div>
                     <Link
-                    to={'/news'}>
+                        to={'/news'}>
                         News
                     </Link>
+                </div>
+                <div>
                     <Link
-                    to={'/contact'}>
+                        to={'/contact'}>
                         Contact
                     </Link>
                 </div>
-                
-            </nav>
-        </header>
-        
+            </div>
+        </div>
+
     );
 }
 

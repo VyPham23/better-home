@@ -4,40 +4,40 @@ import { Link } from 'react-router-dom';
 
 function Navbar(props) {
   return (
-
-    <header style={{ overflow: "hidden" }} className='main-nav'>
-      <div className='left-nav col-lg-5 col-md-5 col-5'>
-        <Link
-        to={'/servicefor_houseowner'}>
-          Service House Owner
-        </Link>
-        <Link
-        to={'/real_este'}>
-          Real Estate Business
-        </Link>
+    <div className='nav_bar_area w-100'>
+      <div className="nav_bar_list">
+        <div className="nav_left">
+          <Link
+            to={'/servicefor_houseowner'}>
+            Service House Owner
+          </Link>
+          <Link
+            to={'/real_este'}>
+            Real Estate Business
+          </Link>
+        </div>
+        <div className="nav_middle">
+          <Link
+            to={'/'}>
+            <img className='img-fluid image_logo' src={Logo} alt='logo' />
+          </Link>
+        </div>
+        <div className="nav_right">
+          <Link
+            to={'/buy_a_house'}>
+            Buy House
+          </Link>
+          <Link
+            to={'/rent_a_house'}>
+            Rent House
+          </Link>
+          <Link
+            to={'/service_apartment'}>
+            Service Apartment
+          </Link>
+        </div>
       </div>
-      <div className='logo col-lg-2 col-md-2 col-2'>
-        <Link
-        to={'/'}>
-          <img src={Logo} alt='logo'/>
-        </Link>
-      </div>
-      <div className='right-nav col-lg-5 col-md-5 col-5'>
-        <Link
-        to={'/buy_a_house'}>
-          Buy House
-        </Link>
-        <Link
-        to={'/rent_a_house'}>
-          Rent House
-        </Link>
-        <Link
-        to={'/service_apartment'}>
-          Service Apartment
-        </Link>
-      </div>
-    </header>
-
+    </div>
   );
 }
 
