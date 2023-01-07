@@ -1,6 +1,4 @@
 import './blacksection.css';
-import Pic1 from './46.png';
-import Pic2 from './47.png';
 
 const BlackSection = () => {
     return (
@@ -12,7 +10,9 @@ const BlackSection = () => {
                     </div>
                     <div className="txt-area">
                         <h4>Our Agent</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, labore.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Exercitationem, labore. Lorem ipsum, dolor sit amet.
+                        </p>
                     </div>
                 </div>
                 <div className="col-lg-6 col-md-6 col-12 cpn">
@@ -21,7 +21,9 @@ const BlackSection = () => {
                     </div>
                     <div className="txt-area">
                         <h4>Our Company</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, labore.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Exercitationem, labore. Lorem ipsum, dolor sit amet.
+                        </p>
                     </div>
                 </div>
             </div>
