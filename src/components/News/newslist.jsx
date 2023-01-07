@@ -48,9 +48,11 @@ const NewsList = () => {
                                 </div>
                                 <div className="news-description">
                                     <div className="mb-3 news-text">
-                                        <a className='title_news' href={`/news_details/${news.id_news}`}>
-                                            <h4>{news.title_news}</h4>
-                                        </a>
+                                        <div className="news_title">
+                                            <a className='title_news' href={`/news_details/${news.id_news}`}>
+                                                <h4>{news.title_news}</h4>
+                                            </a>
+                                        </div>
                                         <div className='news-infor mb-1' style={{ display: "flex", justifyContent: "space-between" }}>
                                             <span><i class="bi bi-eye"></i> {news.view_count}</span>
                                             <span><i class="bi bi-pencil"></i> {news.author_news}</span>
