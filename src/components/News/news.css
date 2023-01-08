@@ -98,7 +98,7 @@
 
 .news-intro{
     height: 50px;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
 }
 
 .news{
@@ -107,10 +107,6 @@
 
 @media only screen and (max-width: 1100px){
 
-    .news-text .news-intro{
-        font-size: 0.9rem;
-    }
-
     .news-infor span{
         font-size: 0.8rem;
     }
@@ -118,7 +114,7 @@
     .news_details_area .news_details_title{
         font-size: 2.3rem;
     }
-    
+
 }
 
 @media only screen and (max-width: 991px){
@@ -128,7 +124,19 @@
     }
     
     .title_news h4{
-        font-size: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .news_image_cover{
+        height: 10rem;
+    }
+
+    .news-infor span{
+        font-size: 0.7rem;
+    }
+
+    .section_news_list{
+        padding: 20px 100px 0 100px;
     }
 }
 
@@ -149,7 +157,7 @@
     .news{
         width: 80%;
     }
-    
+
 }
 
 @media only screen and (max-width: 699px){
@@ -158,15 +166,15 @@
         font-size: 1.1rem;
     }
 
-    .news-infor span{
-        font-size: 0.7rem;
-    }
-
     .news_details_area .news_details_title{
         font-size: 2rem;
     }
 
     .news_details_area{
+        width: 85%;
+    }
+
+    .news{
         width: 85%;
     }
 
@@ -206,7 +214,26 @@
     }
 
     .news-start h2{
-        font-size: 1.1rem;
+        font-size: 1rem;
+    }
+
+    .news{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 470px){
+
+    .section_news_list{
+        padding: 20px 80px 0 80px;
+    }
+
+    .news{
+        width: 100%;
+    }
+
+    .news-start h2{
+        font-size: 0.85rem;
     }
 }
 
@@ -214,6 +241,10 @@
     
     .news_details_area{
         width: 100%;
+    }
+
+    .section_news_list{
+        padding: 20px 50px 0 50px;
     }
 
     .news_details_description p{
