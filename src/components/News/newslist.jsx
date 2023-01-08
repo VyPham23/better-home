@@ -34,17 +34,17 @@ const NewsList = () => {
     }
 
     return (
-        <section className="section-all-re">
+        <section className="section_news_list">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 col-12 col-md-12 news-start">
                         <h2>Recent News</h2>
                     </div>
                     {newsList.map((news) => (
-                        <div className="col-lg-6 col-12 col-md-12">
+                        <div className="col-lg-6 col-12 col-md-6">
                             <div className="news">
                                 <div className="news-image">
-                                    <img style={{ height: "18rem" }} className="img-fluid" src={news.image_news} alt="news" />
+                                    <img className="img-fluid" src={news.image_news} alt="news" />
                                 </div>
                                 <div className="news-description">
                                     <div className="mb-3 news-text">

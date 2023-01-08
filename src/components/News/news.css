@@ -32,14 +32,14 @@
 
 /*------------------------*/
 
-.section-all-re{
-    padding-top: 70px;
-    padding-bottom: 70px;
+.section_news_list{
+    padding-top: 50px;
 }
 
-.title_news{
+.title_news h4{
     text-decoration: none;
     color: #202020;
+    font-size: 1.2rem;
 }
 
 .news{
@@ -50,6 +50,7 @@
 }
 
 .news-image img{
+    height: 15rem;
     width: 100%;
     object-fit:cover;
     overflow: hidden;
@@ -64,14 +65,11 @@
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
     text-align: justify;
-}
-
-.news-start{
-    margin-bottom: 30px;
+    font-size: 0.9rem;
 }
 
 .news-start h2{
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-weight: 500;
     text-align: justify;
     text-transform: uppercase;
@@ -83,22 +81,14 @@
 }
 
 .news-intro{
-    height: 70px;
+    height: 65px;
 }
 
 .news_title{
-    height: 60px;
+    height: 50px;
 }
 
 @media only screen and (max-width: 1100px){
-
-    .news-start h2{
-        font-size: 2rem;
-    }
-
-    .news-text h4 a{
-        font-size: 1.3rem;
-    }
 
     .news-text .news-intro{
         font-size: 0.9rem;
@@ -114,7 +104,18 @@
     
 }
 
-@media only screen and (max-width: 760px){
+@media only screen and (max-width: 991px){
+
+    .news-intro{
+        display: none;
+    }
+    
+    .title_news h4{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 767px){
 
     .news_details_area .news_details_title{
         font-size: 2.2rem;
@@ -127,6 +128,10 @@
     .news_title{
         height: auto;
     }
+
+    .news{
+        width: 80%;
+    }
     
 }
 
@@ -138,10 +143,6 @@
 
     .news-text h4 a{
         font-size: 1.1rem;
-    }
-
-    .news-text .news-intro{
-        font-size: 0.75rem;
     }
 
     .news-infor span{
@@ -175,10 +176,6 @@
     .news_details_description h4{
         font-size: 1rem;
     }
-    
-    .title_news h4{
-        font-size: 1.2rem;
-    }
 }
 
 @media only screen and (max-width: 550px){
@@ -191,10 +188,9 @@
         width: 95%;
     }
 
-    .title_news h4{
-        font-size: 1rem;
+    .news-image img{
+        height: 13rem;
     }
-    
 }
 
 @media only screen and (max-width: 410px){
@@ -224,16 +220,12 @@
     
     }
 
+    .news{
+        width: 95%;
+    }
+
     .news-image img{
-        height: 15rem;
-    }
-
-    .news-intro{
-        height: 50px;
-    }
-
-    .title_news h4{
-        font-size: 0.9rem;
+        height: 11rem;
     }
 
 }
