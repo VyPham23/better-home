@@ -8,6 +8,7 @@
 .button_nav_home{
     color: #fff;
     text-decoration: none;
+    font-size: 1.25rem;
 }
 
 .button_nav_home:hover{
@@ -63,6 +64,10 @@
 
     .navbutton {
         width: calc(100% / 3 - 50px);
+    }
+
+    .button_nav_home{
+        font-size: 1.15rem;
     }
 }
 

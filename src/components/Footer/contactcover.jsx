@@ -8,7 +8,7 @@ const ContactCover = () => {
             <div className="background_cover_footer_contact">
                 <div className='footer_contact_area'>
                     <div>
-                        <div className="banner-area text-center pt-4 pb-4">
+                        <div className="banner-area text-center pt-4">
                             <p>We supply the best apartment service for human</p>
                             <h2 className="contact-title mt-2 mb-4">Need For Apartment Service</h2>
                         </div>

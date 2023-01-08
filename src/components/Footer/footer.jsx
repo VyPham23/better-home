@@ -74,9 +74,6 @@ const Footer = () => {
                             <div className="footer-social-item igicon"> <i className="fab fa-instagram"></i></div>
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
         </section>

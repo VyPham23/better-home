@@ -1,10 +1,10 @@
 .cr-img{
-    height: 65vh;
+    height: 500px;
 }
 
 @media only screen and (max-width: 1030px){
     .cr-img{
-        height: 60vh;
+        height: 480px;
     }
 }
 

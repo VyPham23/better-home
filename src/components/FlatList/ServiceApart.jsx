@@ -41,7 +41,7 @@ const ServiceApart = () => {
             <div className="container apart_list_area">
                 <div className="row">
                     {serviceApart.map((serviceApart) => (
-                        <div className="text-center col-lg-4 col-12 col-md-12">
+                        <div className="text-center col-lg-4 col-12 col-md-12 item_area">
                             <div className="item">
                                 <div className="item-image">
                                     <img className="img-fluid" src={serviceApart.image} alt="flat" />
