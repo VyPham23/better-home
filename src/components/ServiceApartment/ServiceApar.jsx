@@ -8,6 +8,7 @@ import './ServiceApartStyle.css'
 const ServiceApart = () => {
 
     const [projectList, setProjectList] = useState([])
+    const [projectHot, setProjectHot] = useState([])
     const [apartList, setApartList] = useState([])
     const [projectSelected, setProjectSelected] = useState({
         label: "",
@@ -28,6 +29,22 @@ const ServiceApart = () => {
 
     const fetchProject = async () => {
         const url_project_list = "https://api.betterhomes.site/public/api/v1/projectlist"
+        const res = await fetch(url_project_list)
+        const data = await res.json()
+        return data['data']
+    }
+    /*--------------*/
+    /*get project hot list*/
+    useEffect(() => {
+        const getHotProject = async () => {
+            const projectHotFromServer = await fetchHotProject()
+            setProjectHot(projectHotFromServer)
+        }
+        getHotProject()
+    }, [])
+
+    const fetchHotProject = async () => {
+        const url_project_list = "https://api.betterhomes.site/public/api/v1/projecthot"
         const res = await fetch(url_project_list)
         const data = await res.json()
         return data['data']
@@ -107,22 +124,21 @@ const ServiceApart = () => {
                 </div>
 
                 <div className="row">
-                    {projectList.filter(project => projectList.project_status = "Hot")
-                        .map(filteredProject => (
-                            <div
-                                onClick={() => setProjectSelected(
-                                    {
-                                        label: "",
-                                        value: filteredProject.id_project
-                                    }
-                                )}
-                                className='col-12 col-lg-4 col-md-4 mt-5 project_hot_item'>
-                                <img className='img-fluid' src={filteredProject.project_image} alt="project-item" />
-                                <div className='project_hot_name'>
-                                    <p>{filteredProject.project_name}</p>
-                                </div>
+                    {projectHot.map(projectHot => (
+                        <div
+                            onClick={() => setProjectSelected(
+                                {
+                                    label: "",
+                                    value: projectHot.id_project
+                                }
+                            )}
+                            className='col-12 col-lg-4 col-md-4 mt-5 project_hot_item'>
+                            <img className='img-fluid' src={projectHot.project_image} alt="project-item" />
+                            <div className='project_hot_name'>
+                                <p>{projectHot.project_name}</p>
                             </div>
-                        ))}
+                        </div>
+                    ))}
                 </div>
             </div>
 

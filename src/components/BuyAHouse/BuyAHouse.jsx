@@ -6,6 +6,7 @@ import Select from 'react-select';
 const BuyAHouse = () => {
 
     const [projectList, setProjectList] = useState([])
+    const [projectHot, setProjectHot] = useState([])
     const [apartList, setApartList] = useState([])
     const [projectSelected, setProjectSelected] = useState({
         label: "",
@@ -26,6 +27,22 @@ const BuyAHouse = () => {
 
     const fetchProject = async () => {
         const url_project_list = "https://api.betterhomes.site/public/api/v1/projectlist"
+        const res = await fetch(url_project_list)
+        const data = await res.json()
+        return data['data']
+    }
+    /*--------------*/
+    /*get project hot list*/
+    useEffect(() => {
+        const getHotProject = async () => {
+            const projectHotFromServer = await fetchHotProject()
+            setProjectHot(projectHotFromServer)
+        }
+        getHotProject()
+    }, [])
+
+    const fetchHotProject = async () => {
+        const url_project_list = "https://api.betterhomes.site/public/api/v1/projecthot"
         const res = await fetch(url_project_list)
         const data = await res.json()
         return data['data']
@@ -84,20 +101,19 @@ const BuyAHouse = () => {
                 >HOT PROJECT
                 </div>
 
-                <div className="row mb-5">
-                    {projectList.filter(project => projectList.project_status = "Hot")
-                        .map(filteredProject => (
+                <div className="row">
+                    {projectHot.map(projectHot => (
                             <div
                                 onClick={() => setProjectSelected(
                                     {
                                         label: "",
-                                        value: filteredProject.id_project
+                                        value: projectHot.id_project
                                     }
                                 )}
                                 className='col-12 col-lg-4 col-md-4 mt-5 project_hot_item'>
-                                <img className='img-fluid' src={filteredProject.project_image} alt="project-item" />
+                                <img className='img-fluid' src={projectHot.project_image} alt="project-item" />
                                 <div className='project_hot_name'>
-                                    <p>{filteredProject.project_name}</p>
+                                    <p>{projectHot.project_name}</p>
                                 </div>
                             </div>
                         ))}

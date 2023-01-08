@@ -4,29 +4,23 @@ import './sectioncover.css';
 const SectionCover = ({ nameSection, description, picture, path, numberApart }) => {
     return (
         <div className="banner d-flex align-items-center" style={{ backgroundImage: `url(${picture})` }}>
-            <div className="bg-custom">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-6 mx-auto">
-                            <div className="banner-area text-center pt-4 pb-4">
-                                <h2 className="mt-2 mb-4 banner-title">{nameSection}</h2>
-                            </div>
-                        </div>
-                    </div>
+            <div className="section_cover_area">
+                <div className="title_cover">
+                    <h2>{nameSection}</h2>
                 </div>
 
-                <div className="rectangle">
-                    <div className="card-body">
-                        <div class="row">
-                            <div class="col-md-2 col-lg-2 col-xl-2 prop-stat">
-                                <span className="stat">{numberApart}</span> <br />
+                <div className='description_cover_center'>
+                    <div className="description_cover_area">
+                        <div className="row description_cover_area_details">
+                            <div className='description_cover_area_details_left'>
+                                <span>{numberApart}</span> <br />
                                 <span>Properties Available </span>
                             </div>
-                            <div class="col-md-7 col-lg-7 col-xl-7 prop-des">
-                                <span className="des">{description}</span>
+                            <div className='description_cover_area_details_middle'>
+                                <span>{description}</span>
                             </div>
-                            <div class="col-md-3 col-lg-3 col-xl-3 prop-all">
-                                <button className="btn" id="all-btn">
+                            <div className='description_cover_area_details_right'>
+                                <button className="btn_view_all">
                                     <a className='button_nav_home' href={path}>VIEW ALL</a>
                                 </button>
                             </div>
