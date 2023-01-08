@@ -8,7 +8,7 @@ import pic4 from './pic4.jpg';
 
 const ServiceList = () => {
     return (
-        <section className="section-all-re">
+        <section className="section_service_list">
             <div className="container">
                 <div className='row'>
                     <ServiceItem name="SALE YOUR HOUSE" picture={pic1} />

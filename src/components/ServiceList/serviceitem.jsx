@@ -1,4 +1,3 @@
-import React from 'react';
 import './service.css';
 
 const ServiceItem = ({name, picture}) => {
