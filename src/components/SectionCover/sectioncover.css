@@ -12,6 +12,7 @@
     justify-content: center;
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
 
 .section_cover_area{
@@ -128,5 +129,26 @@
 
 @media only screen and (max-width: 520px) {
 
+    .description_cover_area_details_left span{
+        font-size: 0.85rem;
+    }
+
+    .btn_view_all{
+        font-size: 0.8rem;
+    }
+
+    .description_cover_area_details_left{
+        width: 100%;
+        border: none;
+        margin-bottom: 10px;
+    }
+
+    .description_cover_area_details_right{
+        width: 100%;
+    }
+
+    .description_cover_area_details_middle{
+        display: none;
+    }
 
 }
