@@ -36,7 +36,7 @@ const FlatForSell = () => {
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
     return (
-        <section className="section-all-re">
+        <section className="section_flat_list">
             <div className="container">
                 <div className="row">
                     {apartForSellList.map((apartForSell) => (

@@ -37,7 +37,7 @@ const FlatForRent = () => {
     /*--------------*/
 
     return (
-        <section className="section-all-re">
+        <section className="section_flat_list">
             <div className="container">
                 <div className="row">
                     {apartForRentList.map((apartForRent) => (

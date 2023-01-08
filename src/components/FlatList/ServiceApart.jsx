@@ -37,7 +37,7 @@ const ServiceApart = () => {
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
     return (
-        <section className="section-all-re">
+        <section className="section_flat_list">
             <div className="container apart_list_area">
                 <div className="row">
                     {serviceApart.map((serviceApart) => (
