@@ -3,7 +3,7 @@ import './sectioncover.css';
 
 const SectionCover = ({ nameSection, description, picture, path, numberApart }) => {
     return (
-        <div className="banner d-flex align-items-center" style={{ backgroundImage: `url(${picture})` }}>
+        <div className="banner d-flex align-items-center w-100" style={{ backgroundImage: `url(${picture})` }}>
             <div className="section_cover_area">
                 <div className="title_cover">
                     <h2>{nameSection}</h2>
