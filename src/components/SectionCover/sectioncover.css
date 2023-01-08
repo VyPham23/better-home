@@ -1,5 +1,5 @@
 .banner{
-    height: 400px;
+    height: 300px;
     background: no-repeat;
     background-size: cover;
     background-position: center;
@@ -40,11 +40,16 @@
     width: 15%;
     border-right: 1px solid black;
     text-align: center;
+    font-size: 0.85rem;
 }
 
 .description_cover_area_details_middle{
     width: 65%;
     text-align: justify;
+}
+
+.description_cover_area_details_middle span{
+    font-size: 0.8rem;
 }
 
 .description_cover_area_details_right{
@@ -54,9 +59,10 @@
 .btn_view_all{
     background-color: #00908E;
     border: none;
-    padding: 12px 20px;
+    padding: 10px 15px;
     border-radius: 5px;
     width: 100%;
+    font-size: 14px;
 }
 
 @media only screen and (max-width: 900px) {

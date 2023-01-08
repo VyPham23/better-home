@@ -56,7 +56,7 @@ const FlatForRent = () => {
                                 <div className="item-description">
                                     <div className="mb-3 item-description-top">
                                         <h4>{apartForRent.apartment_code}</h4>
-                                        <span >{apartForRent.address}, {apartForRent.project_name}</span><br />
+                                        <span >{apartForRent.project_name}</span><br />
                                     </div>
                                     <div className="align-items-center item-detail">
                                         <div className="detail bed">{apartForRent.num_beds}<br />bed</div>

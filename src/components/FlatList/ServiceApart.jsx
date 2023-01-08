@@ -56,7 +56,7 @@ const ServiceApart = () => {
                                 <div className="item-description">
                                     <div className="mb-3 item-description-top">
                                         <h4>{serviceApart.apartment_code}</h4>
-                                        <span >{serviceApart.address}, {serviceApart.project_name}</span><br />
+                                        <span >{serviceApart.project_name}</span><br />
                                     </div>
                                     <div className="align-items-center item-detail">
                                         <div className="detail bed">{serviceApart.num_beds}<br />bed</div>
