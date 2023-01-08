@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import './flatlist.css';
 import './flatitem.css';
 
 const FlatForRent = () => {
@@ -42,12 +41,12 @@ const FlatForRent = () => {
             <div className="container">
                 <div className="row">
                     {apartForRentList.map((apartForRent) => (
-                        <div className="text-center col-lg-4 col-12 col-md-12">
+                        <div className="text-center col-lg-4 col-12 col-md-12 item_area">
                             <div className="item">
                                 <div className="item-image">
                                     <img className="img-fluid" src={apartForRent.image} alt="flat" />
                                     <div className="item-price">
-                                        <span>${numberWithCommas(apartForRent.price)}</span>
+                                        <span>{numberWithCommas(apartForRent.price)} VND</span>
                                         <span>{apartForRent.view_count} <i class="bi bi-eye"></i></span>
                                     </div>
                                     <div className="item-date">

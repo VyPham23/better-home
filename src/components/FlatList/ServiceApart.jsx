@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import './flatlist.css';
 import './flatitem.css';
 
 
@@ -39,7 +38,7 @@ const ServiceApart = () => {
     }
     return (
         <section className="section-all-re">
-            <div className="container">
+            <div className="container apart_list_area">
                 <div className="row">
                     {serviceApart.map((serviceApart) => (
                         <div className="text-center col-lg-4 col-12 col-md-12">
@@ -47,7 +46,7 @@ const ServiceApart = () => {
                                 <div className="item-image">
                                     <img className="img-fluid" src={serviceApart.image} alt="flat" />
                                     <div className="item-price">
-                                        <span>${numberWithCommas(serviceApart.price)}</span>
+                                        <span>{numberWithCommas(serviceApart.price)} VND</span>
                                         <span>{serviceApart.view_count} <i class="bi bi-eye"></i></span>
                                     </div>
                                     <div className="item-date">

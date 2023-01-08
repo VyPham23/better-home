@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react';
-import './flatlist.css';
 import './flatitem.css';
-
 
 const FlatForSell = () => {
 
@@ -47,7 +45,7 @@ const FlatForSell = () => {
                                 <div className="item-image">
                                     <img className="img-fluid" src={apartForSell.image} alt="flat" />
                                     <div className="item-price">
-                                        <span>${numberWithCommas(apartForSell.price)}</span>
+                                        <span>{numberWithCommas(apartForSell.price)} VND</span>
                                         <span>{apartForSell.view_count} <i class="bi bi-eye"></i></span>
                                     </div>
                                     <div className="item-date">
