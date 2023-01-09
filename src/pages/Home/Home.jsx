@@ -21,6 +21,8 @@ import pic2 from './pic2.jpg';
 import pic3 from './pic3.jpg';
 import pic4 from './pic4.jpg';
 
+import ReactGA from 'react-ga';
+
 const Home = () => {
 
     const [description, setDescription] = useState("Hermosa Beach is a beachfront city in Los Angeles County in the U.S. state of California, United States. Its population was 19,728 at the 2020 U.S. Census. The city is located in the South Bay region of the Greater Los Angeles area; it is one of the three Beach Cities.")
@@ -47,6 +49,10 @@ const Home = () => {
         return data['data']
     }
     /*--------------*/
+
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname)
+    })
 
     return (
         <div style={{ overflowX: "hidden" }}>

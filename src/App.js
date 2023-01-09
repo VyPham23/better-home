@@ -11,8 +11,13 @@ import BuyAHouse from './pages/BuyAHouse/BuyAHouse';
 import HouseOwner from './pages/ServiceHouseOwner/HouseOwner';
 import ServiceforApart from './pages/ServiceApartment/ServiceForApartment';
 import NewsDetails from './pages/NewsDetails/NewsDetails';
+import ReactGA from 'react-ga';
 
 function App() {
+
+  const TRACKING_ID = "G-F8JJWZW5BG"
+  ReactGA.initialize(TRACKING_ID);
+  
   return (
     <div className="App">
       <Router>
