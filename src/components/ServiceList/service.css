@@ -2,6 +2,10 @@
     padding-top: 30px;
 }
 
+.block_service_list{
+    padding: 0 10px;
+}
+
 .sv{
     width: 90%;
     margin: auto auto 30px;
@@ -55,4 +59,58 @@
 
 #btn-detail a{
     font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 470px){
+    .sv-text{
+        height: 30px;
+        font-size: 0.75rem;
+    }
+
+    .sv-description{
+        height: 100px;
+    }
+
+    #btn-detail{
+        width: 80%;
+        padding: 4px 8px;
+    }
+
+    #btn-detail a{
+        font-size: 0.8rem;
+    }
+
+    .block_service_list{
+        padding: 0 8px;
+    }
+}
+
+@media only screen and (max-width: 410px){
+    .sv-text{
+        font-size: 0.7rem;
+    }
+
+    #btn-detail{
+        width: 80%;
+        padding: 3px 6px;
+    }
+
+    #btn-detail a{
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .sv-text{
+        font-size: 0.62rem;
+    }
+
+    #btn-detail{
+        width: 80%;
+        padding: 3px 6px;
+    }
+
+    #btn-detail a{
+        font-size: 0.7rem;
+    }
 }

@@ -2,7 +2,7 @@ import './service.css';
 
 const ServiceItem = ({name, picture}) => {
     return (
-        <div className="text-center col-lg-3 col-12 col-md-6">
+        <div className="text-center col-lg-3 col-6 col-md-6 block_service_list">
             <div className="sv">
                 <div className="sv-image">
                     <img className="img-fluid" src={picture} alt="flat" />

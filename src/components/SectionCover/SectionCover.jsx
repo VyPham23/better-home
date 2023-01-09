@@ -21,7 +21,7 @@ const SectionCover = ({ nameSection, description, picture, path, numberApart }) 
                             </div>
                             <div className='description_cover_area_details_right'>
                                 <button className="btn_view_all">
-                                    <a className='button_nav_home' href={path}>VIEW ALL</a>
+                                    <a href={path}>VIEW ALL</a>
                                 </button>
                             </div>
                         </div>
