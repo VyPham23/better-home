@@ -33,7 +33,7 @@
 /*------------------------*/
 
 .section_news_list{
-    padding: 20px 150px 0 150px;
+    padding-top: 20px;
 }
 
 .news{
@@ -135,9 +135,6 @@
         font-size: 0.7rem;
     }
 
-    .section_news_list{
-        padding: 20px 100px 0 100px;
-    }
 }
 
 @media only screen and (max-width: 767px){

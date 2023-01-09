@@ -56,49 +56,8 @@
 }
 
 
-@media only screen and (max-width: 830px){
-
-    .black-pic{
-        font-size: 30px;
-    }
-
-}
-
-@media only screen and (max-width: 767px){
-    .agn, .cpn{
-        height: 80px;
-    }
-}
-
-@media only screen and (max-width: 550px){
-
-    .agn, .cpn{
-        height: 70px;
-    }
-
-    .txt-area h5{
-        font-size: 0.8rem;
-    }
-
-    .txt-area p{
-        font-size: 0.6rem;
-    }
-
-    .black-pic{
-        font-size: 25px;
-    }
-}
-
-@media only screen and (max-width: 430px){
-    .agn, .cpn{
-        height: 65px;
-    }
-
-    .txt-area h5{
-        font-size: 0.7rem;
-    }
-
-    .txt-area p{
-        font-size: 0.5rem;
+@media only screen and (max-width: 850px){
+    .black{
+        display: none;
     }
 }
