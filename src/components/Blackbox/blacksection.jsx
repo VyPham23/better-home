@@ -9,7 +9,7 @@ const BlackSection = () => {
                         <i class="bi bi-calendar-check"></i>
                     </div>
                     <div className="txt-area">
-                        <h4>Our Agent</h4>
+                        <h5>Our Agent</h5>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                             Exercitationem, labore. Lorem ipsum, dolor sit amet.
                         </p>
@@ -20,7 +20,7 @@ const BlackSection = () => {
                         <i class="bi bi-house-door"></i>
                     </div>
                     <div className="txt-area">
-                        <h4>Our Company</h4>
+                        <h5>Our Company</h5>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                             Exercitationem, labore. Lorem ipsum, dolor sit amet.
                         </p>

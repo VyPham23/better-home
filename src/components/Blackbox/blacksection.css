@@ -5,8 +5,7 @@
 }
 
 .agn, .cpn{
-    /* width: 50%; */
-    height: 120px;
+    height: 90px;
     display: flex;
     margin: 0;
 }
@@ -23,9 +22,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
+    font-size: 35px;
     color: white;
-    width: 20%;
+    width: 15%;
 }
 
 .txt-area{
@@ -37,43 +36,27 @@
 
 .txt-area p{
     margin: auto;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 @media only screen and (max-width: 1030px){
-
-    .txt-area h4{
-        font-size: 1.1rem;
-    }
-
-    .txt-area p{
-        font-size: 0.75rem;
-    }
 
     .black-pic{
         font-size: 30px;
         width: 18%;
     }
 
-    .agn, .cpn{
-        height: 100px;
-    }
-}
-
-
-@media only screen and (max-width: 830px){
-
-    .txt-area h4{
-        font-size: 1rem;
+    .txt-area h5{
+        font-size: 0.9rem;
     }
 
     .txt-area p{
         font-size: 0.65rem;
     }
+}
 
-    .agn, .cpn{
-        height: 85px;
-    }
+
+@media only screen and (max-width: 830px){
 
     .black-pic{
         font-size: 30px;
@@ -83,32 +66,22 @@
 
 @media only screen and (max-width: 767px){
     .agn, .cpn{
-        height: 70px;
-    }
-}
-
-@media only screen and (max-width: 649px){
-
-    .txt-area h4{
-        font-size: 0.9rem;
-    }
-
-    .txt-area p{
-        font-size: 0.55rem;
+        height: 80px;
     }
 }
 
 @media only screen and (max-width: 550px){
+
     .agn, .cpn{
-        height: 60px;
+        height: 70px;
     }
 
-    .txt-area h4{
-        font-size: 0.75rem;
+    .txt-area h5{
+        font-size: 0.8rem;
     }
 
     .txt-area p{
-        font-size: 0.45rem;
+        font-size: 0.6rem;
     }
 
     .black-pic{
@@ -118,6 +91,14 @@
 
 @media only screen and (max-width: 430px){
     .agn, .cpn{
-        height: 55px;
+        height: 65px;
+    }
+
+    .txt-area h5{
+        font-size: 0.7rem;
+    }
+
+    .txt-area p{
+        font-size: 0.5rem;
     }
 }
