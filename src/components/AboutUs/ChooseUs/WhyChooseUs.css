@@ -3,42 +3,22 @@
 .ChooseUs{
     background: rgba(217, 217, 217, 0.12);
     font-family: 'Open Sans';
-    margin-top: 70px;
+    margin-top: 35px;
     padding: 20px;
-}
-.number_ChooseUs{
-    margin-bottom: 50px;
-}
-.number_ChooseUs h4{
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    text-transform: capitalize;
-}
-.number_ChooseUs h2{
-    font-family: 'Open Sans';
-    font-weight: 800;
-    font-size: 27px;
-    line-height: 41px;
-    /* identical to box height */
-    text-transform: capitalize;
-    color: #00908E;
 }
 
 .ChooseUs .title_chooseUs{
     font-family: 'Open Sans';
-    margin-bottom: 80px;
     font-style: normal;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 48px;
     text-transform: capitalize;
     color: #000000;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.14);
 }
 .ChooseUs .list_chooseUs{
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: start;
     font-size: 1rem;
     line-height: 25px;
@@ -46,67 +26,93 @@
     font-family: 'Open Sans';
 }
 .ChooseUs .WhyChoose_img1{
-    margin-top: 50px;
+    margin-top: 30px;
     object-fit: contain;
     object-position: top;
-
-    
 }
 
 @media only screen and (max-width: 1030px) {
 
     .ChooseUs .title_chooseUs{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
-    .list_chooseUs ul li{
+    .list_chooseUs li{
         font-size: 0.85rem;
     }
-
-    .number_ChooseUs h4{
-        font-size: 16px;
-    }
-
-    .number_ChooseUs h2{
-        font-size: 25px;
-    }
-
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
     .ChooseUs .title_chooseUs{
-        font-size: 1.7rem;
+        text-align: center;
+        font-size: 1.4rem;
     }
 
-    .list_chooseUs ul li{
+    .list_chooseUs li{
         font-size: 0.65rem;
     }
 
-    .number_ChooseUs h4{
-        font-size: 20px;
-    }
-
-    .number_ChooseUs h2{
-        font-size: 22px;
-    }
-
-    .list_chooseUs ul li{
+    .list_chooseUs li{
         font-size: 0.75rem;
+    }
+
+    .ChooseUs .list_chooseUs{
+        margin-top: 20px;
+    }
+    .ChooseUs .WhyChoose_img1{
+        margin-top: 20px;
     }
 }
 
-@media only screen and (max-width: 549px) {
+@media only screen and (max-width: 630px) {
 
-    .number_ChooseUs h4{
-        font-size: 16px;
+    .ChooseUs .title_chooseUs{
+        font-size: 1.2rem;
     }
 
-    .number_ChooseUs h2{
-        font-size: 20px;
+    .ChooseUs .list_chooseUs{
+        margin-top: 10px;
+    }
+    .ChooseUs .WhyChoose_img1{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+
+    .ChooseUs .WhyChoose_img1{
+        margin-top: 10px;
     }
 
-    .list_chooseUs ul li{
-        font-size: 0.65rem;
+    .list_chooseUs{
+        display: flex;
+        justify-content: center;
+    }
+
+    .list_chooseUs li{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .ChooseUs .list_chooseUs{
+        margin-top: 0px;
+    }
+
+    .ChooseUs .title_chooseUs{
+        font-size: 1rem;
+    }
+
+    .list_chooseUs li{
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .list_chooseUs li{
+        font-size: 0.6rem;
     }
 }
