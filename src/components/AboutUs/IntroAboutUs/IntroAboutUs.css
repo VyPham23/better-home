@@ -1,8 +1,16 @@
 
 .aboutUs_main{
-    margin-top: 90px;
     scroll-behavior: smooth; 
 }
+
+.firts_about_main{
+    margin-top: 30px;
+}
+
+.second_about_main{
+    margin-top: 35px;
+}
+
 .aboutText{
     padding: 70px;
 }
@@ -27,7 +35,7 @@
 .aboutTextP p{
     text-align: justify;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 22px;
     color: black;
     font-style: normal;
@@ -38,6 +46,23 @@
     
 }
 
+.small_screen_image_2{
+    display: none;
+}
+
+@media only screen and (max-width: 1030px) {
+    .aboutTextP p{
+        font-size: 0.8rem;
+    } 
+}
+
+@media only screen and (max-width: 930px) {
+    .second_about_main{
+        margin-top: 0px;
+    }
+}
+
+
 @media only screen and (max-width: 767px) {
 
     .title_aboutus, .title_aboutus_2{
@@ -45,11 +70,19 @@
     }
 
     .aboutTextP p{
-        font-size: 0.8rem;
+        font-size: 0.75rem;
     }
 
     .aboutText .title_aboutus_2{
         margin-left: 0px;
+    }
+
+    .large_image_2{
+        display: none;
+    }
+
+    .small_screen_image_2{
+        display: block;
     }
 
 }
@@ -70,12 +103,17 @@
 
 }
 
+@media only screen and (max-width: 575px) {
+    .aboutTextP p{
+        font-size: 0.6rem;
+    }
+}
+
 @media only screen and (max-width: 520px) {
 
     .aboutText .title_aboutus_2{
         margin-left: -40px;
     }
-
 }
 
 @media only screen and (max-width: 490px) {
@@ -83,7 +121,6 @@
     .aboutText .title_aboutus_2{
         margin-left: -60px;
     }
-
 }
 
 @media only screen and (max-width: 430px) {

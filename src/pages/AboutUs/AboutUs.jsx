@@ -1,4 +1,3 @@
-import React from 'react';
 import ClientSay from '../../components/AboutUs/ClientSay/ClientSay';
 import IntroAboutUs from '../../components/AboutUs/IntroAboutUs/IntroAboutUs';
 import WhyChooseUs from '../../components/AboutUs/ChooseUs/WhyChooseUs';
@@ -13,8 +12,10 @@ function AboutUs() {
     <div style={{overflowX : "hidden"}} className='Aboutus_mainpage' >
       <UpperNav/>
       <Navbar/>
+
       <IntroAboutUs/>
       <WhyChooseUs/>
+      
       <ClientSay/>
       <FloatingButton/>
       <Footer/>
