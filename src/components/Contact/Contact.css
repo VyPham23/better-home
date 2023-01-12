@@ -8,6 +8,7 @@
     font-size: 1.2rem;
     top: 40px;
     color: black;
+    padding: 0 20rem;
 }
 
 .intro_button_2 {
@@ -84,6 +85,10 @@
     .contact_details {
         padding: 12px 120px 10px 50px;
     }
+
+    .description_contact {
+        padding: 0 15rem;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -95,7 +100,7 @@
     }
 
     .title_contact_infor {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .description_contact {
@@ -138,6 +143,10 @@
         padding: 8px 40px;
     }
 
+    .description_contact {
+        padding: 0 12rem;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -162,11 +171,12 @@
     }
 
     .title_contact_infor {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
     .description_contact {
         font-size: 0.9rem;
+        padding: 0 10rem;
     }
 
     .intro_button_2 {
@@ -205,6 +215,10 @@
         height: 1.8rem;
     }
 
+    .description_contact {
+        padding: 0 5rem;
+    }
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -219,7 +233,7 @@
     }
 
     .title_contact_infor {
-        font-size: 1.45rem;
+        font-size: 1.4rem;
     }
 
     .description_contact {
@@ -253,6 +267,10 @@
     .image_icon {
         width: 1.5rem;
         height: 1.5rem;
+    }
+
+    .description_contact {
+        padding: 0 2rem;
     }
 }
 
