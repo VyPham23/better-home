@@ -8,7 +8,7 @@
 }
 
 .title_news_area{
-    height: 50px;
+    height: 70px;
 }
 
 .bg-gray {
@@ -41,7 +41,7 @@
     
 }
 .lastest {
-    font-size: 3rem;
+    font-size: 2.25rem;
     top: 100px;
 }
 .all_buttons_news{
@@ -55,7 +55,7 @@
 }
 
 .cart_body_news{
-    padding: 50px 30px;
+    padding: 20px 30px 50px 30px;
 }
 
 .card_title_news, .card_text_news{
@@ -74,7 +74,7 @@
 @media only screen and (max-width: 1120px){
 
     .lastest{
-        font-size: 2.5rem;
+        font-size: 2.15rem;
     }
 
     .card_text_news{
@@ -88,12 +88,20 @@
     .card_title_news{
         font-size: 1rem;
     }
+
+    .cart_body_news{
+        padding: 20px 30px 20px 30px;
+    }
+
+    .title_news_area{
+        height: 50px;
+    }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
 
     .lastest{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .box-news{
@@ -105,14 +113,24 @@
         justify-content: center;
     }
 
+    .title_news_area{
+        height: 45px;
+    }
+
 }
 
-@media only screen and (max-width: 475px){
+@media only screen and (max-width: 530px){
 
     .box-news{
         width: 90%;
     }
-    
+
+    .card_title_news{
+        font-size: 0.85rem;
+    }
+    .lastest{
+        font-size: 1.65rem;
+    }
 }
 
 @media only screen and (max-width: 395px){
@@ -120,5 +138,16 @@
     .box-news{
         width: 100%;
     }
-    
+
+    .lastest{
+        font-size: 1.5rem;
+    }
+
+    .card_title_news{
+        font-size: 0.8rem;
+    }
+
+    .title_news_area{
+        height: 40px;
+    }
 }

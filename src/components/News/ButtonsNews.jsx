@@ -42,9 +42,7 @@ export default function ButtonsNews() {
       <>
         <section className='buttons'>
           <Container fluid>
-            <h5 className='lastest mt-5'>LATEST NEWS</h5>
-            <Row className='mt-4'></Row>
-
+            <h5 className='lastest mt-4'>LATEST NEWS</h5>
             <Row className='all_buttons_news'>
               {newsList.map((news) => (
                 <div className='buttons_news col-lg-4 col-md-6 col-12'>
@@ -58,7 +56,6 @@ export default function ButtonsNews() {
                           </Card.Title>
                         </a>
                       </div>
-                      <Row className='mt-4'></Row>
                       <Row>
                         <div className='news_information'>
                           <div>

@@ -39,7 +39,7 @@ const NewsList = () => {
                 <div className="row">
                     <div className="col-lg-12 col-12 col-md-12 news-start">
                         <div className="border_news_section">
-                            <h2>RECENT NEWS AND ARTICALES</h2>
+                            <h2>RECENT NEWS</h2>
                         </div>
                     </div>
                     {newsList.map((news) => (
