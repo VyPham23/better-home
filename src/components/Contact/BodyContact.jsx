@@ -3,8 +3,8 @@ import './Contact.css'
 export default function BodyContact() {
   return (
     <div>
-      <div className='contact_area container mt-3 text-center'>
-          <div className="left_block_contact col-lg-6 col-md-6 col-sm-6 col-12">
+      <div className='row contact_area mt-3 text-center'>
+          <div className="left_block_contact col-lg-6 col-md-6 col-sm-6 col-6">
               <div className="image_block_contact">
                 <img className='img-fluid' src="./images/ava1.jpg" alt="ava" />
                 <div className="name_contact">
@@ -26,7 +26,7 @@ export default function BodyContact() {
                   </div>
               </div>
           </div>
-          <div className="right_block_contact col-lg-6 col-md-6 col-sm-6 col-12">
+          <div className="right_block_contact col-lg-6 col-md-6 col-sm-6 col-6">
               <div className="image_block_contact">
                 <img className='img-fluid' src="./images/ava2.jpg" alt="ava" />
                 <div className="name_contact">
