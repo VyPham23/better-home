@@ -7,7 +7,7 @@ import UpperNav from '../../components/Header/Navbar/uppernav';
 
 function Contact() {
   return (
-    <div>
+    <div style={{ overflowX: "hidden" }}>
         <UpperNav/>
         <Navbar/>
         <BodyContact/>
